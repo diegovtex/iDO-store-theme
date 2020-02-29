@@ -4,15 +4,19 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#news",
-      "menu-item#blackfriday",
-      "menu-item#sale",
-      "menu-item#personalization"
+      "menu-item#azienda",
+      "footer-spacer",
+      "menu-item#chiSiamo",
+      "menu-item#impegno",
+      "menu-item#franchising",
+      "menu-item#vendita",
+      "menu-item#partner",
+      "menu-item#lavora"
     ]
   },
-  "menu-item#news": {
+  "menu-item#azienda": {
     "props": {
-      "id": "menu-item-news",
+      "id": "menu-item-azienda",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -20,14 +24,14 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "News",
-        "text": "News"
+        "tagTitle": "Azienda",
+        "text": "AZIENDA"
       }
     }
   },
-  "menu-item#blackfriday": {
+  "menu-item#chiSiamo": {
     "props": {
-      "id": "menu-item-black-friday",
+      "id": "menu-item-chi-siamo",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -35,14 +39,14 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "BlackFriday",
-        "text": "Black Friday"
+        "tagTitle": "ChiSiamo",
+        "text": "Chi Siamo"
       }
     }
   },
-  "menu-item#sale": {
+  "menu-item#impegno": {
     "props": {
-      "id": "menu-item-sale",
+      "id": "menu-item-impegno",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -50,14 +54,14 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "Sale",
-        "text": "Sale"
+        "tagTitle": "Il nostro impegno",
+        "text": "Il nostro impegno"
       }
     }
   },
-  "menu-item#personalization": {
+  "menu-item#franchising": {
     "props": {
-      "id": "menu-item-personalization",
+      "id": "menu-item-franchising",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -65,8 +69,53 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "Personalization",
-        "text": "Personalization"
+        "tagTitle": "Vuoi aprire un franchising iDO?",
+        "text": "Vuoi aprire un franchising iDO?"
+      }
+    }
+  },
+  "menu-item#vendita": {
+    "props": {
+      "id": "menu-item-vendita",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Rete vendita iDO",
+        "text": "Rete vendita iDO"
+      }
+    }
+  },
+  "menu-item#partner": {
+    "props": {
+      "id": "menu-item-partner",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Partnerlab",
+        "text": "Partnerlab"
+      }
+    }
+  },
+  "menu-item#lavora": {
+    "props": {
+      "id": "menu-item-lavora",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Lavora con noi",
+        "text": "Lavora con noi"
       }
     }
   },
@@ -76,15 +125,16 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#smartphones",
-      "menu-item#videogames",
-      "menu-item#tvs"
+      "menu-item#myido",
+      "menu-item#registrati",
+      "menu-item#accedi",
+      "menu-item#scopri"
     ]
   },
 
-  "menu-item#smartphones": {
+  "menu-item#myido": {
     "props": {
-      "id": "menu-item-smartphones",
+      "id": "menu-item-myido",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -92,15 +142,15 @@
         "type": "internal",
         "href": "/decoration/smartphones",
         "noFollow": true,
-        "tagTitle": "Smartphones",
-        "text": "Smartphones"
+        "tagTitle": "MY IDO",
+        "text": "MY IDO"
       }
     }
   },
 
-  "menu-item#videogames": {
+  "menu-item#registrati": {
     "props": {
-      "id": "menu-item-videogames",
+      "id": "menu-item-registrati",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -108,15 +158,15 @@
         "type": "internal",
         "href": "/decoration/videogames",
         "noFollow": true,
-        "tagTitle": "Videogames",
-        "text": "Videogames"
+        "tagTitle": "Registrati",
+        "text": "Registrati"
       }
     }
   },
 
-  "menu-item#tvs": {
+  "menu-item#accedi": {
     "props": {
-      "id": "menu-item-tvs",
+      "id": "menu-item-accedi",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -124,8 +174,24 @@
         "type": "internal",
         "href": "/decoration/tvs",
         "noFollow": true,
-        "tagTitle": "TVs",
-        "text": "TVs"
+        "tagTitle": "Accedi",
+        "text": "Accedi"
+      }
+    }
+  },
+
+  "menu-item#scopri": {
+    "props": {
+      "id": "menu-item-scopri",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/decoration/tvs",
+        "noFollow": true,
+        "tagTitle": "Scopri i negozi myiDO",
+        "text": "Scopri i negozi myiDO"
       }
     }
   },
@@ -135,15 +201,19 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#bags",
-      "menu-item#backpacks",
-      "menu-item#necessaire"
+      "menu-item#termini",
+      "menu-item#conditione",
+      "menu-item#regolamento",
+      "menu-item#diritto",
+      "menu-item#privacy",
+      "menu-item#trattamento",
+      "menu-item#cookie"
     ]
   },
 
-  "menu-item#bags": {
+  "menu-item#termini": {
     "props": {
-      "id": "menu-item-bags",
+      "id": "menu-item-termini",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -151,15 +221,15 @@
         "type": "internal",
         "href": "/bags/d",
         "noFollow": true,
-        "tagTitle": "Bags",
-        "text": "Bags"
+        "tagTitle": "TERMINI E CONDIZIONI ",
+        "text": "TERMINI E CONDIZIONI "
       }
     }
   },
 
-  "menu-item#backpacks": {
+  "menu-item#conditione": {
     "props": {
-      "id": "menu-item-backpacks",
+      "id": "menu-item-conditione",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -167,15 +237,15 @@
         "type": "internal",
         "href": "/bags/backpacks",
         "noFollow": true,
-        "tagTitle": "Backpacks",
-        "text": "Backpacks"
+        "tagTitle": "Condizioni di vendita",
+        "text": "Condizioni di vendita"
       }
     }
   },
 
-  "menu-item#necessaire": {
+  "menu-item#regolamento": {
     "props": {
-      "id": "menu-item-necessaire",
+      "id": "menu-item-regolamento",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -183,8 +253,68 @@
         "type": "internal",
         "href": "/bags/necessaire",
         "noFollow": true,
-        "tagTitle": "Necessaire",
-        "text": "Necessaire"
+        "tagTitle": "Regolamento",
+        "text": "Regolamento"
+      }
+    }
+  },
+  "menu-item#diritto": {
+    "props": {
+      "id": "menu-item-diritto",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bags/necessaire",
+        "noFollow": true,
+        "tagTitle": "Diritto di reso",
+        "text": "Diritto di reso"
+      }
+    }
+  },
+  "menu-item#privacy": {
+    "props": {
+      "id": "menu-item-privacy",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bags/necessaire",
+        "noFollow": true,
+        "tagTitle": "Privacy Policy",
+        "text": "Privacy Policy"
+      }
+    }
+  },
+  "menu-item#trattamento": {
+    "props": {
+      "id": "menu-item-trattamento",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bags/necessaire",
+        "noFollow": true,
+        "tagTitle": "Trattamento Dati",
+        "text": "Trattamento Dati"
+      }
+    }
+  },
+  "menu-item#cookie": {
+    "props": {
+      "id": "menu-item-cookie",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bags/necessaire",
+        "noFollow": true,
+        "tagTitle": "Cookie Policy",
+        "text": "Cookie Policy"
       }
     }
   },
@@ -194,12 +324,13 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#clothing",
-      "menu-item#shorts",
-      "menu-item#tank-tops",
-      "menu-item#shirts",
-      "menu-item#sweatshirt",
-      "menu-item#cropped"
+      "menu-item#servizio",
+      "menu-item#guida",
+      "menu-item#tempi",
+      "menu-item#resi",
+      "menu-item#order",
+      "menu-item#contattaci",
+      "menu-item#iscritivi"
     ]
   },
 
@@ -239,11 +370,12 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#shorts",
-      "menu-item#tank-tops",
-      "menu-item#shirts",
-      "menu-item#sweatshirt",
-      "menu-item#cropped"
+      "menu-item#guida",
+      "menu-item#tempi",
+      "menu-item#resi",
+      "menu-item#order",
+      "menu-item#contattaci",
+      "menu-item#iscritivi"
     ]
   },
 
@@ -265,9 +397,10 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#smartphones",
-      "menu-item#videogames",
-      "menu-item#tvs"
+      "menu-item#myido",
+      "menu-item#registrati",
+      "menu-item#accedi",
+      "menu-item#scopri"
     ]
   },
 
@@ -289,47 +422,48 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#smartphones",
-      "menu-item#videogames",
-      "menu-item#tvs"
+      "menu-item#myido",
+      "menu-item#registrati",
+      "menu-item#accedi",
+      "menu-item#scopri"
     ]
   },
 
-  "menu-item#clothing": {
+  "menu-item#servizio": {
     "props": {
-      "id": "menu-item-category-clothing",
+      "id": "menu-item-category-servizio",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/d",
+        "href": "#",
         "noFollow": true,
-        "tagTitle": "Clothing",
-        "text": "Clothing"
+        "tagTitle": "SERVIZIO CLIENTI ",
+        "text": "SERVIZIO CLIENTI "
       }
     }
   },
 
-  "menu-item#shorts": {
+  "menu-item#guida": {
     "props": {
-      "id": "menu-item-shorts",
+      "id": "menu-item-guida",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/shorts",
+        "href": "#",
         "noFollow": false,
-        "tagTitle": "Shorts",
-        "text": "Shorts"
+        "tagTitle": "Guida alle taglie",
+        "text": "Guida alle taglie"
       }
     }
   },
 
-  "menu-item#tank-tops": {
+  "menu-item#tempi": {
     "props": {
-      "id": "menu-item-tank-tops",
+      "id": "menu-item-tempi",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -337,15 +471,15 @@
         "type": "internal",
         "href": "/clothing/tank-tops",
         "noFollow": false,
-        "tagTitle": "Tank tops",
-        "text": "Tank tops"
+        "tagTitle": "Tempi di consegna",
+        "text": "Tempi di consegna"
       }
     }
   },
 
-  "menu-item#shirts": {
+  "menu-item#resi": {
     "props": {
-      "id": "menu-item-shirts",
+      "id": "menu-item-resi",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -353,15 +487,15 @@
         "type": "internal",
         "href": "/clothing/shirts",
         "noFollow": false,
-        "tagTitle": "Shirts",
-        "text": "Shirts"
+        "tagTitle": "Resi e cambi",
+        "text": "Resi e cambi"
       }
     }
   },
 
-  "menu-item#sweatshirt": {
+  "menu-item#order": {
     "props": {
-      "id": "menu-item-sweat-shirts",
+      "id": "menu-item-order",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -369,15 +503,15 @@
         "type": "internal",
         "href": "/clothing/sweatshirt",
         "noFollow": false,
-        "tagTitle": "Sweatshirt",
-        "text": "Sweatshirt"
+        "tagTitle": "Order processing",
+        "text": "Order processing"
       }
     }
   },
 
-  "menu-item#cropped": {
+  "menu-item#contattaci": {
     "props": {
-      "id": "menu-item-cropped",
+      "id": "menu-item-contattaci",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -385,8 +519,23 @@
         "type": "internal",
         "href": "/clothing/cropped",
         "noFollow": false,
-        "tagTitle": "Cropped",
-        "text": "Cropped"
+        "tagTitle": "Contattaci",
+        "text": "Contattaci"
+      }
+    }
+  },
+  "menu-item#iscritivi": {
+    "props": {
+      "id": "menu-item-iscriviti",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/sweatshirt",
+        "noFollow": false,
+        "tagTitle": "Iscriviti Alla Newsletter",
+        "text": "Iscriviti Alla Newsletter"
       }
     }
   }
