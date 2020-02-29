@@ -1,0 +1,138 @@
+{
+  "vtex.menu@2.x:menu#websites": {
+    "children": [
+      "menu-item#shop"
+    ]
+  },
+  "menu-item#shop": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "MINICONF",
+        "text": "MINICONF"
+      }
+    }
+  },
+
+
+  "vtex.menu@2.x:menu#institutional": {
+    "children": [
+      "menu-item#vtex-search",
+      "menu-item#vtex-heart",
+      "menu-item#vtex-location",
+      "menu-item#vtex-cart",
+      "menu-item#vtex-myIdo",
+      "locale-switcher#custom"
+    ]
+  },
+
+  "menu-item#vtex-location": {
+    "props": {
+      "id": "menu-item-location-icon",
+      "type": "custom",
+      "iconProps": {
+        "id": "hpa-location-marker",
+        "iconPosition": "center",
+        "size": 19,
+        "viewBox": "0 0 15 20"
+
+      },
+      "itemProps": {
+        "type": "internal",
+        "href": "/location"
+      }
+    }
+  },
+  "menu-item#vtex-heart": {
+    "props": {
+      "id": "menu-item-location-icon",
+      "type": "custom",
+      "iconProps": {
+        "id": "mpa-heart",
+        "iconPosition": "center",
+        "size": 22,
+        "viewBox": "0 0 22 20"
+
+      },
+      "itemProps": {
+        "type": "internal",
+        "href": "/heart"
+      }
+    }
+  },
+  "menu-item#vtex-search": {
+    "props": {
+      "id": "vtex-search",
+      "type": "custom",
+      "iconProps": {
+        "id": "hpa-search",
+        "iconPosition": "center",
+        "size": 19,
+        "viewBox": "0 0 19 19"
+      },
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "http://vtex.com"
+      }
+    }
+  },
+  "menu-item#vtex-cart": {
+    "props": {
+      "id": "vtex-cart",
+      "type": "custom",
+      "iconProps": {
+        "id": "hpa-cart",
+        "iconPosition": "center",
+        "size": 22,
+        "viewBox": "0 0 20 20"
+      },
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "http://vtex.com"
+      }
+    }
+  },
+
+  "menu-item#vtex-myIdo": {
+    "props": {
+      "id": "menu-item-myIdo",
+      "type": "custom",
+      "iconProps": {
+        "id": "hpa-profile",
+        "iconPosition": "center",
+        "size": 25,
+        "viewBox": "0 0 20 20"
+      },
+      "highlight": false,
+      "itemProps": {
+        "blockClass": "your-class",
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "myIdo",
+        "text": "My iDO"
+      }
+    }
+  },
+
+  "locale-switcher#custom": {
+    "props": {
+      "iconProps": {
+        "id": "mpa-angle--down",
+        "size": 16,
+        "viewBox": "0 0 16 16",
+        "activeClassName": "black",
+        "mutedClassName": "c-action-primary"
+      },
+      "iconPosition": "right"
+    }
+  }
+}
