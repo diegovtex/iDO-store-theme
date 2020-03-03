@@ -2,10 +2,9 @@
 
 
 .notificationBarContainer {
-  background-color: red;
+  background-color: #aeca3b;
   width: 358px;
   height: 30px;
-  color: red;
   font-family: "Museo Sans";
   font-size: 15px;
   line-height: 21px;
