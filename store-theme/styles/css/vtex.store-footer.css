@@ -17,3 +17,25 @@
 .footerLayout :global(.vtex-flex-layout-0-x-flexRowContent--menu-row) {
   border-bottom: 1px solid #fff;
 }
+
+.footerLayout :global(.vtex-flex-layout-0-x-flexRow--menu-bisogno) {
+  background-color: #FFFFFF;
+}
+.footerLayout :global(.vtex-flex-layout-0-x-flexRow--menu-white) {
+  background-color: #FFFFFF;
+}
+.footerLayout :global(.vtex-flex-layout-0-x-flexRow--menu-text) {
+  background-color: #FFFFFF;
+}
+
+
+.footerLayout :global(.vtex-menu-2-x-menuItem--textBold) {
+  color: red;
+}
+
+.footerLayout :global(.vtex-flex-layout-0-x-flexRowContent--menu-bisogno) {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  color: red;
+}
+

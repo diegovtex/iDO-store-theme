@@ -4,11 +4,63 @@
   },
   "footer-layout.desktop": {
     "children": [
+      "flex-layout.row#footer-0-whitesection",
+      "flex-layout.row#footer-4-bisogno",
+      "flex-layout.row#footer-5-text-section",
       "flex-layout.row#footer-1-desktop",
       "flex-layout.row#footer-2-desktop",
       "flex-layout.row#footer-3-desktop"
     ]
   },
+
+  "flex-layout.row#footer-0-whitesection": {
+    "children": [
+      "flex-layout.col#logo-desktop",
+      "footer-spacer",
+      "footer-spacer",
+      "footer-spacer",
+      "footer-spacer",
+      "social-networks"
+    ],
+    "props": {
+      "blockClass": "menu-white",
+      "paddingTop": 6,
+      "paddingBottom": 3
+    }
+  },
+  "flex-layout.row#footer-5-text-section": {
+    "children": [
+      "flex-layout.col#text1",
+      "flex-layout.col#text2",
+      "flex-layout.col#text3",
+      "flex-layout.col#text4"
+    ],
+    "props": {
+      "blockClass": "menu-text",
+      "paddingTop": 6,
+      "paddingBottom": 6
+    }
+  },
+
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle",
+      "blockClass": "footerWhite"
+    },
+    "children": ["logo#desktop"]
+  },
+
+  "flex-layout.row#footer-4-bisogno": {
+    "children": [
+      "flex-layout.row#bisogno"
+    ],
+    "props": {
+      "blockClass": "menu-bisogno",
+      "paddingTop": 4,
+      "paddingBottom": 4
+    }
+  },
+
   "flex-layout.row#footer-1-desktop": {
     "children": [
       "vtex.menu@2.x:menu#Products",
@@ -16,8 +68,7 @@
       "vtex.menu@2.x:menu#footer-decoration",
       "vtex.menu@2.x:menu#footer-bags",
       "vtex.menu@2.x:menu#footer-5thmenu",
-      "footer-spacer",
-      "social-networks"
+      "footer-spacer"
     ],
     "props": {
       "blockClass": "menu-row",
@@ -36,10 +87,6 @@
         {
           "name": "Instagram",
           "url": "https://www.instagram.com/vtextruecloud/"
-        },
-        {
-          "name": "Twitter",
-          "url": "https://twitter.com/vtexonline"
         },
         {
           "name": "Youtube",

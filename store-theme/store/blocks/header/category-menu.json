@@ -166,5 +166,124 @@
         "text": "About us"
       }
     }
+  },
+
+  "flex-layout.row#bisogno": {
+    "children": [
+      "menu-item#bisogno"
+    ]
+  },
+  "menu-item#bisogno": {
+    "props": {
+      "id": "menu-item-bisogno",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "bisogno-text",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "HAI BISOGNO DI AIUTO?",
+        "text": "HAI BISOGNO DI AIUTO?"
+      }
+    }
+  },
+
+  "flex-layout.col#text1": {
+    "children": [
+      "menu-item#textContent1",
+      "menu-item#textContent2",
+      "menu-item#textContent3",
+      "menu-item#textContent4"
+    ]
+  },
+  "flex-layout.col#text2": {
+    "children": [
+      "menu-item#textContent1",
+      "menu-item#textContent2",
+      "menu-item#textContent1",
+      "menu-item#textContent2"
+    ]
+  },
+  "flex-layout.col#text3": {
+    "children": [
+      "menu-item#textContent1",
+      "menu-item#textContent2"
+
+    ]
+  },
+  "flex-layout.col#text4": {
+    "children": [
+      "menu-item#textContent1",
+      "menu-item#textContent2",
+      "menu-item#textContent1",
+      "menu-item#textContent2"
+    ]
+  },
+  "menu-item#textContent1": {
+    "props": {
+      "id": "menu-item-text1",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "textBold",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Consegna rapida",
+        "text": "Consegna rapida"
+      }
+    }
+  },
+
+  "menu-item#textContent2": {
+    "props": {
+      "id": "menu-item-text2",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "textSimple",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Entro 3 giorni lavorativi",
+        "text": "Entro 3 giorni lavorativi"
+      }
+    }
+  },
+  "menu-item#textContent3": {
+    "props": {
+      "id": "menu-item-text1",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "textBold",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Spedizione Gratuita",
+        "text": "Spedizione Gratuita"
+      }
+    }
+  },
+  "menu-item#textContent4": {
+    "props": {
+      "id": "menu-item-text1",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "textBold",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Per ordini superiori a 70€\no per consegna nei negozi myiDO",
+        "text": "Per ordini superiori a 70€\no per consegna nei negozi myiDO"
+      }
+    }
   }
 }
