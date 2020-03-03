@@ -1,25 +1,22 @@
-@import url("/styles/assets/fonts/Museo_JH_Sans_700.otf");
+@import url(//db.onlinewebfonts.com/c/62c0135163427c652ae397f327f85010?family=Museo+Sans);
 
-@font-face {
-  font-family: "Museo JH Sans -700";
-  src: url("/styles/assets/fonts/Museo_JH_Sans_700.otf");
-/*  src:
-    url("css/fonts/Harabara.woff") format("woff"),
-    url("css/fonts/Harabara.otf") format("opentype"),
-    url("css/fonts/Harabara.svg#filename") format("svg");*/
-}
 
 .notificationBarContainer {
-  background-color: #aeca3b;
+  background-color: red;
   width: 358px;
   height: 30px;
-  color: #ffffff;
-  font-family: "Museo JH Sans -700";
+  color: red;
+  font-family: "Museo Sans";
   font-size: 15px;
   line-height: 21px;
   text-transform: uppercase;
   align-content: center;
 
+}
+
+.notificationContent {
+  font-family: "Museo JH Sans";
+  color: #ffffff;
 }
 
 .notificationBarInner {

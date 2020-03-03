@@ -1,0 +1,11 @@
+.menuContainer .menuItem:first-child {
+  margin-bottom: 10px;
+}
+
+.menuContainer .menuItem:last-child {
+  margin-bottom: 50px;
+}
+
+:global(.vtex-store-footer-2-x-footerLayout) .styledLink {
+  color: gray !important;
+}

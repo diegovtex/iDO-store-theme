@@ -5,7 +5,6 @@
     },
     "children": [
       "menu-item#azienda",
-      "footer-spacer",
       "menu-item#chiSiamo",
       "menu-item#impegno",
       "menu-item#franchising",
@@ -318,6 +317,48 @@
       }
     }
   },
+
+  "vtex.menu@2.x:menu#footer-5thmenu": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#fidelitycard",
+      "menu-item#partnerlab"
+    ]
+  },
+
+  "menu-item#fidelitycard": {
+    "props": {
+      "id": "menu-item-fidelitycard",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bags/necessaire",
+        "noFollow": true,
+        "tagTitle": "FIDELITY CARD",
+        "text": "FIDELITY CARD"
+      }
+    }
+  },
+  "menu-item#partnerlab": {
+    "props": {
+      "id": "menu-item-partnerlab",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bags/necessaire",
+        "noFollow": true,
+        "tagTitle": "PARTNERLAB",
+        "text": "PARTNERLAB"
+      }
+    }
+  },
+
 
   "vtex.menu@2.x:menu#footer-clothing": {
     "props": {
