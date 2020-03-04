@@ -21,6 +21,7 @@
 .flexRowContent--menu-link {
   background-color: #FFFFFF !important;
   color: #00263a;
+  height: 50px;
 }
 
 .flexRowContent--main-header {
