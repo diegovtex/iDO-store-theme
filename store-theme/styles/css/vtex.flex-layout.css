@@ -19,7 +19,7 @@
 }
 
 .flexRowContent--menu-link {
-  background-color: #FFFFFF;
+  background-color: #FFFFFF !important;
   color: #00263a;
 }
 
@@ -42,9 +42,7 @@
   font-size: 14px;
   line-height: 19px;
 }
-.your-class {
-  text-transform: uppercase;
-}
+
 
 .flexRowContent--main-header :global(.vtex-menu-2-x-styledLink) {
   color: #727273;

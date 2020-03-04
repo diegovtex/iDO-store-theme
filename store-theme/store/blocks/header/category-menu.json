@@ -195,30 +195,36 @@
       "menu-item#textContent1",
       "menu-item#textContent2",
       "menu-item#textContent3",
-      "menu-item#textContent4"
+      "menu-item#textContent4",
+      "menu-item#textContent5"
     ]
   },
   "flex-layout.col#text2": {
     "children": [
-      "menu-item#textContent1",
-      "menu-item#textContent2",
-      "menu-item#textContent1",
-      "menu-item#textContent2"
+      "menu-item#textContent6",
+      "menu-item#textContent7",
+      "menu-item#textContent8",
+      "menu-item#textContent9"
     ]
   },
   "flex-layout.col#text3": {
     "children": [
-      "menu-item#textContent1",
-      "menu-item#textContent2"
-
+      "menu-item#textContent10",
+      "menu-item#textContent11",
+      "menu-item#textContent12",
+      "menu-item#textContent13"
     ]
   },
   "flex-layout.col#text4": {
     "children": [
-      "menu-item#textContent1",
-      "menu-item#textContent2",
-      "menu-item#textContent1",
-      "menu-item#textContent2"
+      "menu-item#textContent14",
+      "menu-item#textContent15",
+      "menu-item#textContent16",
+      "menu-item#textContent17",
+      "menu-item#textContent18",
+      "menu-item#textContent19",
+      "menu-item#textContent20",
+      "menu-item#textContent21"
     ]
   },
   "menu-item#textContent1": {
@@ -243,7 +249,7 @@
       "id": "menu-item-text2",
       "type": "custom",
       "iconId": null,
-      "blockClass": "textSimple",
+      "blockClass": "textSimpleLast",
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -275,14 +281,286 @@
       "id": "menu-item-text1",
       "type": "custom",
       "iconId": null,
+      "blockClass": "textSimple",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Per ordini superiori a 70€",
+        "text": "Per ordini superiori a 70€"
+      }
+    }
+  },
+  "menu-item#textContent6": {
+    "props": {
+      "id": "menu-item-text5",
+      "type": "custom",
+      "iconId": null,
       "blockClass": "textBold",
       "highlight": false,
       "itemProps": {
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "Per ordini superiori a 70€\no per consegna nei negozi myiDO",
-        "text": "Per ordini superiori a 70€\no per consegna nei negozi myiDO"
+        "tagTitle": "Reso entro 14 giorni",
+        "text": "Reso entro 14 giorni"
+      }
+    }
+  },
+  "menu-item#textContent7": {
+    "props": {
+      "id": "menu-item-text6",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "textSimple",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Reso gratuito per i clienti myiDO",
+        "text": "Reso gratuito per i clienti myiDO"
+      }
+    }
+  },
+  "menu-item#textContent8": {
+    "props": {
+      "id": "menu-item-text7",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "textBold",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Pagamenti Sicuri",
+        "text": "Pagamenti Sicuri"
+      }
+    }
+  },
+  "menu-item#textContent9": {
+    "props": {
+      "id": "menu-item-text8",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "textSimple",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Ogni transazione è sicura e crittografata",
+        "text": "Ogni transazione è sicura e crittografata"
+      }
+    }
+  },
+  "menu-item#textContent5": {
+    "props": {
+      "id": "menu-item-text1",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "textSimple",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "o per consegna nei negozi myiDO",
+        "text": "o per consegna nei negozi myiDO"
+      }
+    }
+  },
+  "menu-item#textContent10": {
+    "props": {
+      "id": "menu-item-text1",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "textBoldSimple",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Negozi",
+        "text": "Negozi"
+      }
+    }
+  },
+  "menu-item#textContent11": {
+    "props": {
+      "id": "menu-item-text11",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "textSimple",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "assistenzaclienti@miniconf.it ",
+        "text": "assistenzaclienti@miniconf.it "
+      }
+    }
+  },
+  "menu-item#textContent12": {
+    "props": {
+      "id": "menu-item-text12",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "textSimple",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "0575 533248",
+        "text": "0575 533248"
+      }
+    }
+  },
+  "menu-item#textContent13": {
+    "props": {
+      "id": "menu-item-text13",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "textSimple",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Dal lunedì al venerdì dalle 8:30 alle 18:00",
+        "text": "Dal lunedì al venerdì dalle 8:30 alle 18:00"
+      }
+    }
+  },
+  "menu-item#textContent14": {
+    "props": {
+      "id": "menu-item-text14",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "textBoldSimple",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Vendita Online",
+        "text": "Vendita Online"
+      }
+    }
+  },
+  "menu-item#textContent15": {
+    "props": {
+      "id": "menu-item-text15",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "textSimple",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "customerservice@ido.it - 0575 533444",
+        "text": "customerservice@ido.it - 0575 533444"
+      }
+    }
+  },
+  "menu-item#textContent16": {
+  "props": {
+    "id": "menu-item-text16",
+    "type": "custom",
+    "iconId": null,
+    "blockClass": "textSimple",
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Dal lunedì al venerdì dalle 8:30",
+      "text": "Dal lunedì al venerdì dalle 8:30"
+    }
+  }
+},
+  "menu-item#textContent17": {
+    "props": {
+      "id": "menu-item-text17",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "textSimple",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "alle 11:00 e dalle 13:00 alle 15:00",
+        "text": "alle 11:00 e dalle 13:00 alle 15:00"
+      }
+    }
+  },
+  "menu-item#textContent18": {
+    "props": {
+      "id": "menu-item-text18",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "textBoldSimple",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Impresa",
+        "text": "Impresa"
+      }
+    }
+  },
+  "menu-item#textContent19": {
+    "props": {
+      "id": "menu-item-text19",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "textSimple",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "info@ido.it - 0575 5331",
+        "text": "info@ido.it - 0575 5331"
+      }
+    }
+  },
+  "menu-item#textContent20": {
+    "props": {
+      "id": "menu-item-text20",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "textSimple",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Dal lunedì al venerdì dalle 8:30",
+        "text": "Dal lunedì al venerdì dalle 8:30"
+      }
+    }
+  },
+  "menu-item#textContent21": {
+    "props": {
+      "id": "menu-item-text21",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "textSimple",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "alle 18:00",
+        "text": "alle 18:00"
       }
     }
   }

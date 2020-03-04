@@ -15,12 +15,12 @@
 
   "flex-layout.row#footer-0-whitesection": {
     "children": [
-      "flex-layout.col#logo-desktop",
+      "flex-layout.col#logo-desktopSecondary",
       "footer-spacer",
       "footer-spacer",
       "footer-spacer",
       "footer-spacer",
-      "social-networks"
+      "flex-layout.row#footer-social-networks"
     ],
     "props": {
       "blockClass": "menu-white",
@@ -28,6 +28,19 @@
       "paddingBottom": 3
     }
   },
+
+  "flex-layout.row#footer-social-networks": {
+    "children": [
+      "footer-spacer",
+      "social-networks"
+    ],
+    "props": {
+      "blockClass": "menu-social-networks",
+      "paddingTop": 6,
+      "paddingBottom": 6
+    }
+  },
+
   "flex-layout.row#footer-5-text-section": {
     "children": [
       "flex-layout.col#text1",
@@ -42,7 +55,7 @@
     }
   },
 
-  "flex-layout.col#logo-desktop": {
+  "flex-layout.col#logo-desktopSecondary": {
     "props": {
       "verticalAlign": "middle",
       "blockClass": "footerWhite"
@@ -113,7 +126,7 @@
   "rich-text#footer": {
     "props": {
       "text": "iDO è un marchio Miniconf Spa\nSede Legale: Via Provinciale 1/A, 52010 Ortignano Raggiolo, Arezzo | Tel. +39.0575.5331 | miniconf @pec.miniconf.it\nP.IVA e CF 00249390519 | REA AR 64978 | Cap. Soc. € 3.000.000 | Soggetta all’attività di direzione e coordinamento di MINFIN s.r.l.",
-      "blockClass": "footer"
+      "blockClass": "footerRich"
     }
   },
 

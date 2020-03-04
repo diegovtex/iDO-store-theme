@@ -6,6 +6,10 @@
   margin-bottom: 50px;
 }
 
-:global(.vtex-store-footer-2-x-footerLayout) .styledLink {
-  color: gray !important;
+.footerLayout :global(.vtex-menu-2-x-menuItem--textBold) {
+  color: red;
+}
+
+.footerLayout :global(.vtex-flex-layout-0-x-flexRow--menu-row) {
+  color: gray;
 }
