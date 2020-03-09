@@ -31,28 +31,111 @@
   max-width: 1520px;
   margin: 0 auto;
   background-color: #e6f1e6;
+  height: 500px;
   padding: 0px;
 }
 
+.infoCardTextContainer {
+  margin-top: 250px;
+  max-width: 1500px;
+  width: 750px!important;
+}
+
+
+.infoCardContainer--info-card-home :global(.vtex-button) {
+  border-radius: 25px;
+  width: 190px;
+  height: 50px;
+  color: white;
+  background-color: transparent;
+  border-color: white;
+}
+
+.infoCardHeadline {
+  color: white;
+  font-family: "Museo JH Sans 900";
+  font-size: 45px;
+}
+
 .newsletter {
-  background-color: #03054e;
-  max-width: 1528px;
+  background-color: rgba(0, 0, 0, 0.1)!important;
+  max-width: 100%;
+  width: 100%;
   margin: 0 auto;
+  color: red;
+  height: 139px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px!important;
 }
 
 .newsletter .container {
-  padding: 60px 10px;
+  padding: 0px!important;
+  max-width: 100%!important;
+  width: 100%;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  width: 100%;
+  max-width: 100%;
+}
+
+
+.buttonContainer :global(.vtex-button__label) {
+  font-size: 0px;
+}
+
+.buttonContainer :global(.vtex-button__label)::after {
+  content: '';
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='19' height='16' viewBox='0 0 19 16'%3E%3Cg%3E%3Cg%3E%3Cpath fill='%23fff' d='M14.46 16l-4.963-3.324-2.001 1.67-.813-3.555 8.666-7.554-10.391 5.94L.064 5.664l19-5.663z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  height: 30px;
+  width: 30px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 9px;
+  margin-right: 20px;
+}
+
+
+.container :global(.vtex-store-components-3-x-inputGroup) {
+  position: relative;
+  width: 450px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.0);
+  padding-top: 0px;
+}
+.container :global(.vtex-input-prefix__group) {
+  border-radius: 50px;
+  height: 50px;
+  background-color: #001930;
+  margin-right: 20px;
+}
+.container :global(.vtex-store-components-3-x-buttonContainer) {
+  position: absolute;
+  right: 15px
 }
 
 .label {
-  color: #fff;
+  color: #001930!important;
   font-size: 26px;
+  margin-left: 20px;
+  font-family: "Museo JH Sans 900";
+  font-size: 35px;
+  line-height: 29px;
+  height: 29px;
+  margin-left: 25px;
 }
 
 .inputGroup {
   padding-bottom: 4px;
   display: flex;
   color: #fff;
+
 }
 
 .inputGroup :global(.vtex-styleguide-9-x-hideDecorators) {
@@ -62,8 +145,13 @@
 }
 
 .inputGroup :global(.vtex-styleguide-9-x-hideDecorators)::placeholder {
-  color: #fff;
+  color: #ffffff;
   font-size: 16px;
+  font-family: "Museo JH Sans 300";
+  font-size: 20px;
+  line-height: 21px;
+  width: 184px;
+  height: 21px;
 }
 
 .inputGroup :global(.vtex-button) {

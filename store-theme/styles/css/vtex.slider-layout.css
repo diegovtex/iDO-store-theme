@@ -25,3 +25,10 @@
   padding-left: .5rem;
   padding-right: .5rem;
 }
+
+.sliderLayoutContainer :global (.salesSlider) {
+  background-color: red;
+  height: auto;
+  color: red;
+}
+

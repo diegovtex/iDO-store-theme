@@ -38,6 +38,14 @@
   text-transform: uppercase;
 }
 
+.footerLayout :global(.vtex-store-components-3-x-logoContainer) {
+  padding: 0px;
+}
+
+.footerLayout :global(.vtex-flex-layout-0-x-flexRowContent--menu-social-networks) {
+  justify-content: flex-end;
+}
+
 .footerLayout :global(.vtex-menu-2-x-styledLink--textBold) {
   width: 290px;
   height: 227px;
@@ -70,6 +78,8 @@
   color: #001930 !important;
 }
 
+
+
 .footerLayout :global(.vtex-menu-2-x-styledLink--textSimpleLast) {
   width: 290px;
   height: 227px;
@@ -95,3 +105,4 @@
   line-height: 17px;
   margin-left: 22px;
 }
+

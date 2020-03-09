@@ -16,10 +16,6 @@
   "flex-layout.row#footer-0-whitesection": {
     "children": [
       "flex-layout.col#logo-desktopSecondary",
-      "footer-spacer",
-      "footer-spacer",
-      "footer-spacer",
-      "footer-spacer",
       "flex-layout.row#footer-social-networks"
     ],
     "props": {
@@ -31,13 +27,51 @@
 
   "flex-layout.row#footer-social-networks": {
     "children": [
-      "footer-spacer",
-      "social-networks"
+      "image#facebook",
+      "image#instagram",
+      "image#youtube"
     ],
     "props": {
       "blockClass": "menu-social-networks",
       "paddingTop": 6,
       "paddingBottom": 6
+    }
+  },
+
+  "image#facebook": {
+    "props": {
+      "src": "/arquivos/facebook.png",
+      "maxHeight": 39,
+      "maxWidth": 39,
+      "alt": "facebook.com",
+      "title": "facebook.com",
+      "link": {
+        "newTab": true,
+        "url": "https://www.facebook.com/vtexonline/"
+      }
+    }
+  },
+  "image#instagram": {
+    "props": {
+      "src": "/arquivos/instagram.png",
+      "maxHeight": 39,
+      "maxWidth": 39,
+      "alt": "instagram.com",
+      "title": "instagram.com",
+      "link": {
+        "newTab": true,
+        "url": "https://www.facebook.com/vtexonline/"
+      }
+    }
+  },
+  "image#youtube": {
+    "props": {
+      "src": "/arquivos/youtube.png",
+      "maxHeight": 39,
+      "maxWidth": 39,
+      "alt": "youtube.com",
+      "title": "youtube.com",
+      "link": "https://www.youtube.com/user/VTEXTV"
     }
   },
 
@@ -87,25 +121,6 @@
       "blockClass": "menu-row",
       "paddingTop": 6,
       "paddingBottom": 3
-    }
-  },
-
-  "social-networks": {
-    "props": {
-      "socialNetworks": [
-        {
-          "name": "Facebook",
-          "url": "https://www.facebook.com/vtexonline/"
-        },
-        {
-          "name": "Instagram",
-          "url": "https://www.instagram.com/vtextruecloud/"
-        },
-        {
-          "name": "Youtube",
-          "url": "https://www.youtube.com/user/VTEXTV"
-        }
-      ]
     }
   },
 

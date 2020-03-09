@@ -86,3 +86,13 @@
 .flexCol--switcherMobileCol {
   width: 20%;
 }
+
+.flexRow--menu-text .flexColChild {
+  height: 16px!important;
+}
+
+.flexRow--menu-social-networks .stretchChildrenWidth  {
+  width: auto !important;
+  margin-left: 45px;
+  margin-right: 0px;
+}

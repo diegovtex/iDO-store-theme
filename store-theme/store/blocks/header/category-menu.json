@@ -141,7 +141,7 @@
   },
   "flex-layout.col#menu-more-2": {
     "children": [
-      "info-card#home"
+      "info-card#dimentica"
     ]
   },
   "vtex.menu@2.x:menu#more": {
@@ -194,6 +194,7 @@
     "children": [
       "menu-item#textContent1",
       "menu-item#textContent2",
+      "footer-spacer",
       "menu-item#textContent3",
       "menu-item#textContent4",
       "menu-item#textContent5"
@@ -203,6 +204,7 @@
     "children": [
       "menu-item#textContent6",
       "menu-item#textContent7",
+      "footer-spacer",
       "menu-item#textContent8",
       "menu-item#textContent9"
     ]
@@ -221,6 +223,7 @@
       "menu-item#textContent15",
       "menu-item#textContent16",
       "menu-item#textContent17",
+      "footer-spacer",
       "menu-item#textContent18",
       "menu-item#textContent19",
       "menu-item#textContent20",
@@ -313,7 +316,7 @@
       "id": "menu-item-text6",
       "type": "custom",
       "iconId": null,
-      "blockClass": "textSimple",
+      "blockClass": "textSimpleLast",
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -489,7 +492,7 @@
       "id": "menu-item-text17",
       "type": "custom",
       "iconId": null,
-      "blockClass": "textSimple",
+      "blockClass": "textSimpleLast",
       "highlight": false,
       "itemProps": {
         "type": "internal",

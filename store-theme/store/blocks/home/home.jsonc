@@ -2,12 +2,15 @@
   "store.home": {
     "blocks": [
       "list-context.image-list#demo",
+      "slider-layout#home",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
       "flex-layout.row#deals",
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
-      "info-card#home",
+      "info-card#dimentica",
+      "info-card#colours",
+      "info-card#teddy",
       "rich-text#question",
       "rich-text#link",
       "newsletter"
@@ -17,6 +20,34 @@
   "shelf#home": {
     "blocks": ["product-summary.shelf"]
   },
+
+   "slider-layout#home": {
+     "children": [
+     "info-card#1"
+     ],
+     "props": {
+       "autoplay": {
+         "timeout": 5000,
+         "stopOnHover": false
+       }
+     }
+   },
+
+   "info-card#1": {
+     "props": {
+       "imageUrl": "/arquivos/abito-in-jersey-pesante-con-borchiette-e-grigio-retro-02-2684k96000-8016.png",
+       "isFullModeStyle": true,
+       "headline": "Black Friday",
+       "callToActionText": "Subscribe",
+       "textPosition": "center",
+       "infinite": false,
+       "blockClass": "salesSlider",
+       "autoplay": {
+       "timeout": 100,
+       "stopOnHover": true
+       }
+     }
+   },
 
   "product-summary.shelf": {
     "children": [
@@ -87,14 +118,40 @@
     }
   },
 
-  "info-card#home": {
+  "info-card#dimentica": {
     "props": {
-      "id": "info-card-home",
-      "isFullModeStyle": false,
+      "id": "info-card-dimentica",
+      "isFullModeStyle": true,
       "textPosition": "left",
-      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
-      "headline": "Clearance Sale",
-      "callToActionText": "DISCOVER",
+      "imageUrl": "/arquivos/Schermata_2019-11-27_alle_14.25.18.png",
+      "headline": "Dimentica i capi che si rovinano dopo  un lavaggio: un iDO è per sempre.",
+      "callToActionText": "SCOPRI",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-home",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#colours": {
+    "props": {
+      "id": "info-card-colours",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "/arquivos/Schermata_2019-10-10_alle_22.37.00.png",
+      "headline": "Quali colori stanno meglio al tuo bambino?",
+      "callToActionText": "SCOPRI",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-home",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#teddy": {
+    "props": {
+      "id": "info-card-teddy",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "/arquivos/Schermata_2019-11-27_alle_14.27.20.png",
+      "headline": "Scopri l’outlet",
+      "callToActionText": "SCOPRI",
       "callToActionUrl": "/sale/d",
       "blockClass": "info-card-home",
       "textAlignment": "center"
