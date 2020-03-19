@@ -27,22 +27,23 @@
   max-width: 208px;
 }
 
-.infoCardContainer--info-card-home {
+.infoCardContainer--info-card-domentica {
   max-width: 1520px;
   margin: 0 auto;
   background-color: #e6f1e6;
-  height: 500px;
+  height: 500px!important;
   padding: 0px;
+  margin-bottom: 50px;
 }
 
-.infoCardTextContainer {
+.infoCardTextContainer--info-card-domentica {
   margin-top: 250px;
   max-width: 1500px;
   width: 750px!important;
 }
 
 
-.infoCardContainer--info-card-home :global(.vtex-button) {
+.infoCardContainer--info-card-domentica :global(.vtex-button) {
   border-radius: 25px;
   width: 190px;
   height: 50px;
@@ -57,12 +58,12 @@
   font-size: 45px;
 }
 
+
 .newsletter {
   background-color: rgba(0, 0, 0, 0.1)!important;
-  max-width: 100%;
+  max-width: 1520px;
   width: 100%;
   margin: 0 auto;
-  color: red;
   height: 139px;
   display: flex;
   justify-content: space-between;
@@ -197,3 +198,16 @@
     max-height: 600px;
   }
 }
+
+.flex-grow-1 :global(.vtex-address-modal__address) {
+  width: 500px!important;
+  background-color: red!important;
+  color: red!important;
+  justify-content: flex-end;
+}
+
+
+.vtex-product-summary-2-x-buyButtonContainer  {
+  background-color: black;
+}
+

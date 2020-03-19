@@ -1,51 +1,122 @@
 {
   "store.home": {
     "blocks": [
-      "list-context.image-list#demo",
-      "slider-layout#home",
+     "slider-layout#andrei-images",
+      "shelf#radu",
+      "rich-text#shelf-title-backToSchool",
+      "rich-text#question",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
-      "flex-layout.row#deals",
-      "rich-text#shelf-title",
-      "flex-layout.row#shelf",
+      "rich-text#shelf-title-category",
+      "slider-layout#demo-products",
       "info-card#dimentica",
+      "rich-text#shelf-title-armocromia",
       "info-card#colours",
+      "address-search",
       "info-card#teddy",
-      "rich-text#question",
       "rich-text#link",
       "newsletter"
     ]
   },
 
-  "shelf#home": {
-    "blocks": ["product-summary.shelf"]
-  },
+      "slider-layout#andrei-images": {
+        "children": [
+        "stack-layout#firstSlide",
+        "stack-layout#firstSlide"
+        ],
+        "props": {
+          "itemsPerPage": {
+            "desktop": 1,
+            "tablet": 1,
+            "phone": 1
+          },
+          "infinite": true,
+          "fullWidth": true,
+          "showNavigationArrows": "desktopOnly",
+          "blockClass": "hatSlider"
+        }
+      },
 
-   "slider-layout#home": {
-     "children": [
-     "info-card#1"
-     ],
+     "stack-layout#firstSlide": {
+       "children": [
+       "info-card#hat1",
+       "info-card#hat2"
+       ]
+     },
+
+   "info-card#hat1": {
      "props": {
-       "autoplay": {
-         "timeout": 5000,
-         "stopOnHover": false
-       }
+       "imageUrl": "https://andreibranch--storeido.myvtex.com/arquivos/2-layers.png",
+       "isFullModeStyle": true,
+       "callToActionText": "BAMBINO",
+       "callToActionUrl": "www.google.com",
+       "textPosition": "center",
+       "zIndexOffset": 1
+
      }
    },
+    "info-card#hat2": {
+      "props": {
+        "imageUrl": "",
+        "isFullModeStyle": true,
+        "callToActionText": "BAMBINA",
+        "callToActionUrl": "www.facebook.com",
+        "textPosition": "center",
+        "zIndexOffset": 1,
+         "blockClass": "secondLayer"
+
+      }
+    },
+   "info-card#hat2": {
+     "props": {
+       "imageUrl": "",
+       "isFullModeStyle": true,
+       "callToActionText": "Subscribe",
+       "textPosition": "center",
+       "zIndexOffset": 2
+     }
+   },
+
+
+
+
+  "shelf#radu": {
+      "blocks": ["product-summary"],
+      "props": {
+        "category": 1,
+        "orderBy": "OrderByTopSaleDESC",
+        "paginationDotsVisibility": "desktopOnly",
+        "productList": {
+          "maxItems": 8,
+          "itemsPerPage": 3.5,
+          "minItemsPerPage": 1,
+          "scroll": "BY_PAGE",
+          "arrows": true,
+          "titleText": "Top sellers"
+        }
+      }
+    },
+    "product-summary": {
+    "props": {
+      "isOneClickBuy": false,
+      "showBadge": true,
+      "badgeText": "OFF",
+      "displayBuyButton": "displayButtonHover",
+      "showCollections": false,
+      "showListPrice": true,
+      "showLabels": false,
+      "showInstallments": true,
+      "showSavings": true,
+      "fixedWidth":500,
+      "fixedHeight": 500
+    }
+  },
 
    "info-card#1": {
      "props": {
        "imageUrl": "/arquivos/abito-in-jersey-pesante-con-borchiette-e-grigio-retro-02-2684k96000-8016.png",
        "isFullModeStyle": true,
-       "headline": "Black Friday",
-       "callToActionText": "Subscribe",
-       "textPosition": "center",
-       "infinite": false,
-       "blockClass": "salesSlider",
-       "autoplay": {
-       "timeout": 100,
-       "stopOnHover": true
-       }
+       "headline": "Black Friday"
      }
    },
 
@@ -89,9 +160,22 @@
     }
   },
 
-  "rich-text#shelf-title": {
+  "rich-text#shelf-title-backToSchool": {
     "props": {
-      "text": "## Summer",
+      "text": "## Back To School",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "rich-text#shelf-title-category": {
+    "props": {
+      "text": "## Un iDO per ogni occasione",
+      "blockClass": "shelfTitle"
+    }
+  },
+
+  "rich-text#shelf-title-armocromia": {
+    "props": {
+      "text": "## L’armocromia",
       "blockClass": "shelfTitle"
     }
   },
@@ -106,18 +190,75 @@
     }
   },
   "slider-layout#demo-products": {
+    "children": [
+    "info-card#1",
+    "info-card#2",
+    "info-card#3",
+    "info-card#4",
+    "info-card#5",
+    "info-card#6"
+    ],
     "props": {
       "itemsPerPage": {
-        "desktop": 5,
-        "tablet": 3,
+        "desktop": 3,
+        "tablet": 2,
         "phone": 1
       },
       "infinite": true,
-      "fullWidth": true,
-      "blockClass": "shelf"
+      "fullWidth": false,
+      "blockClass": "shelf",
+      "showNavigationArrows": "never"
     }
   },
+   "info-card#1": {
+     "props": {
+       "imageUrl": "https://andreibranch--storeido.myvtex.com/arquivos/glamgirl.png",
+       "isFullModeStyle": true,
+       "callToActionText": "Glam",
+       "textPosition": "center"
+     }
+   },
+   "info-card#2": {
+       "props": {
+         "imageUrl": "https://andreibranch--storeido.myvtex.com/arquivos/idomini.png",
+         "isFullModeStyle": true,
+         "callToActionText": "iDO Mini",
+         "textPosition": "center"
+       }
+  },
+     "info-card#3": {
+       "props": {
+         "imageUrl": "https://andreibranch--storeido.myvtex.com/arquivos/glamgirl.png",
+         "isFullModeStyle": true,
+         "callToActionText": "Back to school",
+         "textPosition": "center"
+       }
+  },
 
+     "info-card#4": {
+       "props": {
+         "imageUrl": "https://andreibranch--storeido.myvtex.com/arquivos/glamgirl.png",
+         "isFullModeStyle": true,
+         "callToActionText": "Glam",
+         "textPosition": "center"
+       }
+     },
+     "info-card#5": {
+         "props": {
+           "imageUrl": "https://andreibranch--storeido.myvtex.com/arquivos/idomini.png",
+           "isFullModeStyle": true,
+           "callToActionText": "iDO Mini",
+           "textPosition": "center"
+         }
+    },
+       "info-card#6": {
+         "props": {
+           "imageUrl": "https://andreibranch--storeido.myvtex.com/arquivos/glamgirl.png",
+           "isFullModeStyle": true,
+           "callToActionText": "Back to school",
+           "textPosition": "center"
+         }
+    },
   "info-card#dimentica": {
     "props": {
       "id": "info-card-dimentica",
@@ -127,47 +268,47 @@
       "headline": "Dimentica i capi che si rovinano dopo  un lavaggio: un iDO è per sempre.",
       "callToActionText": "SCOPRI",
       "callToActionUrl": "/sale/d",
-      "blockClass": "info-card-home",
+      "blockClass": "info-card-domentica",
       "textAlignment": "center"
     }
   },
   "info-card#colours": {
     "props": {
-      "id": "info-card-colours",
+      "id": "info-card-domentica",
       "isFullModeStyle": true,
       "textPosition": "left",
       "imageUrl": "/arquivos/Schermata_2019-10-10_alle_22.37.00.png",
       "headline": "Quali colori stanno meglio al tuo bambino?",
       "callToActionText": "SCOPRI",
       "callToActionUrl": "/sale/d",
-      "blockClass": "info-card-home",
+      "blockClass": "info-card-domentica",
       "textAlignment": "center"
     }
   },
   "info-card#teddy": {
     "props": {
-      "id": "info-card-teddy",
+      "id": "info-card-domentica",
       "isFullModeStyle": true,
       "textPosition": "left",
       "imageUrl": "/arquivos/Schermata_2019-11-27_alle_14.27.20.png",
       "headline": "Scopri l’outlet",
       "callToActionText": "SCOPRI",
       "callToActionUrl": "/sale/d",
-      "blockClass": "info-card-home",
+      "blockClass": "info-card-domentica",
       "textAlignment": "center"
     }
   },
 
   "rich-text#question": {
     "props": {
-      "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
+      "text": "​<div class='vtex-rich-text-wrapper'>​<div class='vtex-rich-text-section'><div class='vtex-rich-text-title'>Scopri l'outlet</div><div class='vtex-rich-text-link'><img class='vtex-rich-text-image' src='https://andreibranch--storeido.myvtex.com/arquivos/teddy.png'><a class='vtex-rich-text-href' href='https://www.w3schools.com'>Scopri</a></div></div></div>",
       "blockClass": "question"
     }
   },
 
   "rich-text#link": {
     "props": {
-      "text": "\n**Reach us at**\nwww.vtex.com.br",
+      "text": "​<div class='vtex-your-class-name'> <iframe width='1520' height='500' src='https://www.youtube.com/embed/2AVs-Yh1bS8' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div>",
       "blockClass": "link"
     }
   }

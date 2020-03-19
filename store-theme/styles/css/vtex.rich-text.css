@@ -6,13 +6,20 @@
 
 .container--shelfTitle {
   color: #727273;
-  justify-content: center;
+  justify-content: flex-start!important;
   text-align: center;
 }
 
 .headingLevel2--shelfTitle {
-  font-weight: 200;
+  color: #001930;
+  font-family: "Museo JH Sans 900";
+  font-size: 35px;
+  line-height: 29px;
+  font-weight: 900;
+  margin-left: 135px;
 }
+
+
 
 .container--deals .paragraph {
   margin: 0;
@@ -26,13 +33,65 @@
   justify-content: center;
 }
 
-.container--question .paragraph {
-  text-align: center;
-  max-width: 540px;
-  margin: 0 16px;
-  padding-top: 120px;
-  color: #03034E;
+.paragraph--question {
+  display: none;
 }
+
+.container--question .paragraph {
+  max-width: 1528px;
+}
+
+:global(.vtex-rich-text-wrapper) {
+  width: 1520px;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+}
+
+
+:global(.vtex-rich-text-title) {
+  position: absolute;
+  top: 400px;
+  left: 50px;
+  z-index: 900;
+  width: 459px;
+  height: 42px;
+  text-shadow: 0 2px 30px #000000;
+  color: #ffffff;
+  font-family: "Museo JH Sans 900";
+  font-size: 45px;
+  line-height: 32px;
+
+}
+:global(.vtex-rich-text-link) {
+  position: absolute;
+  top: 480px;
+  left: 60px;
+  z-index: 900;
+  color: #fff;
+  border: solid 1px;
+  border-radius: 50px;
+  width: 190px;
+  height: 50px;
+  display: flex;
+}
+
+:global(.vtex-rich-text-href) {
+  text-decoration: none;
+  color: white;
+  margin-left: 50px;
+  display: inherit;
+  justify-content: center;
+  align-items: center;
+  font-family: "Museo JH Sans 900";
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+:global(.vtex-rich-text-image) {
+  width: 100%;
+}
+
 
 .container--question .strong {
   font-size: 32px;
@@ -41,12 +100,12 @@
 }
 
 .container--link .paragraph {
-  text-align: center;
   max-width: 540px;
   padding-top: 36px;
   padding-bottom: 84px;
   color: #03034E;
 }
+
 
 .container--link .strong {
   font-size: 16px;
@@ -88,3 +147,4 @@
     line-height: 1.3em;
   }
 }
+

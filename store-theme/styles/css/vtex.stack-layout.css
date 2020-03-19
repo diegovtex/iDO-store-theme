@@ -1,3 +1,36 @@
 .stackItem--product {
   width: 100%;
 }
+
+.stackContainer  {
+  width: 1520px;
+  height: 670px;
+}
+
+.stackContainer :global(.vtex-store-components-3-x-infoCardContainer) {
+  height: 670px;
+  display: flex;
+}
+
+.stackContainer :global(.vtex-store-components-3-x-infoCardTextContainer) {
+  align-content: flex-start;
+  display: inherit;
+  align-items: flex-start;
+  align-self: flex-end;
+  margin-right: 350px;
+  margin-bottom: 35px;
+}
+
+.stackContainer :global(.vtex-button) {
+  background-color: white;
+  border-color: white;
+  width: 190px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #ffffff;
+  color: black;
+  font-size: 22px;
+  font-weight: bold;
+  font-family: "Museo JH Sans 900";
+}
+
