@@ -7,21 +7,22 @@
   height: 670px;
 }
 
-.stackContainer :global(.vtex-store-components-3-x-infoCardContainer) {
+.stackContainer--hatSliderStack :global(.vtex-store-components-3-x-infoCardContainer) {
   height: 670px;
   display: flex;
 }
 
-.stackContainer :global(.vtex-store-components-3-x-infoCardTextContainer) {
+
+.stackContainer--hatSliderStack :global(.vtex-store-components-3-x-infoCardTextContainer) {
   align-content: flex-start;
   display: inherit;
   align-items: flex-start;
   align-self: flex-end;
-  margin-right: 350px;
   margin-bottom: 35px;
+  width: 60%;
 }
 
-.stackContainer :global(.vtex-button) {
+.stackContainer--hatSliderStack :global(.vtex-button) {
   background-color: white;
   border-color: white;
   width: 190px;
@@ -32,5 +33,12 @@
   font-size: 22px;
   font-weight: bold;
   font-family: "Museo JH Sans 900";
+  transition: .3s;
+}
+
+.stackContainer--hatSliderStack :global(.vtex-button):hover {
+  background-color: #001930;
+  border-color: #001930;
+  color: white;
 }
 

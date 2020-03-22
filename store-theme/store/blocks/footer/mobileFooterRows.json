@@ -1,0 +1,81 @@
+{
+  "flex-layout.row#footer-0-mobile": {
+    "children": [
+      "flex-layout.col#logo-desktopSecondaryMobile"
+    ],
+    "props": {
+      "blockClass": "row-0-mobile",
+      "paddingTop": 6,
+      "paddingBottom": 3
+    }
+  },
+  "flex-layout.row#footer-1-mobile": {
+    "props": {
+      "blockClass": "row-1-mobile"
+    },
+    "children": [
+      "flex-layout.col#text1Mobile",
+      "flex-layout.col#text2Mobile"
+    ]
+  },
+    "flex-layout.row#footer-2-mobile": {
+      "children": [
+        "menu-item#bisognoMobile"
+      ],
+      "props": {
+        "blockClass": "row-2-mobile"
+      }
+    },
+
+
+    "flex-layout.row#footer-3-mobile": {
+      "props": {
+        "blockClass": "row-3-mobile",
+        "paddingTop": 6,
+        "paddingBottom": 3
+      },
+      "children": [
+        "flex-layout.col#text3Mobile",
+        "flex-layout.col#text4Mobile"
+      ]
+    }
+  ,
+
+  "flex-layout.row#footer-4-mobile": {
+    "children": [
+      "flex-layout.row#social-networks-mobile",
+      "menu-item#privacyMobile"
+    ],
+    "props": {
+      "blockClass": "row-4-mobile",
+      "paddingTop": 6,
+      "paddingBottom": 6
+    }
+  },
+
+  "flex-layout.row#footer-5-mobile": {
+    "children": [
+      "rich-text#footerMobile"
+    ],
+    "props": {
+      "blockClass": "row-5-mobile",
+      "paddingTop": 6,
+      "paddingBottom": 6
+    }
+  },
+
+  "flex-layout.row#social-networks-mobile": {
+    "children": [
+      "image#facebook",
+      "image#instagram",
+      "image#youtube"
+    ],
+    "props": {
+      "blockClass": "row-networks-mobile",
+      "paddingTop": 6,
+      "paddingBottom": 6
+    }
+  }
+
+
+}

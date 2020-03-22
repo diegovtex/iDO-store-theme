@@ -1,0 +1,51 @@
+{
+
+  "flex-layout.col#logo-desktopSecondaryMobile": {
+    "props": {
+      "verticalAlign": "middle",
+      "blockClass": "footerWhite"
+    },
+    "children": ["logo#desktopMobile"]
+  },
+
+  "flex-layout.col#text1Mobile": {
+    "children": [
+      "menu-item#textContent1Mobile",
+      "menu-item#textContent2Mobile",
+      "footer-spacer",
+      "menu-item#textContent3Mobile",
+      "menu-item#textContent4Mobile",
+      "menu-item#textContent5Mobile"
+    ]
+  },
+  "flex-layout.col#text2Mobile": {
+    "children": [
+      "menu-item#textContent6Mobile",
+      "menu-item#textContent7Mobile",
+      "footer-spacer",
+      "menu-item#textContent8Mobile",
+      "menu-item#textContent9Mobile"
+    ]
+  },
+  "flex-layout.col#text3Mobile": {
+    "children": [
+      "menu-item#textContent10Mobile",
+      "menu-item#textContent11Mobile",
+      "menu-item#textContent12Mobile",
+      "menu-item#textContent13Mobile"
+    ]
+  },
+  "flex-layout.col#text4Mobile": {
+    "children": [
+      "menu-item#textContent14Mobile",
+      "menu-item#textContent15Mobile",
+      "menu-item#textContent16Mobile",
+      "menu-item#textContent17Mobile",
+      "footer-spacer",
+      "menu-item#textContent18Mobile",
+      "menu-item#textContent19Mobile",
+      "menu-item#textContent20Mobile",
+      "menu-item#textContent21Mobile"
+    ]
+  }
+}

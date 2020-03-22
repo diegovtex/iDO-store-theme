@@ -52,6 +52,37 @@
   border-color: white;
 }
 
+.infoCardContainer--info-card-fidelity-card {
+  max-width: 1520px;
+  margin: 0 auto;
+  background-color: #e6f1e6;
+  height: 139px!important;
+  padding: 0px;
+  margin-bottom: 50px;
+}
+.infoCardContainer--info-card-fidelity-card :global(.vtex-button) {
+  border-radius: 25px;
+  width: 139px;
+  height: 50px;
+  color: #001930;
+  background-color: white;
+  border-color: white;
+}
+.infoCardTextContainer--info-card-fidelity-card {
+  color: white;
+  font-size: 35px;
+  line-height: 29px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100% !important;
+  flex-direction: row;
+}
+.infoCardHeadline--info-card-fidelity-card {
+  margin-top: 0px;
+  color: black !important;
+}
+
 .infoCardHeadline {
   color: white;
   font-family: "Museo JH Sans 900";
@@ -211,3 +242,15 @@
   background-color: black;
 }
 
+
+@media only screen and (max-width: 768px) {
+:global(.vtex-shelf-1-x-container--mobileShow) {
+    display: flex;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+:global(.vtex-shelf-1-x-container--mobileShow) {
+    display: none!important;
+  }
+}

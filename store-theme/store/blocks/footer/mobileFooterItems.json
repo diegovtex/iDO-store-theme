@@ -1,0 +1,425 @@
+{
+  "logo#desktopMobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "/arquivos/iDO_PANTONE_PAYOFF-01.png",
+      "width": "72",
+      "blockClass": "logo-mobile"
+    }
+  },
+
+  "menu-item#bisognoMobile": {
+    "props": {
+      "id": "menu-item-bisogno",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "bisogno-text-mobile",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "HAI BISOGNO DI AIUTO?",
+        "text": "HAI BISOGNO DI AIUTO?"
+      }
+    }
+  },
+  "menu-item#textContent1Mobile": {
+    "props": {
+      "id": "menu-item-text1",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "textBoldMobile",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Consegna rapida",
+        "text": "Consegna rapida"
+      }
+    }
+  },
+
+  "menu-item#textContent2Mobile": {
+    "props": {
+      "id": "menu-item-text2",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "textSimpleLastMobile",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Entro 3 giorni lavorativi",
+        "text": "Entro 3 giorni lavorativi"
+      }
+    }
+  },
+  "menu-item#textContent3Mobile": {
+    "props": {
+      "id": "menu-item-text1",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "textBoldMobile",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Spedizione Gratuita",
+        "text": "Spedizione Gratuita"
+      }
+    }
+  },
+  "menu-item#textContent4Mobile": {
+    "props": {
+      "id": "menu-item-text1",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "textSimpleMobile",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Per ordini superiori a 70€",
+        "text": "Per ordini superiori a 70€"
+      }
+    }
+  },
+  "menu-item#textContent5Mobile": {
+    "props": {
+      "id": "menu-item-text1",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "textSimpleLastMobile",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "o per consegna nei negozi myiDO",
+        "text": "o per consegna nei negozi myiDO"
+      }
+    }
+  },
+  "menu-item#textContent6Mobile": {
+    "props": {
+      "id": "menu-item-text5",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "textBoldMobile",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Reso entro 14 giorni",
+        "text": "Reso entro 14 giorni"
+      }
+    }
+  },
+  "menu-item#textContent7Mobile": {
+    "props": {
+      "id": "menu-item-text6",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "textSimpleLastMobile",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Reso gratuito per i clienti myiDO",
+        "text": "Reso gratuito per i clienti myiDO"
+      }
+    }
+  },
+  "menu-item#textContent8Mobile": {
+    "props": {
+      "id": "menu-item-text7",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "textBoldMobile",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Pagamenti Sicuri",
+        "text": "Pagamenti Sicuri"
+      }
+    }
+  },
+  "menu-item#textContent9Mobile": {
+    "props": {
+      "id": "menu-item-text8",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "textSimpleLastMobile",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Ogni transazione è sicura e crittografata",
+        "text": "Ogni transazione è sicura e crittografata"
+      }
+    }
+  },
+
+  "menu-item#textContent10Mobile": {
+    "props": {
+      "id": "menu-item-text1",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "textBoldSimpleMobile",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Negozi",
+        "text": "Negozi"
+      }
+    }
+  },
+  "menu-item#textContent11Mobile": {
+    "props": {
+      "id": "menu-item-text11",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "textSimpleMobile",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "assistenzaclienti@miniconf.it ",
+        "text": "assistenzaclienti@miniconf.it "
+      }
+    }
+  },
+  "menu-item#textContent12Mobile": {
+    "props": {
+      "id": "menu-item-text12",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "textSimpleMobile",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "0575 533248",
+        "text": "0575 533248"
+      }
+    }
+  },
+  "menu-item#textContent13Mobile": {
+    "props": {
+      "id": "menu-item-text13",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "textSimpleMobileLast",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Dal lunedì al venerdì dalle 8:30 alle 18:00",
+        "text": "Dal lunedì al venerdì dalle 8:30 alle 18:00"
+      }
+    }
+  },
+  "menu-item#textContent14Mobile": {
+    "props": {
+      "id": "menu-item-text14",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "textBoldSimpleMobile",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Vendita Online",
+        "text": "Vendita Online"
+      }
+    }
+  },
+  "menu-item#textContent15Mobile": {
+    "props": {
+      "id": "menu-item-text15",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "textSimpleMobile",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "customerservice@ido.it - 0575 533444",
+        "text": "customerservice@ido.it - 0575 533444"
+      }
+    }
+  },
+  "menu-item#textContent16Mobile": {
+    "props": {
+      "id": "menu-item-text16",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "textSimpleMobile",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Dal lunedì al venerdì dalle 8:30",
+        "text": "Dal lunedì al venerdì dalle 8:30"
+      }
+    }
+  },
+  "menu-item#textContent17Mobile": {
+    "props": {
+      "id": "menu-item-text17",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "textSimpleMobileLast",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "alle 11:00 e dalle 13:00 alle 15:00",
+        "text": "alle 11:00 e dalle 13:00 alle 15:00"
+      }
+    }
+  },
+  "menu-item#textContent18Mobile": {
+    "props": {
+      "id": "menu-item-text18",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "textBoldSimpleMobile",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Impresa",
+        "text": "Impresa"
+      }
+    }
+  },
+  "menu-item#textContent19Mobile": {
+    "props": {
+      "id": "menu-item-text19",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "textSimpleMobile",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "info@ido.it - 0575 5331",
+        "text": "info@ido.it - 0575 5331"
+      }
+    }
+  },
+  "menu-item#textContent20Mobile": {
+    "props": {
+      "id": "menu-item-text20",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "textSimpleMobile",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Dal lunedì al venerdì dalle 8:30",
+        "text": "Dal lunedì al venerdì dalle 8:30"
+      }
+    }
+  },
+  "menu-item#textContent21Mobile": {
+    "props": {
+      "id": "menu-item-text21",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "textSimpleMobileLast",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "alle 18:00",
+        "text": "alle 18:00"
+      }
+    }
+  },
+
+
+  "image#facebookMobile": {
+    "props": {
+      "src": "/arquivos/facebook.png",
+      "maxHeight": 39,
+      "maxWidth": 39,
+      "alt": "facebook.com",
+      "title": "facebook.com",
+      "link": {
+        "newTab": true,
+        "url": "https://www.facebook.com/vtexonline/"
+      }
+    }
+  },
+  "image#instagramMobile": {
+    "props": {
+      "src": "/arquivos/instagram.png",
+      "maxHeight": 39,
+      "maxWidth": 39,
+      "alt": "instagram.com",
+      "title": "instagram.com",
+      "link": {
+        "newTab": true,
+        "url": "https://www.facebook.com/vtexonline/"
+      }
+    }
+  },
+  "image#youtubeMobile": {
+    "props": {
+      "src": "/arquivos/youtube.png",
+      "maxHeight": 39,
+      "maxWidth": 39,
+      "alt": "youtube.com",
+      "title": "youtube.com",
+      "link": "https://www.youtube.com/user/VTEXTV"
+    }
+  },
+  "menu-item#privacyMobile": {
+    "props": {
+      "id": "menu-item-privacy",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bags/necessaire",
+        "noFollow": true,
+        "tagTitle": "Privacy Policy",
+        "text": "Privacy Policy"
+      }
+    }
+  },
+  "rich-text#footerMobile": {
+    "props": {
+      "text": "iDO è un marchio Miniconf Spa\nSede Legale: Via Provinciale 1/A, 52010 Ortignano Raggiolo, Arezzo | Tel. +39.0575.5331 | miniconf @pec.miniconf.it\nP.IVA e CF 00249390519 | REA AR 64978 | Cap. Soc. € 3.000.000 | Soggetta all’attività di direzione e coordinamento di MINFIN s.r.l.",
+      "blockClass": "footerRichMobile"
+    }
+  }
+}

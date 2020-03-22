@@ -1,28 +1,50 @@
 {
   "store.home": {
     "blocks": [
-     "slider-layout#andrei-images",
-      "shelf#radu",
-      "rich-text#shelf-title-backToSchool",
-      "rich-text#question",
-      /* You can make references to blocks defined in other files.
-       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
-      "rich-text#shelf-title-category",
-      "slider-layout#demo-products",
-      "info-card#dimentica",
-      "rich-text#shelf-title-armocromia",
-      "info-card#colours",
-      "address-search",
-      "info-card#teddy",
-      "rich-text#link",
-      "newsletter"
+      "responsive-layout.desktop",
+      "responsive-layout.mobile"
     ]
   },
-
+    "responsive-layout.desktop": {
+      "children": [
+        "slider-layout#andrei-images",
+        "shelf#radu",
+        "rich-text#shelf-title-backToSchool",
+        "rich-text#question",
+        "rich-text#shelf-title-category",
+        "slider-layout#demo-products",
+        "info-card#dimentica",
+        "info-card#fidelity-card",
+        "rich-text#shelf-title-armocromia",
+        "info-card#colours",
+        "address-search",
+        "info-card#teddy",
+        "rich-text#link",
+        "newsletter"
+      ]
+    },
+    "responsive-layout.mobile": {
+      "children": [
+        "slider-layout#andrei-imagesMobile",
+        "shelf#raduMobile",
+        "rich-text#shelf-title-backToSchoolMobile",
+        "info-card#backToSchoolMobile",
+        "rich-text#shelf-title-categoryMobile",
+        "slider-layout#demo-productsMobile",
+        "info-card#dimenticaMobile",
+        "info-card#fidelity-cardMobile",
+        "rich-text#shelf-title-armocromiaMobile",
+        "info-card#coloursMobile",
+        "address-search",
+        "info-card#teddyMobile",
+        "newsletter"
+      ]
+    },
       "slider-layout#andrei-images": {
         "children": [
         "stack-layout#firstSlide",
-        "stack-layout#firstSlide"
+        "stack-layout#firstSlide",
+        "rich-text#link"
         ],
         "props": {
           "itemsPerPage": {
@@ -38,6 +60,9 @@
       },
 
      "stack-layout#firstSlide": {
+      "props": {
+       "blockClass": "hatSliderStack"
+      },
        "children": [
        "info-card#hat1",
        "info-card#hat2"
@@ -66,28 +91,16 @@
          "blockClass": "secondLayer"
 
       }
-    },
-   "info-card#hat2": {
-     "props": {
-       "imageUrl": "",
-       "isFullModeStyle": true,
-       "callToActionText": "Subscribe",
-       "textPosition": "center",
-       "zIndexOffset": 2
-     }
-   },
-
-
-
+},
 
   "shelf#radu": {
       "blocks": ["product-summary"],
       "props": {
-        "category": 1,
+        "category": 2,
         "orderBy": "OrderByTopSaleDESC",
         "paginationDotsVisibility": "desktopOnly",
         "productList": {
-          "maxItems": 8,
+          "maxItems": 3,
           "itemsPerPage": 3.5,
           "minItemsPerPage": 1,
           "scroll": "BY_PAGE",
@@ -106,9 +119,7 @@
       "showListPrice": true,
       "showLabels": false,
       "showInstallments": true,
-      "showSavings": true,
-      "fixedWidth":500,
-      "fixedHeight": 500
+      "showSavings": true
     }
   },
 
@@ -147,6 +158,22 @@
       ]
     }
   },
+
+  "info-card#fidelity-card": {
+    "props": {
+      "id": "info-card-fidelity-card",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "/arquivos/fidelityCardMobile.png",
+      "headline": "Richiedi la nostra fidelity card.",
+      "callToActionText": "SCOPRI",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-fidelity-card",
+      "textAlignment": "center"
+    }
+  },
+
+
   "slider-layout#demo-images": {
     "props": {
       "itemsPerPage": {
@@ -272,6 +299,19 @@
       "textAlignment": "center"
     }
   },
+  "info-card#backToSchool": {
+    "props": {
+      "id": "info-card-backToSchool",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "/arquivos/backtoschoolmobile.png",
+      "headline": "Dimentica i capi che si rovinano dopo  un lavaggio: un iDO è per sempre.",
+      "callToActionText": "SCOPRI",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-domentica",
+      "textAlignment": "center"
+    }
+    },
   "info-card#colours": {
     "props": {
       "id": "info-card-domentica",

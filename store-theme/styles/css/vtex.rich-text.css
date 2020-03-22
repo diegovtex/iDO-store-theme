@@ -19,6 +19,10 @@
   margin-left: 135px;
 }
 
+:global(.vtex-rich-text-0-x-paragraph--footerRich) {
+  color: gray;
+}
+
 
 
 .container--deals .paragraph {
@@ -48,6 +52,12 @@
   display: flex;
 }
 
+:global(.vtex-rich-text-section) {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
 
 :global(.vtex-rich-text-title) {
   position: absolute;
@@ -147,4 +157,13 @@
     line-height: 1.3em;
   }
 }
+
+/*Mobile version styling begins here */
+
+:global(.vtex-rich-text-0-x-paragraph--footerRichMobile) {
+  color: black;
+  font-size: 8px;
+  text-align: center;
+}
+
 

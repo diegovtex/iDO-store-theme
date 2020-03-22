@@ -1,0 +1,216 @@
+{
+  "slider-layout#andrei-imagesMobile": {
+    "children": [
+      "stack-layout#firstSlideMobile"
+    ],
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "hatSliderMobile"
+    }
+  },
+  "stack-layout#firstSlideMobile": {
+    "children": [
+      "info-card#hat1",
+      "info-card#hat2"
+    ]
+  },
+  "info-card#hat1Mobile": {
+    "props": {
+      "imageUrl": "https://andreibranch--storeido.myvtex.com/arquivos/2-layers.png",
+      "isFullModeStyle": true,
+      "callToActionText": "BAMBINO",
+      "callToActionUrl": "www.google.com",
+      "textPosition": "center",
+      "zIndexOffset": 1
+    }
+  },
+  "info-card#hat2Mobile": {
+    "props": {
+      "imageUrl": "",
+      "isFullModeStyle": true,
+      "callToActionText": "BAMBINA",
+      "callToActionUrl": "www.facebook.com",
+      "textPosition": "center",
+      "zIndexOffset": 1,
+      "blockClass": "secondLayer"
+    }
+  },
+  "shelf#raduMobile": {
+    "blocks": [
+      "product-summary"
+    ],
+    "props": {
+      "category": 1,
+      "blockClass": "showMobile",
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "desktopOnly",
+      "productList": {
+        "maxItems": 8,
+        "itemsPerPage": 1.5,
+        "minItemsPerPage": 1,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "Top sellers"
+      }
+    }
+  },
+  "rich-text#shelf-title-backToSchoolMobile": {
+    "props": {
+      "text": "## Back To School",
+      "blockClass": "rich-text-backtoschoolMobile"
+    }
+  },
+  "info-card#backToSchoolMobile": {
+    "props": {
+      "id": "info-card-backToSchool",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "/arquivos/backtoschoolmobile.png",
+      "headline": "Dimentica i capi che si rovinano dopo  un lavaggio: un iDO è per sempre.",
+      "callToActionText": "SCOPRI",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-domentica-mobile",
+      "textAlignment": "center"
+    }
+  },
+  "rich-text#shelf-title-categoryMobile": {
+    "props": {
+      "text": "## Un iDO per ogni occasione",
+      "blockClass": "shelfTitleMobile"
+    }
+  },
+  "slider-layout#demo-productsMobile": {
+    "children": [
+      "info-card#1Mobile",
+      "info-card#2Mobile",
+      "info-card#3Mobile",
+      "info-card#4Mobile",
+      "info-card#5Mobile",
+      "info-card#6Mobile"
+    ],
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf",
+      "showNavigationArrows": "never"
+    }
+  },
+  "info-card#1Mobile": {
+    "props": {
+      "imageUrl": "https://andreibranch--storeido.myvtex.com/arquivos/glamgirl.png",
+      "isFullModeStyle": true,
+      "callToActionText": "Glam",
+      "textPosition": "center"
+    }
+  },
+  "info-card#2Mobile": {
+    "props": {
+      "imageUrl": "https://andreibranch--storeido.myvtex.com/arquivos/idomini.png",
+      "isFullModeStyle": true,
+      "callToActionText": "iDO Mini",
+      "textPosition": "center"
+    }
+  },
+  "info-card#3Mobile": {
+    "props": {
+      "imageUrl": "https://andreibranch--storeido.myvtex.com/arquivos/glamgirl.png",
+      "isFullModeStyle": true,
+      "callToActionText": "Back to school",
+      "textPosition": "center"
+    }
+  },
+  "info-card#4Mobile": {
+    "props": {
+      "imageUrl": "https://andreibranch--storeido.myvtex.com/arquivos/glamgirl.png",
+      "isFullModeStyle": true,
+      "callToActionText": "Glam",
+      "textPosition": "center"
+    }
+  },
+  "info-card#5Mobile": {
+    "props": {
+      "imageUrl": "https://andreibranch--storeido.myvtex.com/arquivos/idomini.png",
+      "isFullModeStyle": true,
+      "callToActionText": "iDO Mini",
+      "textPosition": "center"
+    }
+  },
+  "info-card#6Mobile": {
+    "props": {
+      "imageUrl": "https://andreibranch--storeido.myvtex.com/arquivos/glamgirl.png",
+      "isFullModeStyle": true,
+      "callToActionText": "Back to school",
+      "textPosition": "center"
+    }
+  },
+  "info-card#dimenticaMobile": {
+    "props": {
+      "id": "info-card-dimentica",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "/arquivos/Schermata_2019-11-27_alle_14.25.18.png",
+      "headline": "Dimentica i capi che si rovinano dopo  un lavaggio: un iDO è per sempre.",
+      "callToActionText": "SCOPRI",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-domentica",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#fidelity-cardMobile": {
+    "props": {
+      "id": "info-card-fidelity-card",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "/arquivos/fidelityCardMobile.png",
+      "headline": "Richiedi la nostra fidelity card.",
+      "callToActionText": "SCOPRI",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-fidelity-card",
+      "textAlignment": "center"
+    }
+  },
+  "rich-text#shelf-title-armocromiaMobile": {
+    "props": {
+      "text": "## L’armocromia",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "info-card#coloursMobile": {
+    "props": {
+      "id": "info-card-domentica",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "/arquivos/Schermata_2019-10-10_alle_22.37.00.png",
+      "headline": "Quali colori stanno meglio al tuo bambino?",
+      "callToActionText": "SCOPRI",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-domentica",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#teddyMobile": {
+    "props": {
+      "id": "info-card-domentica",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "/arquivos/Schermata_2019-11-27_alle_14.27.20.png",
+      "headline": "Scopri l’outlet",
+      "callToActionText": "SCOPRI",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-domentica",
+      "textAlignment": "center"
+    }
+  }
+}
