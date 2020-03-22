@@ -54,7 +54,7 @@
       "productList": {
         "maxItems": 8,
         "itemsPerPage": 1.5,
-        "minItemsPerPage": 1,
+        "minItemsPerPage": 1.5,
         "scroll": "BY_PAGE",
         "arrows": true,
         "titleText": "Top sellers"
@@ -72,18 +72,18 @@
       "id": "info-card-backToSchool",
       "isFullModeStyle": true,
       "textPosition": "left",
-      "imageUrl": "/arquivos/backtoschoolmobile.png",
-      "headline": "Dimentica i capi che si rovinano dopo  un lavaggio: un iDO è per sempre.",
-      "callToActionText": "SCOPRI",
+      "imageUrl": "/arquivos/boyandgirlmobile.png",
+      "headline": "Ricomincia l'avventura con l'outfit giusto",
+      "callToActionText": "ACQUISTA",
       "callToActionUrl": "/sale/d",
-      "blockClass": "info-card-domentica-mobile",
+      "blockClass": "info-card-backtoschool-mobile",
       "textAlignment": "center"
     }
   },
   "rich-text#shelf-title-categoryMobile": {
     "props": {
       "text": "## Un iDO per ogni occasione",
-      "blockClass": "shelfTitleMobile"
+      "blockClass": "category-shelf-mobile"
     }
   },
   "slider-layout#demo-productsMobile": {
@@ -99,7 +99,7 @@
       "itemsPerPage": {
         "desktop": 3,
         "tablet": 2,
-        "phone": 1
+        "phone": 1.5
       },
       "infinite": true,
       "fullWidth": false,
@@ -160,11 +160,11 @@
       "id": "info-card-dimentica",
       "isFullModeStyle": true,
       "textPosition": "left",
-      "imageUrl": "/arquivos/Schermata_2019-11-27_alle_14.25.18.png",
+      "imageUrl": "/arquivos/backtoschoolmobile.png",
       "headline": "Dimentica i capi che si rovinano dopo  un lavaggio: un iDO è per sempre.",
       "callToActionText": "SCOPRI",
       "callToActionUrl": "/sale/d",
-      "blockClass": "info-card-domentica",
+      "blockClass": "info-card-dimentica-mobile",
       "textAlignment": "center"
     }
   },
@@ -177,14 +177,14 @@
       "headline": "Richiedi la nostra fidelity card.",
       "callToActionText": "SCOPRI",
       "callToActionUrl": "/sale/d",
-      "blockClass": "info-card-fidelity-card",
+      "blockClass": "info-card-fidelity-card-mobile",
       "textAlignment": "center"
     }
   },
   "rich-text#shelf-title-armocromiaMobile": {
     "props": {
       "text": "## L’armocromia",
-      "blockClass": "shelfTitle"
+      "blockClass": "armocromia-mobile"
     }
   },
   "info-card#coloursMobile": {
@@ -196,7 +196,7 @@
       "headline": "Quali colori stanno meglio al tuo bambino?",
       "callToActionText": "SCOPRI",
       "callToActionUrl": "/sale/d",
-      "blockClass": "info-card-domentica",
+      "blockClass": "info-card-colours-mobile",
       "textAlignment": "center"
     }
   },
@@ -209,7 +209,7 @@
       "headline": "Scopri l’outlet",
       "callToActionText": "SCOPRI",
       "callToActionUrl": "/sale/d",
-      "blockClass": "info-card-domentica",
+      "blockClass": "info-card-teddy-mobile",
       "textAlignment": "center"
     }
   }

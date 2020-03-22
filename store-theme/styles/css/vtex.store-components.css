@@ -243,14 +243,86 @@
 }
 
 
-@media only screen and (max-width: 768px) {
-:global(.vtex-shelf-1-x-container--mobileShow) {
-    display: flex;
-  }
+
+/* Mobile version styles begin here */
+
+:global(.vtex-store-components-3-x-infoCardHeadline--info-card-backtoschool-mobile) {
+  font-size: 30px;
 }
 
-@media only screen and (min-width: 769px) {
-:global(.vtex-shelf-1-x-container--mobileShow) {
-    display: none!important;
-  }
+.infoCardContainer--info-card-backtoschool-mobile :global(.vtex-button){
+  background-color: transparent;
+  border-color: white;
+  color: white;
+  border-radius: 50px;
+  border: solid 1px;
+  font-size: 18px;
+  font-family: "MuseoJHSans-900";
+  font-weight: bold;
 }
+
+:global(.vtex-store-components-3-x-infoCardHeadline--info-card-dimentica-mobile) {
+  font-size: 30px;
+}
+
+.infoCardContainer--info-card-dimentica-mobile :global(.vtex-button){
+  background-color: transparent;
+  border-color: white;
+  color: white;
+  border-radius: 50px;
+  border: solid 1px;
+  font-size: 18px;
+  font-family: "MuseoJHSans-900";
+  font-weight: bold;
+}
+
+
+:global(.vtex-store-components-3-x-infoCardHeadline--info-card-fidelity-card-mobile) {
+  font-size: 30px;
+}
+
+.infoCardContainer--info-card-fidelity-card-mobile :global(.vtex-button){
+  background-color: white;
+  border-color: white;
+  border-radius: 50px;
+  border: solid 1px;
+}
+
+.infoCardContainer--info-card-fidelity-card-mobile :global(.vtex-button__label){
+  color: black;
+  font-size: 18px;
+  font-family: "MuseoJHSans-900";
+  font-weight: bold;
+}
+
+:global(.vtex-store-components-3-x-infoCardHeadline--info-card-colours-mobile) {
+  font-size: 30px;
+}
+
+.infoCardContainer--info-card-colours-mobile :global(.vtex-button){
+  background-color: transparent;
+  border-color: white;
+  color: white;
+  border-radius: 50px;
+  border: solid 1px;
+  font-size: 18px;
+  font-family: "MuseoJHSans-900";
+  font-weight: bold;
+}
+
+:global(.vtex-store-components-3-x-infoCardHeadline--info-card-teddy-mobile) {
+  font-size: 30px;
+}
+
+.infoCardContainer--info-card-teddy-mobile :global(.vtex-button){
+  background-color: transparent;
+  border-color: white;
+  color: white;
+  border-radius: 50px;
+  border: solid 1px;
+  font-size: 18px;
+  font-family: "MuseoJHSans-900";
+  font-weight: bold;
+}
+
+

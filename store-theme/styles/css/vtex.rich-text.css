@@ -160,10 +160,23 @@
 
 /*Mobile version styling begins here */
 
+
+:global(.vtex-rich-text-0-x-headingLevel2--rich-text-backtoschoolMobile) {
+  font-size: 20px;
+}
+
+:global(.vtex-rich-text-0-x-headingLevel2--rich-text-category-shelf-mobile) {
+  font-size: 20px;
+}
+
+:global(.vtex-rich-text-0-x-headingLevel2--rich-text-armocromia-mobile) {
+  font-size: 20px;
+}
+
+
+
 :global(.vtex-rich-text-0-x-paragraph--footerRichMobile) {
   color: black;
   font-size: 8px;
   text-align: center;
 }
-
-
