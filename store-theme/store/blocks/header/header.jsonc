@@ -6,38 +6,24 @@
     "blocks": ["header-layout.desktop", "header-layout.mobile"]
   },
 
-  "sticky-layout#header": {
-  "children": [
-  "flex-layout.row#1-desktop",
-  "flex-layout.row#3-desktop",
-  "flex-layout.row#2-desktop",
-  "flex-layout.row#4-desktop"
-  ]
-  },
   "header-layout.desktop": {
     "children": [
       "sticky-layout#header"
     ]
   },
 
-  "flex-layout.row#1-desktop": {
-    "children": ["telemarketing"],
-    "props": {
-      "fullWidth": true
-    }
+  "sticky-layout#header": {
+  "children": [
+  "flex-layout.row#3-desktop",
+  "flex-layout.row#2-desktop",
+  "flex-layout.row#4-desktop"
+     ]
   },
-  "sticky-layout#notificationBar": {
-    "children":[
-    "flex-layout.row#2-desktop"
-  ]
-  },
-  "sticky-layout#menuLink": {
-    "children":[
-    "flex-layout.row#3-desktop"
-  ]
-},
+
   "flex-layout.row#2-desktop": {
-    "children": ["notification.bar#home"],
+    "children": [
+    "notification.bar#home"
+    ],
     "props": {
       "fullWidth": "true",
       "display": "false"
@@ -111,24 +97,7 @@
   "header-layout.mobile": {
     "children": ["sticky-layout#1-mobile"]
   },
-  "sticky-layout#1-mobile": {
-    "children": ["flex-layout.row#1-mobile"]
-  },
-  "flex-layout.row#1-mobile": {
-    "children": [
-      "drawer",
-      "logo#mobile",
-      "flex-layout.col#spacer",
-      "login",
-      "minicart.v2"
-    ],
-    "props": {
-      "blockClass": "main-header-mobile",
-      "preventHorizontalStretch": true,
-      "preserveLayoutOnMobile": true,
-      "fullWidth": true
-    }
-  },
+
   "drawer": {
     "children": ["menu#drawer"]
   },

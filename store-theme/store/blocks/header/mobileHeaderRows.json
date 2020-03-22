@@ -1,0 +1,32 @@
+{
+  "sticky-layout#1-mobile": {
+    "children": [
+      "flex-layout.row#3-mobile",
+      "flex-layout.row#1-mobile"
+    ]
+  },
+  "flex-layout.row#1-mobile": {
+    "children": [
+      "notification.bar#home-mobile"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "flex-layout.row#3-mobile": {
+    "props": {
+      "blockClass": "menu-link",
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "logo#desktopHeaderMobile",
+      "vtex.menu@2.x:menu#institutional-mobile"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "vtex.menu@2.x:menu#websites-mobile": {
+    "children": [
+      "menu-item#shop"
+    ]
+  },
+  "menu-item#shop-mobile": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "MINICONF",
+        "text": "MINICONF"
+      }
+    }
+  },
+
+
+  "vtex.menu@2.x:menu#institutional-mobile": {
+    "children": [
+      "menu-item#vtex-search-mobile",
+      "menu-item#vtex-location-mobile",
+      "menu-item#vtex-cart-mobile"
+    ]
+  }
+}
