@@ -8,7 +8,6 @@
       "blockClass": "logo-mobile"
     }
   },
-
   "menu-item#bisognoMobile": {
     "props": {
       "id": "menu-item-bisogno",
@@ -41,7 +40,6 @@
       }
     }
   },
-
   "menu-item#textContent2Mobile": {
     "props": {
       "id": "menu-item-text2",
@@ -170,7 +168,6 @@
       }
     }
   },
-
   "menu-item#textContent10Mobile": {
     "props": {
       "id": "menu-item-text1",
@@ -363,63 +360,183 @@
       }
     }
   },
-
-
-  "image#facebookMobile": {
+  "vtex.menu@2.x:menu#footerServizioMobile": {
     "props": {
-      "src": "/arquivos/facebook.png",
-      "maxHeight": 39,
-      "maxWidth": 39,
-      "alt": "facebook.com",
-      "title": "facebook.com",
-      "link": {
-        "newTab": true,
-        "url": "https://www.facebook.com/vtexonline/"
-      }
-    }
+      "blockClass": "footer-mobile-menu-23rdmarch"
+    },
+    "children": [
+      "menu-item#azienda-mobile",
+      "menu-item#servizio-clienti-mobile",
+      "menu-item#my-ido-mobile",
+      "menu-item#termini-e-condizioni-mobile",
+      "menu-item#fidelity-card-mobile",
+      "menu-item#partner-lab"
+    ]
   },
-  "image#instagramMobile": {
+  "menu-item#azienda-mobile": {
     "props": {
-      "src": "/arquivos/instagram.png",
-      "maxHeight": 39,
-      "maxWidth": 39,
-      "alt": "instagram.com",
-      "title": "instagram.com",
-      "link": {
-        "newTab": true,
-        "url": "https://www.facebook.com/vtexonline/"
-      }
-    }
-  },
-  "image#youtubeMobile": {
-    "props": {
-      "src": "/arquivos/youtube.png",
-      "maxHeight": 39,
-      "maxWidth": 39,
-      "alt": "youtube.com",
-      "title": "youtube.com",
-      "link": "https://www.youtube.com/user/VTEXTV"
-    }
-  },
-  "menu-item#privacyMobile": {
-    "props": {
-      "id": "menu-item-privacy",
+      "id": "menu-item-azienda-mobile",
       "type": "custom",
-      "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/bags/necessaire",
-        "noFollow": true,
-        "tagTitle": "Privacy Policy",
-        "text": "Privacy Policy"
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "AZIENDA",
+        "text": "AZIENDA"
       }
     }
   },
-  "rich-text#footerMobile": {
+
+  "menu-item#servizio-clienti-mobile": {
     "props": {
-      "text": "iDO è un marchio Miniconf Spa\nSede Legale: Via Provinciale 1/A, 52010 Ortignano Raggiolo, Arezzo | Tel. +39.0575.5331 | miniconf @pec.miniconf.it\nP.IVA e CF 00249390519 | REA AR 64978 | Cap. Soc. € 3.000.000 | Soggetta all’attività di direzione e coordinamento di MINFIN s.r.l.",
-      "blockClass": "footerRichMobile"
+      "id": "menu-item-azienda-mobile",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu-item-azienda-mobile",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "SERVIZIO CLIENTI",
+        "text": "SERVIZIO CLIENTI"
+      },
+      "iconProps": {
+        "id": "hpa-arrow-to-bottom",
+        "size": 16,
+        "viewBox": "0 0 16 16",
+        "activeClassName": "footer-menu-icon-mobile",
+        "mutedClassName": "c-action-primary"
+      },
+      "iconToTheRight": true
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#shop"]
+  },
+  "vtex.menu@2.x:submenu.accordion#shop": {
+    "children": [
+      "menu-item#my-ido-mobile"
+    ]
+  },
+  "vtex.menu@2.x:menu#submenushop": {
+    "children": [
+      "menu-item#shop"
+    ]
+  },
+  "menu-item#my-ido-mobile": {
+    "props": {
+      "id": "menu-item-azienda-mobile",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "MYIDO",
+        "text": "MYIDO"
+      }
+    }
+  },
+
+  "menu-item#termini-e-condizioni-mobile": {
+    "props": {
+      "id": "menu-item-azienda-mobile",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "TERMINI E CONDIZIONI",
+        "text": "TERMINI E CONDIZIONI"
+      }
+    }
+  },
+
+  "menu-item#fidelity-card-mobile": {
+    "props": {
+      "id": "menu-item-azienda-mobile",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "FIDELITY CARD",
+        "text": "FIDELITY CARD"
+      }
+    }
+  },
+
+  "menu-item#partner-lab": {
+    "props": {
+      "id": "menu-item-azienda-mobile",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "PARTNERLAB",
+        "text": "PARTNERLAB"
+      }
+    }
+  },
+    "image#facebookMobile": {
+      "props": {
+        "src": "/arquivos/facebook.png",
+        "maxHeight": 39,
+        "maxWidth": 39,
+        "alt": "facebook.com",
+        "title": "facebook.com",
+        "link": {
+          "newTab": true,
+          "url": "https://www.facebook.com/vtexonline/"
+        }
+      }
+    },
+    "image#instagramMobile": {
+      "props": {
+        "src": "/arquivos/instagram.png",
+        "maxHeight": 39,
+        "maxWidth": 39,
+        "alt": "instagram.com",
+        "title": "instagram.com",
+        "link": {
+          "newTab": true,
+          "url": "https://www.facebook.com/vtexonline/"
+        }
+      }
+    },
+    "image#youtubeMobile": {
+      "props": {
+        "src": "/arquivos/youtube.png",
+        "maxHeight": 39,
+        "maxWidth": 39,
+        "alt": "youtube.com",
+        "title": "youtube.com",
+        "link": "https://www.youtube.com/user/VTEXTV"
+      }
+    },
+    "menu-item#privacyMobile": {
+      "props": {
+        "id": "menu-item-privacy",
+        "type": "custom",
+        "iconId": null,
+        "blockClass": "privacy-policy-mobile",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/bags/necessaire",
+          "noFollow": true,
+          "tagTitle": "Privacy Policy",
+          "text": "Privacy Policy"
+        }
+      }
+    },
+    "rich-text#footerMobile": {
+      "props": {
+        "text": "iDO è un marchio Miniconf Spa\nSede Legale: Via Provinciale 1/A, 52010 Ortignano Raggiolo, Arezzo | Tel. +39.0575.5331 | miniconf @pec.miniconf.it\nP.IVA e CF 00249390519 | REA AR 64978 | Cap. Soc. € 3.000.000 | Soggetta all’attività di direzione e coordinamento di MINFIN s.r.l.",
+        "blockClass": "footerRichMobile"
+      }
     }
   }
-}

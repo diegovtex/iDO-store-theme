@@ -47,5 +47,10 @@
       "menu-item#textContent20Mobile",
       "menu-item#textContent21Mobile"
     ]
+  },
+  "flex-layout.col#text5Mobile": {
+    "children": [
+      "vtex.menu@2.x:menu#footerServizioMobile"
+    ]
   }
 }

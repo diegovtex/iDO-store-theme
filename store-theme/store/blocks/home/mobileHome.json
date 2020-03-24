@@ -17,18 +17,19 @@
   },
   "stack-layout#firstSlideMobile": {
     "children": [
-      "info-card#hat1",
-      "info-card#hat2"
+      "info-card#hat1Mobile",
+      "info-card#hat2Mobile"
     ]
   },
   "info-card#hat1Mobile": {
     "props": {
-      "imageUrl": "https://andreibranch--storeido.myvtex.com/arquivos/2-layers.png",
+      "imageUrl": "https://andreibranch--storeido.myvtex.com/arquivos/nuovoarrivi.png",
       "isFullModeStyle": true,
       "callToActionText": "BAMBINO",
       "callToActionUrl": "www.google.com",
       "textPosition": "center",
-      "zIndexOffset": 1
+      "zIndexOffset": 1,
+      "blockClass": "firstStackWithImage"
     }
   },
   "info-card#hat2Mobile": {
@@ -53,11 +54,11 @@
       "paginationDotsVisibility": "desktopOnly",
       "productList": {
         "maxItems": 8,
-        "itemsPerPage": 1.5,
-        "minItemsPerPage": 1.5,
+        "itemsPerPage": 2,
+        "minItemsPerPage": 2,
         "scroll": "BY_PAGE",
         "arrows": true,
-        "titleText": "Top sellers"
+        "titleText": ""
       }
     }
   },
@@ -73,7 +74,7 @@
       "isFullModeStyle": true,
       "textPosition": "left",
       "imageUrl": "/arquivos/boyandgirlmobile.png",
-      "headline": "Ricomincia l'avventura con l'outfit giusto",
+      "headline": "Ricomincia\nl'avventura\ncon l'outfit giusto",
       "callToActionText": "ACQUISTA",
       "callToActionUrl": "/sale/d",
       "blockClass": "info-card-backtoschool-mobile",
@@ -211,6 +212,12 @@
       "callToActionUrl": "/sale/d",
       "blockClass": "info-card-teddy-mobile",
       "textAlignment": "center"
+    }
+  },
+
+  "newsletter#mobile": {
+    "props": {
+      "blockClass": "newsletter-mobile"
     }
   }
 }

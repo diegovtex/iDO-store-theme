@@ -37,7 +37,7 @@
         "info-card#coloursMobile",
         "address-search",
         "info-card#teddyMobile",
-        "newsletter"
+        "newsletter#mobile"
       ]
     },
       "slider-layout#andrei-images": {
@@ -96,7 +96,7 @@
   "shelf#radu": {
       "blocks": ["product-summary"],
       "props": {
-        "category": 2,
+        "category": 1,
         "orderBy": "OrderByTopSaleDESC",
         "paginationDotsVisibility": "desktopOnly",
         "productList": {

@@ -7,7 +7,7 @@
   },
   "flex-layout.row#1-mobile": {
     "children": [
-      "notification.bar#home-mobile"
+      "notification.inline#home-mobile"
     ],
     "props": {
       "blockClass": "main-header-mobile",

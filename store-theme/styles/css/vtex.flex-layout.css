@@ -96,3 +96,35 @@
   margin-left: 45px;
   margin-right: 0px;
 }
+
+/* Mobile styling begins here */
+
+.flexRowContent--main-header-mobile {
+  padding: 0px !important;
+  height: 31px;
+  background-color: #aeca3b!important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexRowContent--menu-link {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flexRowContent--row-networks-mobile {
+  display: flex
+}
+
+.flexRowContent--row-4-mobile {
+  display: flex;
+  align-items: center;
+}
+
+.flexRowContent--privacy-policy-mobile {
+  justify-content: flex-end;
+}
+
+
+

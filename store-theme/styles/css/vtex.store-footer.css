@@ -170,4 +170,37 @@
   background-color: white;
   color: black;
 }
+:global(.vtex-flex-layout-0-x-flexRow--row-6-mobile) {
+  background-color: white;
+}
 
+:global(.vtex-menu-2-x-styledLinkContent--footer-mobile-menu-23rdmarch) {
+  position: relative;
+}
+
+:global(.vtex-menu-2-x-styledLinkIcon--footer-menu-icon-mobile) {
+  position: absolute;
+}
+
+
+:global(.vtex-menu-2-x-menuContainer--footer-mobile-menu-23rdmarch) {
+  flex-direction: column;
+}
+
+:global(.vtex-menu-2-x-styledLinkContainer--menu-item-azienda-mobile) {
+  position: relative;
+}
+
+:global(.vtex-menu-2-x-styledLinkIcon--menu-item-azienda-mobile) {
+  position: absolute;
+  right: 20px;
+  top: 18px;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-item-azienda-mobile--isClosed) {
+  display: none;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-item-azienda-mobile--isOpen) {
+  display: none;
+}

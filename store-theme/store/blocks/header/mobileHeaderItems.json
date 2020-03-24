@@ -9,7 +9,7 @@
       "blockClass": "logo-mobile"
     }
   },
-  "notification.bar#home-mobile": {
+  "notification.inline#home-mobile": {
     "props": {
       "content": "RITIRO IN NEGOZIO GRATUITO",
       "blockClass": "notification-bar-mobile"

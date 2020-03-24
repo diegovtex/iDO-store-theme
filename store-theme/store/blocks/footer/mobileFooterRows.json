@@ -53,6 +53,16 @@
     }
   },
 
+  "flex-layout.row#footer-6-mobile": {
+    "children": [
+      "flex-layout.col#text5Mobile"
+    ],
+    "props": {
+      "blockClass": "row-6-mobile",
+      "paddingTop": 6,
+      "paddingBottom": 6
+    }
+  },
   "flex-layout.row#footer-5-mobile": {
     "children": [
       "rich-text#footerMobile"

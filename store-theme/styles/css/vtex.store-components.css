@@ -247,7 +247,7 @@
 /* Mobile version styles begin here */
 
 :global(.vtex-store-components-3-x-infoCardHeadline--info-card-backtoschool-mobile) {
-  font-size: 30px;
+  font-size: 35px;
 }
 
 .infoCardContainer--info-card-backtoschool-mobile :global(.vtex-button){
@@ -258,7 +258,13 @@
   border: solid 1px;
   font-size: 18px;
   font-family: "MuseoJHSans-900";
+  height: 100%;
   font-weight: bold;
+}
+
+.infoCardHeadline--info-card-backtoschool-mobile {
+  padding-right: 200px;
+  padding-top: 140px;
 }
 
 :global(.vtex-store-components-3-x-infoCardHeadline--info-card-dimentica-mobile) {
@@ -325,4 +331,29 @@
   font-weight: bold;
 }
 
+.infoCardTextContainer--firstStackWithImage {
+  align-content: flex-start;
+  display: inherit;
+  align-items: center;
+  align-self: flex-end;
+  justify-content: flex-end;
+  margin-bottom: 0px;
+  width: 50%;
+  margin-right: 0px;
+  margin-left: 0px;
+}
 
+.infoCardContainer--firstStackWithImage {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  width: 100vw;
+}
+
+
+.infoCardContainer--secondLayer {
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+  height: 100%;
+}
