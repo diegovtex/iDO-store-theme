@@ -53,5 +53,8 @@
     "vtex.store-image": "0.x",
     "vtex.address-locator": "2.x"
   },
+  "peerDependencies": {
+    "acupula.store-locator": "0.x"
+  },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

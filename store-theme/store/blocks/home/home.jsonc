@@ -17,12 +17,12 @@
         "info-card#fidelity-card",
         "rich-text#shelf-title-armocromia",
         "info-card#colours",
-        "address-search",
         "info-card#teddy",
         "rich-text#link",
         "newsletter"
       ]
     },
+
     "responsive-layout.mobile": {
       "children": [
         "slider-layout#andrei-imagesMobile",
@@ -96,7 +96,7 @@
   "shelf#radu": {
       "blocks": ["product-summary"],
       "props": {
-        "category": 1,
+        "category": 2,
         "orderBy": "OrderByTopSaleDESC",
         "paginationDotsVisibility": "desktopOnly",
         "productList": {

@@ -378,6 +378,7 @@
       "id": "menu-item-azienda-mobile",
       "type": "custom",
       "highlight": false,
+      "blockClass": "menu-item-footer-mobile-submenu",
       "itemProps": {
         "type": "internal",
         "href": "#",
@@ -414,19 +415,111 @@
   },
   "vtex.menu@2.x:submenu.accordion#shop": {
     "children": [
-      "menu-item#my-ido-mobile"
+      "menu-item#submenu-guida-alle-taglie",
+      "menu-item#submenu-tempi-di-consegna",
+      "menu-item#submenu-resi-e-cambi",
+      "menu-item#submenu-order-processing",
+      "menu-item#submenu-contattaci",
+      "menu-item#submenu-inscriviti-alla-newsletter"
     ]
   },
-  "vtex.menu@2.x:menu#submenushop": {
-    "children": [
-      "menu-item#shop"
-    ]
+
+    "menu-item#submenu-guida-alle-taglie": {
+    "props": {
+    "id": "menu-item-azienda-mobile-submenu",
+    "type": "custom",
+    "highlight": false,
+    "itemProps": {
+    "type": "internal",
+    "href": "#",
+    "noFollow": false,
+    "tagTitle": "Guida alle taglie",
+    "text": "Guida alle taglie"
+    }
+  }
+},
+
+  "menu-item#submenu-tempi-di-consegna": {
+    "props": {
+      "id": "menu-item-tempi-di-consegna",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Tempi di consegna",
+        "text": "Tempi di consegna"
+      }
+    }
+  },
+
+  "menu-item#submenu-resi-e-cambi": {
+    "props": {
+      "id": "menu-item-resi-e-cambi",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Resi e cambi",
+        "text": "Resi e cambi"
+      }
+    }
+  },
+
+  "menu-item#submenu-order-processing": {
+    "props": {
+      "id": "menu-item-order-processing",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Order processing",
+        "text": "Order processing"
+      }
+    }
+  },
+
+
+  "menu-item#submenu-contattaci": {
+    "props": {
+      "id": "menu-item-contattaci",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Contattaci",
+        "text": "Contattaci"
+      }
+    }
+  },
+
+  "menu-item#submenu-inscriviti-alla-newsletter": {
+    "props": {
+      "id": "menu-item-inscriviti-alla-newsletter",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Iscriviti alla newsletter",
+        "text": "Iscriviti alla newsletter"
+      }
+    }
   },
   "menu-item#my-ido-mobile": {
     "props": {
       "id": "menu-item-azienda-mobile",
       "type": "custom",
       "highlight": false,
+      "blockClass": "menu-item-footer-mobile-submenu",
       "itemProps": {
         "type": "internal",
         "href": "#",
@@ -442,6 +535,7 @@
       "id": "menu-item-azienda-mobile",
       "type": "custom",
       "highlight": false,
+      "blockClass": "menu-item-footer-mobile-submenu",
       "itemProps": {
         "type": "internal",
         "href": "#",
@@ -457,6 +551,7 @@
       "id": "menu-item-azienda-mobile",
       "type": "custom",
       "highlight": false,
+      "blockClass": "menu-item-footer-mobile-submenu",
       "itemProps": {
         "type": "internal",
         "href": "#",
@@ -472,6 +567,7 @@
       "id": "menu-item-azienda-mobile",
       "type": "custom",
       "highlight": false,
+      "blockClass": "menu-item-footer-mobile-submenu-last",
       "itemProps": {
         "type": "internal",
         "href": "#",

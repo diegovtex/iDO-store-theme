@@ -97,6 +97,41 @@
   margin-right: 0px;
 }
 
+/* Styling for product page desktop version */
+
+:global(.vtex-store-components-3-x-price_sellingPrice) {
+  color: #001930;
+  font-family: "Museo JH Sans 900";
+  font-size: 25px;
+  line-height: 29px;
+}
+
+:global(.vtex-store-components-3-x-productNameContainer) {
+  color: #001930;
+  font-family: "Museo JH Sans 900";
+  font-size: 25px;
+  line-height: 29px;
+  font-weight: bold;
+}
+
+.flexRowContent--product-buy-button :global(.vtex-button) {
+  background-color: black;
+}
+
+:global(.vtex-store-components-3-x-productImagesGallerySwiperContainer--image-to-hide) {
+  display: none;
+}
+
+:global(.vtex-product-quantity-1-x-quantitySelectorStepper) {
+  width: 32%;
+  border: solid 1px;
+}
+
+:global(.vtex-styleguide-9-x-hideDecorators) {
+  border-color: transparent;
+}
+
+
 /* Mobile styling begins here */
 
 .flexRowContent--main-header-mobile {
