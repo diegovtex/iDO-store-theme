@@ -54,7 +54,7 @@
   "flex-layout.col#stack": {
     "children": ["stack-layout"],
     "props": {
-      "width": "60%",
+      "width": "65%",
       "rowGap": 0
     }
   },
@@ -67,6 +67,7 @@
   },
   "product-images#desktopVersion": {
     "props": {
+      "blockClass": "productImageDesktop",
       "displayThumbnailsArrows": true,
       "thumbnailsOrientation": "horizontal",
       "thumbnailAspectRatio": "1:1"
@@ -75,7 +76,6 @@
 
   "product-images#desktopVersionSecondary": {
     "props": {
-      "displayThumbnailsArrows": true,
       "thumbnailsOrientation": "horizontal",
       "thumbnailAspectRatio": "1:1",
       "blockClass": "image-to-hide"
@@ -98,6 +98,7 @@
       "product-quantity",
       "product-identifier.product",
       "product-assembly-options",
+      "flex-layout.row#productNamePriceSecondary",
       "flex-layout.row#buy-button",
       "flex-layout.row#description",
       "availability-subscriber"
@@ -114,6 +115,15 @@
     ]
   },
 
+  "flex-layout.row#productNamePriceSecondary": {
+    "props": {
+      "blockClass": "product-name-price-section"
+    },
+    "children": [
+      "product-price#product-detailsBottom"
+    ]
+  },
+
   "sku-selector": {
     "props": {
       "variationsSpacing": 3,
@@ -123,11 +133,19 @@
 
   "product-price#product-details": {
     "props": {
+      "blockClass": "top-price-section",
       "showInstallments": true,
       "showSavings": true
     }
   },
 
+  "product-price#product-detailsBottom": {
+    "props": {
+      "blockClass": "bottom-price-section",
+      "showInstallments": true,
+      "showSavings": true
+    }
+  },
   "flex-layout.row#buy-button": {
     "props": {
       "marginTop": 4,
@@ -144,6 +162,30 @@
         "WhatsApp": true,
         "Twitter": false,
         "Pinterest": true
+      }
+    }
+  },
+
+  "shelf.relatedProducts": {
+    "blocks":[
+      "product-summary#desktop"
+    ],
+    "props": {
+      "recommendation": "similars",
+      "blockClass": "related-products-desktop"
+    },
+
+    "product-summary#desktop": {
+      "props": {
+        "isOneClickBuy": false,
+        "showBadge": true,
+        "badgeText": "OFF",
+        "displayBuyButton": "displayButtonHover",
+        "showCollections": false,
+        "showListPrice": true,
+        "showLabels": false,
+        "showInstallments": true,
+        "showSavings": true
       }
     }
   }

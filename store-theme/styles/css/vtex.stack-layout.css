@@ -30,9 +30,10 @@
   color: black;
   font-size: 22px;
   font-weight: bold;
-  font-family: "Museo JH Sans 900";
+  font-family: "sans900";
   transition: .3s;
 }
+
 
 .stackContainer--hatSliderStack :global(.vtex-button):hover {
   background-color: #001930;

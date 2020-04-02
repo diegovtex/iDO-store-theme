@@ -19,13 +19,15 @@
         "info-card#colours",
         "info-card#teddy",
         "rich-text#link",
-        "newsletter"
+        "newsletter",
+        "__fold__.experimentalLazyAssets"
       ]
     },
 
     "responsive-layout.mobile": {
       "children": [
         "slider-layout#andrei-imagesMobile",
+        "__fold__.experimentalLazyAssets",
         "shelf#raduMobile",
         "rich-text#shelf-title-backToSchoolMobile",
         "info-card#backToSchoolMobile",
@@ -182,7 +184,7 @@
         "phone": 1
       },
       "infinite": true,
-      "showNavigationArrows": "desktopOnly",
+      "showNavigationArrows": "always",
       "blockClass": "carousel"
     }
   },
@@ -234,7 +236,7 @@
       "infinite": true,
       "fullWidth": false,
       "blockClass": "shelf",
-      "showNavigationArrows": "never"
+      "showNavigationArrows": "always"
     }
   },
    "info-card#1": {
