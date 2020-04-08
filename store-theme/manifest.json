@@ -1,7 +1,7 @@
 {
   "vendor": "storeido",
-  "name": "store-theme-andrei",
-  "version": "3.26.2",
+  "name": "store-theme-radu",
+  "version": "3.26.3",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
