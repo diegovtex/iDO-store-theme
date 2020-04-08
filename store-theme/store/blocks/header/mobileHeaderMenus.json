@@ -25,7 +25,9 @@
     "children": [
       "menu-item#vtex-search-mobile",
       "menu-item#vtex-location-mobile",
-      "menu-item#vtex-cart-mobile"
+      "menu-item#vtex-cart-mobile",
+      "drawer#burger"
+
     ]
   }
 }

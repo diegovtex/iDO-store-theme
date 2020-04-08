@@ -1,0 +1,16 @@
+.drawerContent :global(.vtex-menu-2-x-menuContainerNav) {
+  width: 100%;
+}
+
+.drawer {
+  width: 100% !important;
+  max-width: unset !important;
+}
+
+.drawerContent { width: 100%; }
+
+.drawerContent :global(.vtex-menu-2-x-styledLinkContent) {
+  justify-content: flex-end;
+  font-family: "MuseoJHSans500";
+  font-size: 18px;
+}

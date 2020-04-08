@@ -83,3 +83,174 @@
     transition: none;
   }
 }
+ /* mobile version burger menu header */
+
+:global(.vtex-menu-2-x-submenuAccordion) {
+  flex-direction: column;
+  background-color: white;
+}
+
+:global(.vtex-store-drawer-0-x-drawer) {
+  top: 80px;
+  align-items: flex-end;
+
+}
+
+:global(.vtex-store-drawer-0-x-closeIconContainer) {
+  direction: rtl;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--burger-myido-menu) {
+  border-bottom: gray solid 1px;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  padding-right: 26px;
+  font-weight: bolder;
+  font-size: 20px!important;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--burger-lista-menu) {
+  border-bottom: gray solid 1px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 26px;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--burger-trova-menu) {
+  border-bottom: gray solid 1px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 26px;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--burger-bambina-menu) {
+  padding-top: 20px;
+  padding-right: 26px;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--burger-bambino-menu) {
+  padding-right: 26px;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--burger-prodotti-menu) {
+  border-bottom: gray solid 1px;
+  padding-bottom: 20px;
+  padding-right: 26px;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--burger-occasione-menu) {
+  border-bottom: gray solid 1px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 26px;
+
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--burger-comfortable-menu) {
+  padding-top: 20px;
+  padding-right: 26px;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--burger-newborn-menu) {
+  padding-right: 26px;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--burger-christmas-menu) {
+  padding-right: 26px;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--burger-wecare-menu) {
+  border-bottom: gray solid 1px;
+  padding-bottom: 20px;
+  padding-right: 26px;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--burger-termini-menu) {
+  border-bottom: gray solid 1px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 26px;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--burger-english-menu) {
+  padding-top: 20px;
+  padding-right: 26px;
+}
+
+:global(.vtex-menu-2-x-styledLinkContainer--burger-myido-menu) {
+  margin-left: unset;
+  margin-right: unset;
+}
+
+:global(.vtex-menu-2-x-styledLinkContainer--burger-lista-menu) {
+  margin-left: unset;
+  margin-right: unset;
+}
+
+:global(.vtex-menu-2-x-styledLinkContainer--burger-trova-menu) {
+  margin-left: unset;
+  margin-right: unset;
+}
+
+:global(.vtex-menu-2-x-styledLinkContainer--burger-bambina-menu) {
+  margin-left: unset;
+  margin-right: unset;
+}
+
+:global(.vtex-menu-2-x-styledLinkContainer--burger-bambino-menu) {
+  margin-left: unset;
+  margin-right: unset;
+}
+
+:global(.vtex-menu-2-x-styledLinkContainer--burger-prodotti-menu) {
+  margin-left: unset;
+  margin-right: unset;
+
+}
+
+:global(.vtex-menu-2-x-styledLinkContainer--burger-occasione-menu) {
+  margin-left: unset;
+  margin-right: unset;
+
+}
+
+:global(.vtex-menu-2-x-styledLinkContainer--burger-comfortable-menu) {
+  margin-left: unset;
+  margin-right: unset;
+
+}
+
+:global(.vtex-menu-2-x-styledLinkContainer--burger-newborn-menu) {
+  margin-left: unset;
+  margin-right: unset;
+
+}
+
+:global(.vtex-menu-2-x-styledLinkContainer--burger-christmas-menu) {
+  margin-left: unset;
+  margin-right: unset;
+
+}
+
+:global(.vtex-menu-2-x-styledLinkContainer--burger-wecare-menu) {
+  margin-left: unset;
+  margin-right: unset;
+
+}
+
+:global(.vtex-menu-2-x-styledLinkContainer--burger-termini-menu) {
+  margin-left: unset;
+  margin-right: unset;
+
+}
+
+:global(.vtex-menu-2-x-styledLinkContainer--burger-english-menu) {
+  margin-left: unset;
+  margin-right: unset;
+
+}
+
+
+
+
+

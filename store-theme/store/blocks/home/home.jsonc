@@ -95,30 +95,30 @@
 },
 
   "shelf#radu": {
-      "blocks": ["product-summary"],
+      "blocks": ["product-summary#radu"],
       "props": {
         "category": 2,
         "orderBy": "OrderByTopSaleDESC",
         "paginationDotsVisibility": "desktopOnly",
         "productList": {
-          "maxItems": 3,
+          "maxItems": 7,
           "itemsPerPage": 3.5,
           "minItemsPerPage": 1,
           "scroll": "BY_PAGE",
           "arrows": true,
-          "titleText": "Top sellers"
+          "titleText": ""
         }
       }
     },
-    "product-summary": {
+    "product-summary#radu": {
     "props": {
-      "isOneClickBuy": false,
+      "isOneClickBuy": true,
       "showBadge": true,
-      "badgeText": "OFF",
+      "badgeText": "ON",
       "displayBuyButton": "displayButtonHover",
-      "showCollections": false,
+      "showCollections": true,
       "showListPrice": true,
-      "showLabels": false,
+      "showLabels": true,
       "showInstallments": true,
       "showSavings": true
     }

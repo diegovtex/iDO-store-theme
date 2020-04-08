@@ -84,19 +84,49 @@
     }
   },
 
-  "menu-item#vtex-myIdo-mobile": {
+  "drawer#burger": {
+    "props": {
+      "slideDirection": "rightToLeft"
+    },
+    "children": ["menu#drawer-mobile"]
+  },
+  "menu#drawer-mobile": {
+    "children": [
+      "menu-item#myIdo-burger-mobile",
+      "menu-item#lista-burger-mobile",
+      "menu-item#trova-burger-mobile",
+      "menu-item#bambina-burger-mobile",
+      "menu-item#bambino-burger-mobile",
+      "menu-item#prodotti-burger-mobile",
+      "menu-item#occasione-burger-mobile",
+      "menu-item#comfortable-burger-mobile",
+      "menu-item#newBorn-burger-mobile",
+      "menu-item#christmas-burger-mobile",
+      "menu-item#weCare-burger-mobile",
+      "menu-item#termini-burger-mobile",
+      "menu-item#english-burger-mobile"
+
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+
+  "menu-item#myIdo-burger-mobile": {
     "props": {
       "id": "menu-item-myIdo",
       "type": "custom",
+      "iconPosition": "left",
+      "blockClass": "burger-myido-menu",
       "iconProps": {
         "id": "hpa-profile",
-        "iconPosition": "center",
+
         "size": 22,
         "viewBox": "0 0 18 22"
       },
       "highlight": false,
       "itemProps": {
-        "blockClass": "your-class",
         "type": "internal",
         "href": "#",
         "noFollow": false,
@@ -105,16 +135,198 @@
       }
     }
   },
-  "locale-switcher#custom-mobile": {
+  "menu-item#lista-burger-mobile": {
     "props": {
+      "id": "menu-item-lista",
+      "type": "custom",
+      "blockClass": "burger-lista-menu",
       "iconProps": {
-        "id": "mpa-angle--down",
-        "size": 16,
-        "viewBox": "0 0 16 16",
-        "activeClassName": "black",
-        "mutedClassName": "c-action-primary"
+        "id": "mpa-heart",
+        "iconPosition": "center",
+        "size": 23,
+        "viewBox": "0 0 22 19"
       },
-      "iconPosition": "right"
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Lista dei desideri",
+        "text": "Lista dei desideri"
+      }
+    }
+  },
+  "menu-item#trova-burger-mobile": {
+    "props": {
+      "id": "menu-item-trova",
+      "type": "custom",
+      "blockClass": "burger-trova-menu",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Trova i negozi",
+        "text": "Trova i negozi"
+      }
+    }
+  },
+  "menu-item#bambina-burger-mobile": {
+    "props": {
+      "id": "menu-item-bambina",
+      "type": "custom",
+      "blockClass": "burger-bambina-menu",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Bambina",
+        "text": "Bambina"
+      }
+    }
+  },
+
+  "menu-item#bambino-burger-mobile": {
+    "props": {
+      "id": "menu-item-bambino",
+      "type": "custom",
+      "blockClass": "burger-bambino-menu",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Bambino",
+        "text": "Bambino"
+      }
+    }
+  },
+
+  "menu-item#prodotti-burger-mobile": {
+    "props": {
+      "id": "menu-item-prodotti",
+      "type": "custom",
+      "blockClass": "burger-prodotti-menu",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Tutti i prodotti",
+        "text": "Tutti i prodotti"
+      }
+    }
+  },
+  "menu-item#occasione-burger-mobile": {
+    "props": {
+      "id": "menu-item-occasione",
+      "type": "custom",
+      "blockClass": "burger-occasione-menu",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Un iDO per ogni occasione",
+        "text": "Un iDO per ogni occasione"
+      }
+    }
+  },
+
+  "menu-item#comfortable-burger-mobile": {
+    "props": {
+      "id": "menu-item-comfortable",
+      "type": "custom",
+      "blockClass": "burger-comfortable-menu",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "So comfortable",
+        "text": "So comfortable"
+      }
+    }
+  },
+
+  "menu-item#newBorn-burger-mobile": {
+    "props": {
+      "id": "menu-item-newborn",
+      "type": "custom",
+      "blockClass": "burger-newborn-menu",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Newborn Selection",
+        "text": "Newborn Selection"
+      }
+    }
+  },
+
+  "menu-item#christmas-burger-mobile": {
+    "props": {
+      "id": "menu-item-christmas",
+      "type": "custom",
+      "blockClass": "burger-christmas-menu",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Christmas Style",
+        "text": "Christmas Style"
+      }
+    }
+  },
+
+  "menu-item#weCare-burger-mobile": {
+    "props": {
+      "id": "menu-item-wecare",
+      "type": "custom",
+      "blockClass": "burger-wecare-menu",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "We Care",
+        "text": "We Care"
+      }
+    }
+  },
+
+
+  "menu-item#termini-burger-mobile": {
+    "props": {
+      "id": "menu-item-termini",
+      "type": "custom",
+      "blockClass": "burger-termini-menu",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Termini e condizioni",
+        "text": "Termini e condizioni"
+      }
+    }
+  },
+  "menu-item#english-burger-mobile": {
+    "props": {
+      "id": "menu-item-english",
+      "type": "custom",
+      "blockClass": "burger-english-menu",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "English",
+        "text": "English"
+      }
     }
   }
 }
