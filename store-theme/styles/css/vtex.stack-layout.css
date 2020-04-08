@@ -34,6 +34,7 @@
   transition: .3s;
 }
 
+
 .stackContainer--hatSliderStack :global(.vtex-button):hover {
   background-color: #001930;
   border-color: #001930;
@@ -43,43 +44,50 @@
 
 
 /*Mobile version styling begins here */
-:global(.vtex-store-components-3-x-infoCardContainer--firstStackWithImage) {
-  width: 447px;
-  height: 610px;
-}
-:global(.vtex-store-components-3-x-infoCardContainer--secondLayer) {
-  width: 250px;
-  height: 1100px;
-}
-:global(.vtex-store-components-3-x-infoCardTextContainer--firstStackWithImage) {
-  align-content: flex-start;
-  display: inherit;
-  align-items: flex-start;
-  align-self: flex-end;
-  margin-bottom: 10px;
-  width: 0%;
-}
-:global(.vtex-button) {
-  background-color: white;
-  border-color: white;
-  width: 100%;
-  height: 50px;
-  border-radius: 25px;
-  background-color: #ffffff;
-  color: black;
-  font-size: 22px;
-  font-weight: bold;
-  font-family: "Museo JH Sans 900";
-  transition: .3s;
-}
-:global(.vtex-button) :hover {
-  background-color: #001930;
-  border-color: #001930;
-  color: white;
-  border-radius: 50px;
-}
 
-.stackItem--secondLayer {
-  bottom: 0;
-  width: 50%;
+@media screen and (max-width: 768px) {
+  :global(.vtex-store-components-3-x-infoCardContainer--firstStackWithImage) {
+    width: 447px;
+    height: 610px;
+  }
+
+  :global(.vtex-store-components-3-x-infoCardContainer--secondLayer) {
+    width: 250px;
+    height: 1100px;
+  }
+
+  :global(.vtex-store-components-3-x-infoCardTextContainer--firstStackWithImage) {
+    align-content: flex-start;
+    display: inherit;
+    align-items: flex-start;
+    align-self: flex-end;
+    margin-bottom: 10px;
+    width: 0%;
+  }
+
+  :global(.vtex-button) {
+    background-color: white;
+    border-color: white;
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #ffffff;
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: "Museo JH Sans 900";
+    transition: .3s;
+  }
+
+  :global(.vtex-button) :hover {
+    background-color: #001930;
+    border-color: #001930;
+    color: white;
+    border-radius: 50px;
+  }
+
+  .stackItem--secondLayer {
+    bottom: 0;
+    width: 50%;
+  }
 }

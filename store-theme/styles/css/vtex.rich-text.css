@@ -173,6 +173,12 @@
   font-size: 20px;
 }
 
+.paragraph--Prezzo {
+  margin-bottom: 0px;
+}
+.paragraph--partire {
+  margin-top: 0px;
+}
 
 
 :global(.vtex-rich-text-0-x-paragraph--footerRichMobile) {

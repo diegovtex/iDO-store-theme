@@ -204,3 +204,24 @@
 :global(.vtex-menu-2-x-accordionIcon--menu-item-azienda-mobile--isOpen) {
   display: none;
 }
+
+:global(.vtex-menu-2-x-submenuAccordion) {
+  flex-direction: column;
+}
+
+:global(.vtex-menu-2-x-menuItem--menu-item-footer-mobile-submenu) {
+  border-top: solid 1px;
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+:global(.vtex-menu-2-x-menuItem--menu-item-azienda-mobile) {
+  border-top: solid 1px;
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+:global(.vtex-menu-2-x-menuItem--menu-item-footer-mobile-submenu-last) {
+  border-top: solid 1px;
+  border-bottom: solid 1px;
+  border-color: rgba(0, 0, 0, 0.1);
+}
+

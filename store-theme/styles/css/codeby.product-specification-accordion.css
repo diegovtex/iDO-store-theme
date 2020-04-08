@@ -1,0 +1,26 @@
+.itemTitle::before {
+  content: "";
+  vertical-align: text-bottom;
+}
+
+.itemContainer .itemTitle.itemContentActive::before {
+  content: "";
+}
+
+.itemTitle {
+  border-radius: 25px;
+  border: solid 1px;
+  width: 166px;
+  font-size: 10px;
+  text-align: center;
+  height: 32px;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--scegli-taglia) {
+  flex-direction: row;
+  align-items: baseline;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--scegli-taglia) {
+  width: 50%;
+}

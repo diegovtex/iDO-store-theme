@@ -13,6 +13,7 @@
 
 }
 
+
 .notificationContent {
   font-family: "Museo JH Sans";
   color: #ffffff;
@@ -358,5 +359,105 @@
   height: 100%;
 }
 
+/* Codeby store locator css */
 
+
+
+
+/* Product page design desktop version */
+
+.price_listPriceLabel--top-price-section {
+  display: none;
+}
+
+.price_listPrice--top-price-section {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  margin-left: 100px;
+  font-size: 24px;
+}
+
+
+.price_sellingPriceContainer--top-price-section {
+  display: none;
+}
+
+.price_savingsContainer--top-price-section {
+  display: none;
+}
+
+.price_listPriceLabel--top-price-section-discount {
+  display: none;
+}
+
+.price_listPrice--top-price-section-discount {
+  text-decoration: none;
+  color: black;
+  margin-left: 100px;
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+:global(.vtex-product-price-1-x-savings--summary-discount-percentage) {
+  margin-left: 5px;
+  align-items: center;
+  width: auto;
+  color: #aeca3b;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.skuSelectorItemImage {
+  height: 19px !important;
+  width: 19px !important;
+  margin: 0 !important;
+  margin-right: 0.25rem !important;
+}
+.skuSelectorInternalBox {
+  border-radius: 0px;
+}
+.frameAround {
+  border: none;
+}
+
+
+.skuSelectorTextContainer {
+  display: none;
+}
+
+
+:global(.vtex-product-identifier-0-x-product-identifier--productReference) {
+  display: none;
+}
+
+
+.price_sellingPriceContainer--top-price-section-discount {
+  display: none;
+}
+
+.price_savingsContainer--top-price-section-discount {
+  display: none;
+}
+
+
+
+
+.productBrand {
+  font-family: 'teste';
+}
+
+
+
+.productImagesThumb--productImageDesktop {
+  max-height: unset !important;
+  width: 33% !important;
+  height: 242px!important;
+}
+
+.productImagesThumb--image-to-hide {
+  max-height: unset !important;
+  width: 33% !important;
+  height: 130px!important;
+}
 

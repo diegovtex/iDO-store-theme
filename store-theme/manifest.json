@@ -28,6 +28,7 @@
     "vtex.minicart": "2.x",
     "vtex.product-details": "1.x",
     "vtex.product-kit": "1.x",
+    "vtex.product-price": "1.x",
     "vtex.search-result": "3.x",
     "vtex.login": "2.x",
     "vtex.my-account": "1.x",
@@ -51,7 +52,12 @@
     "vtex.product-bookmark-interfaces": "1.x",
     "vtex.slider-layout": "0.x",
     "vtex.store-image": "0.x",
-    "vtex.address-locator": "2.x"
+    "vtex.address-locator": "2.x",
+    "codeby.store-locator": "1.x",
+    "codeby.product-specification-accordion": "1.x"
+  },
+  "peerDependencies": {
+    "acupula.store-locator": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

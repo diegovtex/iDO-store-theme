@@ -17,15 +17,18 @@
         "info-card#fidelity-card",
         "rich-text#shelf-title-armocromia",
         "info-card#colours",
-        "address-search",
+        "flex-layout.row#store-locator",
         "info-card#teddy",
         "rich-text#link",
-        "newsletter"
+        "newsletter",
+        "__fold__.experimentalLazyAssets"
       ]
     },
+
     "responsive-layout.mobile": {
       "children": [
         "slider-layout#andrei-imagesMobile",
+        "__fold__.experimentalLazyAssets",
         "shelf#raduMobile",
         "rich-text#shelf-title-backToSchoolMobile",
         "info-card#backToSchoolMobile",
@@ -42,7 +45,6 @@
     },
       "slider-layout#andrei-images": {
         "children": [
-        "stack-layout#firstSlide",
         "stack-layout#firstSlide",
         "rich-text#link"
         ],
@@ -89,7 +91,6 @@
         "textPosition": "center",
         "zIndexOffset": 1,
          "blockClass": "secondLayer"
-
       }
 },
 
@@ -182,7 +183,7 @@
         "phone": 1
       },
       "infinite": true,
-      "showNavigationArrows": "desktopOnly",
+      "showNavigationArrows": "always",
       "blockClass": "carousel"
     }
   },
@@ -234,7 +235,7 @@
       "infinite": true,
       "fullWidth": false,
       "blockClass": "shelf",
-      "showNavigationArrows": "never"
+      "showNavigationArrows": "always"
     }
   },
    "info-card#1": {
@@ -325,6 +326,32 @@
       "textAlignment": "center"
     }
   },
+
+  "flex-layout.row#store-locator": {
+      "props": {
+        "blockClass": "store-locator-home"
+      },
+      "children": [
+        "store-locator-search-input#test",
+        "rich-text#store-locator"
+      ]
+    },
+
+  "store-locator-search-input#test": {
+    "props": {
+      "placeholder": "here's the placeholder",
+      "value": "initial value",
+      "redirectTo": "/our-stores",
+      "blockClass": "store-locator-desktop"
+    }
+  },
+    "rich-text#store-locator": {
+      "props": {
+        "text": "​Trova il negozio iDO più vicino a te",
+        "blockClass": "store-locator-rich-text"
+      }
+    },
+
   "info-card#teddy": {
     "props": {
       "id": "info-card-domentica",
