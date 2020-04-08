@@ -17,6 +17,7 @@
         "info-card#fidelity-card",
         "rich-text#shelf-title-armocromia",
         "info-card#colours",
+        "flex-layout.row#store-locator",
         "info-card#teddy",
         "rich-text#link",
         "newsletter",
@@ -44,7 +45,6 @@
     },
       "slider-layout#andrei-images": {
         "children": [
-        "stack-layout#firstSlide",
         "stack-layout#firstSlide",
         "rich-text#link"
         ],
@@ -91,7 +91,6 @@
         "textPosition": "center",
         "zIndexOffset": 1,
          "blockClass": "secondLayer"
-
       }
 },
 
@@ -327,6 +326,32 @@
       "textAlignment": "center"
     }
   },
+
+  "flex-layout.row#store-locator": {
+      "props": {
+        "blockClass": "store-locator-home"
+      },
+      "children": [
+        "store-locator-search-input#test",
+        "rich-text#store-locator"
+      ]
+    },
+
+  "store-locator-search-input#test": {
+    "props": {
+      "placeholder": "here's the placeholder",
+      "value": "initial value",
+      "redirectTo": "/our-stores",
+      "blockClass": "store-locator-desktop"
+    }
+  },
+    "rich-text#store-locator": {
+      "props": {
+        "text": "​Trova il negozio iDO più vicino a te",
+        "blockClass": "store-locator-rich-text"
+      }
+    },
+
   "info-card#teddy": {
     "props": {
       "id": "info-card-domentica",

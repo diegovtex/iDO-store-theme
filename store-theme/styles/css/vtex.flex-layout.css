@@ -97,6 +97,7 @@
   margin-right: 0px;
 }
 
+
 /* Styling for product page desktop version */
 
 :global(.vtex-store-components-3-x-price_sellingPrice) {
@@ -106,6 +107,14 @@
   line-height: 29px;
 }
 
+:global(.vtex-store-components-3-x-price_listPriceContainer--bottom-price-section){
+  display: none;
+}
+
+:global(.vtex-store-components-3-x-price_sellingPriceLabel--bottom-price-section) {
+  display: none;
+}
+
 :global(.vtex-store-components-3-x-productNameContainer) {
   color: #001930;
   font-family: "Museo JH Sans 900";
@@ -113,6 +122,32 @@
   line-height: 29px;
   font-weight: bold;
 }
+
+.flexColChild--product-name-price-section :global(.vtex-product-price-1-x-savings--summary-discount-percentage) {
+  width: 60px !important
+}
+
+.flexRowContent--product-name-price-section .stretchChildrenWidth:first-child .flexColChild--product-name-price-section {
+  flex-direction: column !important;
+  align-items: flex-start;
+}
+
+.flexCol--product-name-price-section {
+  display: flex!important;
+  flex-direction: row!important;
+}
+.flexColChild--product-name-price-section {
+  display: flex!important;
+  align-items: center!important;
+  justify-content: center!important;
+}
+
+.flexRowContent--product-name-price-section .stretchChildrenWidth:first-child .flexCol--product-name-price-section {
+  flex-direction: column !important;
+  align-items: flex-start;
+}
+
+
 
 .flexRowContent--product-buy-button :global(.vtex-button) {
   background-color: #001930;
@@ -132,8 +167,27 @@
 :global(.vtex-store-components-3-x-productImagesGallerySwiperContainer--image-to-hide) {
   display: none;
 }
+/* store locator styling */
 
+:global(.vtex-rich-text-0-x-container--store-locator-rich-text) {
+  position: absolute;
+  width: 803px;
+  height: 34px;
+  color: #ffffff;
+  font-family: "sans900";
+  font-size: 35px;
+  line-height: 29px;
+  top: 0px;
+  left: 10px;
+}
 
+.flexRowContent--store-locator-home .stretchChildrenWidth {
+  width: 100% !important;
+}
+.flexRowContent--store-locator-home {
+  flex-wrap: wrap;
+  position: relative;
+}
 
 /* Mobile styling begins here */
 
@@ -145,6 +199,8 @@
   justify-content: center;
   align-items: center;
 }
+
+
 
 .flexRowContent--menu-link {
   display: flex;
