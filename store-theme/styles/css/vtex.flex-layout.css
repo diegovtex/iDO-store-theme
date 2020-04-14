@@ -44,6 +44,12 @@
   line-height: 19px;
 }
 
+/* Store loator css */
+
+.flexRow--store-locator-home :global(.vtex-store-components-3-x-container){
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
 
 .flexRowContent--main-header :global(.vtex-menu-2-x-styledLink) {
   color: #727273;

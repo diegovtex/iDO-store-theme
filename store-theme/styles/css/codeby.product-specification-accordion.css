@@ -1,13 +1,13 @@
-.itemTitle::before {
+.arrowRight .itemTitle--sgeli-accordion::after {
   content: "";
   vertical-align: text-bottom;
 }
 
-.itemContainer .itemTitle.itemContentActive::before {
+.itemContainer--sgeli-accordion .itemTitle.itemContentActive::after {
   content: "";
 }
 
-.itemTitle {
+.arrowRight .itemTitle--sgeli-accordion {
   border-radius: 25px;
   border: solid 1px;
   width: 166px;

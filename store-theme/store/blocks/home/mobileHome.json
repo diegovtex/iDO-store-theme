@@ -201,6 +201,31 @@
       "textAlignment": "center"
     }
   },
+
+  "flex-layout.row#store-locator-mobile": {
+    "props": {
+      "blockClass": "store-locator-home-mobile"
+    },
+    "children": [
+      "store-locator-search-input#mobile",
+      "rich-text#store-locatorMobile"
+    ]
+  },
+
+  "store-locator-search-input#mobile": {
+    "props": {
+      "placeholder": "Inserisci indirizzo",
+      "value": "",
+      "redirectTo": "/our-stores",
+      "blockClass": "store-locator-desktop-mobile"
+    }
+  },
+  "rich-text#store-locatorMobile": {
+    "props": {
+      "text": "​Trova il negozio iDO più vicino a te",
+      "blockClass": "store-locator-rich-text-mobile"
+    }
+  },
   "info-card#teddyMobile": {
     "props": {
       "id": "info-card-domentica",

@@ -86,7 +86,6 @@
 
 .infoCardHeadline {
   color: white;
-  font-family: "Museo JH Sans 900";
   font-size: 45px;
 }
 
@@ -242,7 +241,6 @@
 .vtex-product-summary-2-x-buyButtonContainer  {
   background-color: black;
 }
-
 
 
 /* Mobile version styles begin here */
@@ -441,10 +439,15 @@
 }
 
 
-
+/* name of the product styling */
 
 .productBrand {
-  font-family: 'teste';
+  font-family: 'MuseoJHSans900';
+  width: 260px;
+  height: 29px;
+  color: #001930;
+  font-size: 25px;
+  line-height: 29px;
 }
 
 

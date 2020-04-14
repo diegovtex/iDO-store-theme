@@ -38,7 +38,7 @@
         "info-card#fidelity-cardMobile",
         "rich-text#shelf-title-armocromiaMobile",
         "info-card#coloursMobile",
-        "address-search",
+        "flex-layout.row#store-locator-mobile",
         "info-card#teddyMobile",
         "newsletter#mobile"
       ]
@@ -73,12 +73,14 @@
 
    "info-card#hat1": {
      "props": {
-       "imageUrl": "https://andreibranch--storeido.myvtex.com/arquivos/2-layers.png",
+       "imageUrl": "https://andreibranch--storeido.myvtex.com/arquivos/firstsliderhomepage.png",
        "isFullModeStyle": true,
        "callToActionText": "BAMBINO",
        "callToActionUrl": "www.google.com",
        "textPosition": "center",
-       "zIndexOffset": 1
+       "headline": "2019",
+       "zIndexOffset": 1,
+       "blockClass": "firstLayer"
 
      }
    },
@@ -90,6 +92,7 @@
         "callToActionUrl": "www.facebook.com",
         "textPosition": "center",
         "zIndexOffset": 1,
+        "headline": "NUOVI ARRIVI",
          "blockClass": "secondLayer"
       }
 },
@@ -339,8 +342,8 @@
 
   "store-locator-search-input#test": {
     "props": {
-      "placeholder": "here's the placeholder",
-      "value": "initial value",
+      "placeholder": "Inserisci indirizzo",
+      "value": "",
       "redirectTo": "/our-stores",
       "blockClass": "store-locator-desktop"
     }

@@ -101,6 +101,7 @@
       "product-assembly-options",
       "flex-layout.row#productNamePriceSecondary",
       "flex-layout.row#buy-button",
+      "custom-accordion#productTestMeeting",
       "flex-layout.row#description",
       "availability-subscriber"
     ]
@@ -237,6 +238,7 @@
 
   "custom-accordion#productTest": {
     "props": {
+      "blockClass": "sgeli-accordion",
       "titles": [
         "SCEGLI UN'OPZIONE"
       ]
@@ -244,6 +246,22 @@
     "children": [
       "sku-selector#with-size"
     ]
+  },
+
+  "custom-accordion#productTestMeeting": {
+    "props": {
+      "blockClass": "meeting-class",
+      "arrowAlignment": "right",
+      "titles": [
+        "SCEGLI UN'OPZIONE"
+      ],
+      "specifications": [
+        "Composizione",
+        "Guida alle taglie",
+        "Consigli per il lavaggio",
+        "Spedizione e rezzi"
+      ]
+    }
   },
 
   "sku-selector#with-size": {

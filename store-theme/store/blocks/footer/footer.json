@@ -114,8 +114,7 @@
       "vtex.menu@2.x:menu#footer-clothing",
       "vtex.menu@2.x:menu#footer-decoration",
       "vtex.menu@2.x:menu#footer-bags",
-      "vtex.menu@2.x:menu#footer-5thmenu",
-      "footer-spacer"
+      "vtex.menu@2.x:menu#footer-5thmenu"
     ],
     "props": {
       "blockClass": "menu-row",

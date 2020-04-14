@@ -44,6 +44,18 @@
   justify-content: flex-end;
 }
 
+:global(.vtex-flex-layout-0-x-flexRow--menu-row) {
+  background-color: #001930;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--credits) {
+  background-color: #001930;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--payment-methods) {
+  background-color: #001930;
+}
+
 .footerLayout :global(.vtex-menu-2-x-styledLink--textBold) {
   width: 290px;
   height: 227px;

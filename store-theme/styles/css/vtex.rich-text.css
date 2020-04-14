@@ -186,3 +186,16 @@
   font-size: 8px;
   text-align: center;
 }
+
+/* store locator text styling */
+
+:global(.vtex-rich-text-0-x-paragraph--store-locator-rich-text) {
+  width: 803px;
+  height: 34px;
+  color: #ffffff;
+  font-family: "MuseoJHSans900";
+  font-size: 35px;
+  line-height: 29px;
+  margin-top: 56px;
+  margin-left: 41px;
+}
