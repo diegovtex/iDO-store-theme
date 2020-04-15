@@ -3,6 +3,16 @@
   vertical-align: text-bottom;
 }
 
+
+.arrowRight .itemTitle--meeting-class::after {
+  margin-left: 250px;
+  font-size: 50px;
+}
+
+.arrowRight .itemTitle--meeting-class {
+  font-size: 8px;
+}
+
 .itemContainer--sgeli-accordion .itemTitle.itemContentActive::after {
   content: "";
 }
@@ -23,4 +33,8 @@
 
 :global(.vtex-flex-layout-0-x-flexColChild--scegli-taglia) {
   width: 50%;
+}
+
+.codeby-product-specification-accordion-1-x-itemContentActive::after {
+  margin-left: 50px;
 }

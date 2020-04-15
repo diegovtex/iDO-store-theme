@@ -101,7 +101,10 @@
       "product-assembly-options",
       "flex-layout.row#productNamePriceSecondary",
       "flex-layout.row#buy-button",
-      "custom-accordion#productTestMeeting",
+      "custom-accordion#specification-1",
+      "custom-accordion#specification-2",
+      "custom-accordion#specification-3",
+      "custom-accordion#specification-4",
       "flex-layout.row#description",
       "availability-subscriber"
     ]
@@ -248,17 +251,41 @@
     ]
   },
 
-  "custom-accordion#productTestMeeting": {
+  "custom-accordion#specification-1": {
     "props": {
       "blockClass": "meeting-class",
       "arrowAlignment": "right",
-      "titles": [
-        "SCEGLI UN'OPZIONE"
-      ],
       "specifications": [
-        "Composizione",
-        "Guida alle taglie",
-        "Consigli per il lavaggio",
+        "Composizione"
+      ]
+    }
+  },
+
+  "custom-accordion#specification-2": {
+    "props": {
+      "blockClass": "meeting-class",
+      "arrowAlignment": "right",
+      "specifications": [
+        "Guida alle taglie"
+      ]
+    }
+  },
+
+  "custom-accordion#specification-3": {
+    "props": {
+      "blockClass": "meeting-class",
+      "arrowAlignment": "right",
+      "specifications": [
+        "Consigli per il lavaggio"
+      ]
+    }
+  },
+
+  "custom-accordion#specification-4": {
+    "props": {
+      "blockClass": "meeting-class",
+      "arrowAlignment": "right",
+      "specifications": [
         "Spedizione e rezzi"
       ]
     }
