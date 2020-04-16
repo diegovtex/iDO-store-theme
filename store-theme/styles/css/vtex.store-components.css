@@ -464,3 +464,20 @@
   height: 130px!important;
 }
 
+/* Product page SKU selector styling BEGINS here */
+.skuSelectorContainer--colors-selector .skuSelectorSubcontainer--size {
+  display: none;
+}
+
+.skuSelectorContainer--size-picker .skuSelectorSubcontainer--color{
+  display: none;
+}
+/* product page SKU selector styling ENDS here */
+
+/* breadcrumb desktop BEGINS here */
+
+:global(.vtex-breadcrumb-1-x-container) {
+  color: red!important;
+}
+
+/* breadcrumb desktop ENDS here */

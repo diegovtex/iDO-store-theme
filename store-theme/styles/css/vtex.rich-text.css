@@ -199,3 +199,15 @@
   margin-top: 56px;
   margin-left: 41px;
 }
+
+
+/* Richtext for size selector  */
+
+:global(.vtex-rich-text-0-x-paragraph--scegli-taglia-richtext) {
+  width: 146px;
+  height: 21px;
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  font-size: 18px;
+  line-height: 19px;
+}
