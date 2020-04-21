@@ -12,7 +12,7 @@
 
 .headingLevel2--shelfTitle {
   color: #001930;
-  font-family: "Museo JH Sans 900";
+  font-family: "MuseoJHSans900";
   font-size: 35px;
   line-height: 29px;
   font-weight: 900;
@@ -23,11 +23,34 @@
   color: gray;
 }
 
+:global(.vtex-rich-text-iframe-inside) {
+  width: 100%;
+}
 
+:global(.vtex-rich-text-iframe) {
+  width: 100%;
+}
 
 .container--deals .paragraph {
   margin: 0;
 }
+
+.headingLevel2--category-shelf-mobile {
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 25px;
+  line-height: 29px;
+  margin-left: 20px;
+}
+
+.headingLevel2--rich-text-backtoschoolMobile {
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 25px;
+  line-height: 29px;
+  margin-left: 20px;
+}
+
 
 .container--link {
   justify-content: center;
@@ -68,7 +91,7 @@
   height: 42px;
   text-shadow: 0 2px 30px #000000;
   color: #ffffff;
-  font-family: "Museo JH Sans 900";
+  font-family: "MuseoJHSans900";
   font-size: 45px;
   line-height: 32px;
 
@@ -93,7 +116,7 @@
   display: inherit;
   justify-content: center;
   align-items: center;
-  font-family: "Museo JH Sans 900";
+  font-family: "MuseoJHSans900";
   font-size: 22px;
   text-transform: uppercase;
 }
@@ -161,16 +184,16 @@
 /*Mobile version styling begins here */
 
 
-:global(.vtex-rich-text-0-x-headingLevel2--rich-text-backtoschoolMobile) {
-  font-size: 20px;
-}
-
 :global(.vtex-rich-text-0-x-headingLevel2--rich-text-category-shelf-mobile) {
   font-size: 10px;
 }
 
-:global(.vtex-rich-text-0-x-headingLevel2--rich-text-armocromia-mobile) {
-  font-size: 20px;
+.headingLevel2--armocromia-mobile {
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 25px;
+  line-height: 29px;
+  margin-left: 20px;
 }
 
 .paragraph--Prezzo {
@@ -187,3 +210,31 @@
   text-align: center;
 }
 
+/* store locator text styling */
+
+:global(.vtex-rich-text-0-x-paragraph--store-locator-rich-text) {
+  width: 803px;
+  height: 34px;
+  color: #ffffff;
+  font-family: "MuseoJHSans900";
+  font-size: 35px;
+  line-height: 29px;
+  margin-top: 56px;
+  margin-left: 41px;
+}
+
+.container--store-locator-rich-text-mobile {
+  position: absolute;
+}
+
+
+/* Richtext for size selector  */
+
+:global(.vtex-rich-text-0-x-paragraph--scegli-taglia-richtext) {
+  width: 146px;
+  height: 21px;
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  font-size: 18px;
+  line-height: 19px;
+}

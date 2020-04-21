@@ -30,7 +30,7 @@
   width: 241px;
   height: 29px;
   color: #001930 !important;
-  font-family: "Museo JH Sans 900";
+  font-family: "MuseoJHSans900";
   font-size: 20px;
   line-height: 29px;
   text-transform: uppercase;
@@ -44,13 +44,25 @@
   justify-content: flex-end;
 }
 
+:global(.vtex-flex-layout-0-x-flexRow--menu-row) {
+  background-color: #001930;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--credits) {
+  background-color: #001930;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--payment-methods) {
+  background-color: #001930;
+}
+
 .footerLayout :global(.vtex-menu-2-x-styledLink--textBold) {
   width: 290px;
   height: 227px;
   color: #001930 !important;
   font-size: 14px;
   line-height: 17px;
-  font-family: "Museo JH Sans 900";
+  font-family: "MuseoJHSans900";
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -61,7 +73,7 @@
   color: #001930 !important;
   font-size: 14px;
   line-height: 17px;
-  font-family: "Museo JH Sans 900";
+  font-family: "MuseoJHSans900";
   font-weight: bold;
 }
 
@@ -69,8 +81,7 @@
 .footerLayout :global(.vtex-menu-2-x-styledLink--textSimple) {
   width: 290px;
   height: 227px;
-  color: #001930;
-  font-family: "Museo JH Sans 500";
+  font-family: "MuseoJHSans500";
   font-size: 14px;
   line-height: 17px;
   color: #001930 !important;
@@ -81,8 +92,7 @@
 .footerLayout :global(.vtex-menu-2-x-styledLink--textSimpleLast) {
   width: 290px;
   height: 227px;
-  color: #001930;
-  font-family: "Museo JH Sans 500";
+  font-family: "MuseoJHSans500";
   font-size: 14px;
   line-height: 17px;
   color: #001930 !important;
@@ -131,7 +141,7 @@
 :global(.vtex-menu-2-x-styledLinkContent--textBoldMobile) {
   font-weight: bold;
   display: flex;
-  font-family: "MuseoJHSans-300";
+  font-family: "MuseoJHSans300";
   font-size: 20px;
   text-transform: uppercase;
   align-self: center;
@@ -144,7 +154,7 @@
 
 :global(.vtex-menu-2-x-styledLinkContent--bisogno-text-mobile) {
   font-weight: bold;
-  font-family: "MuseoJHSans-900";
+  font-family: "MuseoJHSans900";
   font-size: 25px;
   color: #001930;
 }

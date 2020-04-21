@@ -39,11 +39,17 @@
   width: 81px;
   height: 19px;
   color: #001930;
-  font-family: "Museo JH Sans -500";
+  font-family: "MuseoJHSans500";
   font-size: 14px;
   line-height: 19px;
 }
 
+/* Store loator css */
+
+.flexRow--store-locator-home :global(.vtex-store-components-3-x-container){
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
 
 .flexRowContent--main-header :global(.vtex-menu-2-x-styledLink) {
   color: #727273;
@@ -102,9 +108,17 @@
 
 :global(.vtex-store-components-3-x-price_sellingPrice) {
   color: #001930;
-  font-family: "Museo JH Sans 900";
+  font-family: "MuseoJHSans900";
   font-size: 25px;
   line-height: 29px;
+}
+
+.flexCol--product-name-price-section {
+  justify-content: flex-end;
+}
+
+.flexRowContent--product-main-container {
+  justify-content: space-between !important;
 }
 
 :global(.vtex-store-components-3-x-price_listPriceContainer--bottom-price-section){
@@ -117,7 +131,7 @@
 
 :global(.vtex-store-components-3-x-productNameContainer) {
   color: #001930;
-  font-family: "Museo JH Sans 900";
+  font-family: "MuseoJHSans900";
   font-size: 25px;
   line-height: 29px;
   font-weight: bold;
@@ -158,7 +172,7 @@
 
 .flexRowContent--product-buy-button :global(.vtex-button__label) {
   color: #ffffff;
-  font-family: "Museo JH Sans 900";
+  font-family: "MuseoJHSans900";
   font-size: 18px;
   text-transform: uppercase;
   font-weight: bold;
@@ -167,20 +181,28 @@
 :global(.vtex-store-components-3-x-productImagesGallerySwiperContainer--image-to-hide) {
   display: none;
 }
-/* store locator styling */
+/* store locator styling  dekstop */
 
 :global(.vtex-rich-text-0-x-container--store-locator-rich-text) {
   position: absolute;
   width: 803px;
   height: 34px;
   color: #ffffff;
-  font-family: "sans900";
+  font-family: "MuseoJHSans900";
   font-size: 35px;
   line-height: 29px;
   top: 0px;
   left: 10px;
+  margin-left: 120px;
 }
 
+.flexRow--store-locator-home-mobile {
+  position: relative;
+}
+
+.flexRow--store-locator-home :global(.vtex-store-components-3-x-container) {
+  max-width: 100% !important;
+}
 .flexRowContent--store-locator-home .stretchChildrenWidth {
   width: 100% !important;
 }
@@ -188,6 +210,10 @@
   flex-wrap: wrap;
   position: relative;
 }
+
+/* store locator mobile styling */
+
+
 
 /* Mobile styling begins here */
 

@@ -60,3 +60,9 @@
   display: block;
   font-size: 15px;
 }
+
+/* store locator mobile */
+
+.flexRowContent--store-locator-home-mobile {
+  width: 100%;
+}

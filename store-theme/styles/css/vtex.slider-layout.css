@@ -46,7 +46,7 @@
   border: none;
   height: 49px;
   color: #001930;
-  font-family: "Museo JH Sans 500";
+  font-family: "MuseoJHSans500";
   font-size: 30px;
   line-height: 29px;
   margin-left: 15px;
@@ -127,7 +127,89 @@
 
 /* mobile styling begins here */
 
-.sliderLayoutContainer--shelf {
+.sliderLayoutContainer--shelf-mobile {
   padding-right: 0px!important;
-  padding-left: 0px!important;
+  padding-left: 10px!important;
+}
+
+.slide--shelf-mobile {
+  width: 195px!important;
+  height: 211px!important;
+}
+
+.layoutContainer--shelf-mobile {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 96rem;
+}
+
+.slide--shelf-mobile {
+  margin-bottom: 25px;
+  padding-left: .5rem;
+  padding-right: .5rem;
+}
+
+
+.slide--shelf-mobile :global(.vtex-store-components-3-x-infoCardContainer) {
+  width: 406px;
+  height: 405px;
+}
+
+
+.slide--shelf-mobile :global(.vtex-button) {
+  background-color: transparent;
+  border-color: transparent;
+  text-decoration: none!important;
+  text-transform: none;
+  border: none;
+  height: 49px;
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  font-size: 30px;
+  line-height: 29px;
+  margin-left: 15px;
+}
+
+
+.slide--shelf-mobile :global(.vtex-store-components-3-x-infoCardContainer) {
+  position: relative;
+}
+
+
+
+.slide--shelf-mobile :global(.vtex-store-components-3-x-infoCardCallActionContainer) {
+  position: absolute;
+  top: 0px;
+  left: -15px;
+  height: 430px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  z-index: 959999999;
+  width: 100%;
+  text-decoration: none;
+}
+
+
+
+.slide--shelf-mobile :global(.vtex-slider-layout-0-x-paginationDot--shelf) {
+  width: 500px;
+  background-color: red;
+}
+
+.sliderLayoutContainer--shelf-mobile {
+  margin-bottom: 180px;
+}
+.paginationDotsContainer--shelf-mobile {
+  bottom: -90px;
+}
+.paginationDot--shelf-mobile {
+  height: 3px !important;
+  width: auto !important;
+  max-width: 200px !important;
+  padding: 0px;
+  flex: 1;
+  border-radius: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
 }

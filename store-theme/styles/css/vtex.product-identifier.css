@@ -1,3 +1,64 @@
 .product-identifier--productReference {
   margin-bottom: 1rem;
 }
+
+
+
+
+/* Quantity Selector styling BEGINS here */
+
+
+
+:global(.vtex-product-quantity-1-x-quantitySelectorContainer) {
+  flex-direction: row;
+}
+
+:global(.vtex-product-quantity-1-x-quantitySelectorTitle) {
+  width: 50%;
+  height: 70px;
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  font-size: 18px;
+  line-height: 19px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+:global(.vtex-product-quantity-1-x-quantitySelectorStepper) {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+:global(.vtex-numeric-stepper__minus-button) {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  background-color: white;
+  border-color: black;
+}
+
+:global(.vtex-numeric-stepper__minus-button__text) {
+  color: black;
+}
+
+:global(.vtex-numeric-stepper__plus-button) {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-color: black;
+}
+
+:global(.vtex-numeric-stepper__plus-button__text) {
+  color: black;
+}
+
+:global(.vtex-numeric-stepper__input) {
+  background-color: white;
+  border-left: none;
+  border-right: none;
+  width: 30px;
+  border-color: black;
+}
+ /* Quantity selector styling ENDS here */

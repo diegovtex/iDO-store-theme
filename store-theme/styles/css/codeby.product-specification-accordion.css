@@ -1,26 +1,34 @@
-.itemTitle::before {
+.arrowRight .itemTitle--sgeli-accordion::after {
   content: "";
   vertical-align: text-bottom;
 }
 
-.itemContainer .itemTitle.itemContentActive::before {
+
+.arrowRight .itemTitle--meeting-class::after {
+  font-size: 30px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.arrowRight .itemTitle--meeting-class {
+  font-size: 18px;
+  border-bottom: 1px solid;
+  border-color: #DCDCDC;
+  padding-bottom: 20px;
+}
+
+.itemContainer--sgeli-accordion .itemTitle.itemContentActive::after {
   content: "";
 }
 
-.itemTitle {
-  border-radius: 25px;
-  border: solid 1px;
-  width: 166px;
-  font-size: 10px;
-  text-align: center;
-  height: 32px;
+.itemTitle--meeting-class {
+  position: relative;
+  width: 100%;
 }
 
-:global(.vtex-flex-layout-0-x-flexCol--scegli-taglia) {
-  flex-direction: row;
-  align-items: baseline;
-}
 
-:global(.vtex-flex-layout-0-x-flexColChild--scegli-taglia) {
-  width: 50%;
+
+.codeby-product-specification-accordion-1-x-itemContentActive::after {
+  margin-left: 50px;
 }
