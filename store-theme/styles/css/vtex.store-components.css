@@ -1,11 +1,12 @@
-@import url(//db.onlinewebfonts.com/c/62c0135163427c652ae397f327f85010?family=Museo+Sans);
-
-
+:global(.vtex-locale-switcher-0-x-container) {
+  justify-content: space-around;
+  margin-bottom: 14px;
+}
 .notificationBarContainer {
   background-color: #aeca3b;
   width: 358px;
   height: 30px;
-  font-family: "Museo Sans";
+  font-family: "MuseoJHSans700";
   font-size: 15px;
   line-height: 21px;
   text-transform: uppercase;
@@ -14,8 +15,11 @@
 }
 
 
+.discountInsideContainer {
+  display: none;
+}
 .notificationContent {
-  font-family: "Museo JH Sans";
+  font-family: "MuseoJHSans700";
   color: #ffffff;
 }
 
@@ -84,13 +88,9 @@
   color: black !important;
 }
 
-.infoCardHeadline {
-  color: white;
-  font-size: 45px;
-}
 
 
-.newsletter {
+.newsletter--newsletter-desktop {
   background-color: rgba(0, 0, 0, 0.1)!important;
   max-width: 1520px;
   width: 100%;
@@ -102,7 +102,7 @@
   padding: 0px!important;
 }
 
-.newsletter .container {
+.newsletter--newsletter-desktop .container {
   padding: 0px!important;
   max-width: 100%!important;
   width: 100%;
@@ -134,7 +134,7 @@
 }
 
 
-.container :global(.vtex-store-components-3-x-inputGroup) {
+.inputGroup--newsletter-desktop {
   position: relative;
   width: 450px;
   height: 50px;
@@ -152,11 +152,11 @@
   right: 15px
 }
 
-.label {
+.label--newsletter-desktop {
   color: #001930!important;
   font-size: 26px;
   margin-left: 20px;
-  font-family: "Museo JH Sans 900";
+  font-family: "MuseoJHSans900";
   font-size: 35px;
   line-height: 29px;
   height: 29px;
@@ -179,7 +179,7 @@
 .inputGroup :global(.vtex-styleguide-9-x-hideDecorators)::placeholder {
   color: #ffffff;
   font-size: 16px;
-  font-family: "Museo JH Sans 300";
+  font-family: "MuseoJHSans300";
   font-size: 20px;
   line-height: 21px;
   width: 184px;
@@ -208,11 +208,7 @@
 
 
 @media only screen and (min-width: 640px) {
-  .newsletter .container {
-    padding: 140px;
-  }
-
-  .label {
+  .label--newsletter-desktop {
     font-size: 40px;
   }
 
@@ -237,6 +233,29 @@
   justify-content: flex-end;
 }
 
+.content--image-to-hide {
+  width: 408px!important;
+}
+
+
+@media only screen and (max-width: 1100px) {
+  .content--image-to-hide {
+    width: 271px!important;
+  }
+}
+
+@media only screen and (min-width: 1301px) {
+  .productImagesThumbsSwiperContainer--productImageDesktop {
+    width: 680px;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .productImagesThumbsSwiperContainer--productImageDesktop {
+    width: 100% !important;
+  }
+}
+
 
 .vtex-product-summary-2-x-buyButtonContainer  {
   background-color: black;
@@ -246,89 +265,138 @@
 /* Mobile version styles begin here */
 
 :global(.vtex-store-components-3-x-infoCardHeadline--info-card-backtoschool-mobile) {
-  font-size: 35px;
+  text-shadow: 0 2px 30px rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  font-family: "MuseoJHSans900";
+  font-size: 30px;
+  line-height: 32px;
 }
 
 .infoCardContainer--info-card-backtoschool-mobile :global(.vtex-button){
   background-color: transparent;
   border-color: white;
-  color: white;
   border-radius: 50px;
   border: solid 1px;
+  color: #ffffff;
+  font-family: "MuseoJHSans900";
   font-size: 18px;
-  font-family: "MuseoJHSans-900";
-  height: 100%;
-  font-weight: bold;
+  text-transform: uppercase;
 }
 
-.infoCardHeadline--info-card-backtoschool-mobile {
-  padding-right: 200px;
-  padding-top: 140px;
+.infoCardContainer--info-card-backtoschool-mobile {
+  height: 375px;
+  display: flex;
+  align-items: flex-end;
 }
 
 :global(.vtex-store-components-3-x-infoCardHeadline--info-card-dimentica-mobile) {
+  text-shadow: 0 2px 20px rgba(135, 135, 135, 0.5);
+  color: #ffffff;
+  font-family: "MuseoJHSans900";
   font-size: 30px;
+  line-height: 32px;
+}
+
+.infoCardContainer--info-card-dimentica-mobile {
+  margin-bottom: 60px;
+  height: 375px;
+  display: flex;
+  align-items: flex-end;
 }
 
 .infoCardContainer--info-card-dimentica-mobile :global(.vtex-button){
   background-color: transparent;
   border-color: white;
-  color: white;
   border-radius: 50px;
   border: solid 1px;
+  color: #ffffff;
+  font-family: "MuseoJHSans900";
   font-size: 18px;
-  font-family: "MuseoJHSans-900";
-  font-weight: bold;
+  text-transform: uppercase;
 }
 
 
-:global(.vtex-store-components-3-x-infoCardHeadline--info-card-fidelity-card-mobile) {
-  font-size: 30px;
+.infoCardHeadline--info-card-fidelity-card-mobile {
+  color: #ffffff;
+  font-family: "MuseoJHSans900";
+  font-size: 25px;
+  line-height: 29px;
 }
 
 .infoCardContainer--info-card-fidelity-card-mobile :global(.vtex-button){
   background-color: white;
   border-color: white;
   border-radius: 50px;
-  border: solid 1px;
+  height: 40px;
+  width: 150px;
 }
 
 .infoCardContainer--info-card-fidelity-card-mobile :global(.vtex-button__label){
-  color: black;
+  color: #001930;
+  font-family: "MuseoJHSans900";
   font-size: 18px;
-  font-family: "MuseoJHSans-900";
-  font-weight: bold;
+  text-transform: uppercase;
 }
 
-:global(.vtex-store-components-3-x-infoCardHeadline--info-card-colours-mobile) {
+.infoCardHeadline--info-card-colours-mobile {
+  text-shadow: 0 2px 30px rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  font-family: "MuseoJHSans900";
   font-size: 30px;
+  line-height: 32px
 }
 
 .infoCardContainer--info-card-colours-mobile :global(.vtex-button){
   background-color: transparent;
   border-color: white;
-  color: white;
   border-radius: 50px;
   border: solid 1px;
+  color: #ffffff;
+  font-family: "MuseoJHSans900";
   font-size: 18px;
-  font-family: "MuseoJHSans-900";
-  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.infoCardContainer--info-card-colours-mobile {
+  height: 375px;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 60px;
 }
 
 :global(.vtex-store-components-3-x-infoCardHeadline--info-card-teddy-mobile) {
+  text-shadow: 0 2px 30px rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  font-family: "MuseoJHSans900";
   font-size: 30px;
+  line-height: 32px;
 }
 
 .infoCardContainer--info-card-teddy-mobile :global(.vtex-button){
   background-color: transparent;
   border-color: white;
-  color: white;
   border-radius: 50px;
   border: solid 1px;
+  color: #ffffff;
+  font-family: "MuseoJHSans900";
   font-size: 18px;
-  font-family: "MuseoJHSans-900";
-  font-weight: bold;
+  text-transform: uppercase;
 }
+
+
+.newsletter--newsletter-mobile {
+  margin-bottom: 60px;
+  background-color: #ffffff!important;
+}
+
+
+.infoCardContainer--info-card-teddy-mobile {
+ margin-bottom: 60px;
+  height: 375px;
+  display: flex;
+  align-items: flex-end;
+}
+
 
 .infoCardTextContainer--firstStackWithImage {
   align-content: flex-start;
@@ -357,7 +425,34 @@
   height: 100%;
 }
 
+
+.infoCardContainer--secondLayerMobile {
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+  height: 100%;
+}
+
 /* Codeby store locator css */
+
+
+/* newsletter mobile desktop */
+.label--newsletter-mobile {
+  color: rgba(0, 0, 0, 0.65);
+  font-family: "MuseoJHSans500";
+  font-size: 18px;
+  line-height: 21px;
+  margin-bottom: 40px;
+}
+
+.inputGroup--newsletter-mobile {
+  position: absolute;
+  width: 340px;
+  height: 40px;
+  align-self: center;
+  margin-left: 10px;
+}
+/* newsletter mobile desktop */
 
 
 
@@ -373,10 +468,16 @@
   font-weight: bold;
   color: black;
   margin-left: 100px;
-  font-size: 24px;
+  font-size: 25px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  font-family: "MuseoJHSans900";
 }
 
-
+.price_className--top-price-section-discount {
+  margin-left: 30px;
+}
 .price_sellingPriceContainer--top-price-section {
   display: none;
 }
@@ -437,7 +538,39 @@
 .price_savingsContainer--top-price-section-discount {
   display: none;
 }
+/* Product Page mobile version styling BEGINS here */
 
+.price_listPrice--mobile-price-without-discount {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  margin-left: 100px;
+  font-size: 25px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  font-family: "MuseoJHSans900";
+}
+
+.price_sellingPriceContainer--mobile-price-without-discount {
+  display: none;
+}
+
+.price_savingsContainer--mobile-price-without-discount {
+  display: none;
+}
+
+.price_savingsContainer--mobile-price-without-discount {
+  display: none;
+}
+
+.price_listPriceLabel--mobile-price-without-discount {
+  display: none;
+}
+
+
+
+/* Product Page mobile version styling ENDS here */
 
 /* name of the product styling */
 
@@ -448,25 +581,29 @@
   color: #001930;
   font-size: 25px;
   line-height: 29px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 
 
 .productImagesThumb--productImageDesktop {
   max-height: unset !important;
-  width: 33% !important;
+  width: 225px!important;
   height: 242px!important;
+  max-width: 33% !important;
 }
 
 .productImagesThumb--image-to-hide {
   max-height: unset !important;
-  width: 33% !important;
-  height: 130px!important;
+  width: 135px!important;
+  height: 146px!important;
 }
 
 /* Product page SKU selector styling BEGINS here */
 .skuSelectorContainer--colors-selector .skuSelectorSubcontainer--size {
-  display: none;
+
 }
 
 .skuSelectorContainer--size-picker .skuSelectorSubcontainer--color{
@@ -474,10 +611,19 @@
 }
 /* product page SKU selector styling ENDS here */
 
-/* breadcrumb desktop BEGINS here */
+/* product page image size desktop version */
 
-:global(.vtex-breadcrumb-1-x-container) {
-  color: red!important;
+.productImageTag--productImageDesktop {
+  width: 720px!important;
+  height: 770px!important;
+  max-height: 770px!important;
+  object-fit: contain;
 }
 
-/* breadcrumb desktop ENDS here */
+.productImage {
+  display: flex;
+  justify-content: center;
+}
+/* product page image size desktop version  END*/
+
+

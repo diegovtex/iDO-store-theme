@@ -28,6 +28,7 @@
       "callToActionText": "BAMBINO",
       "callToActionUrl": "www.google.com",
       "textPosition": "center",
+      "headline": "2019",
       "zIndexOffset": 1,
       "blockClass": "firstStackWithImage"
     }
@@ -39,8 +40,9 @@
       "callToActionText": "BAMBINA",
       "callToActionUrl": "www.facebook.com",
       "textPosition": "center",
+      "headline": "NUOVI ARRIVI",
       "zIndexOffset": 1,
-      "blockClass": "secondLayer"
+      "blockClass": "secondLayerMobile"
     }
   },
   "shelf#raduMobile": {
@@ -74,7 +76,7 @@
       "isFullModeStyle": true,
       "textPosition": "left",
       "imageUrl": "/arquivos/boyandgirlmobile.png",
-      "headline": "Ricomincia\nl'avventura\ncon l'outfit giusto",
+      "headline": "Ricomincia <br> l'avventura <br> con l'outfit giusto",
       "callToActionText": "ACQUISTA",
       "callToActionUrl": "/sale/d",
       "blockClass": "info-card-backtoschool-mobile",
@@ -104,7 +106,7 @@
       },
       "infinite": true,
       "fullWidth": false,
-      "blockClass": "shelf",
+      "blockClass": "shelf-mobile",
       "showNavigationArrows": "never"
     }
   },
@@ -162,7 +164,7 @@
       "isFullModeStyle": true,
       "textPosition": "left",
       "imageUrl": "/arquivos/backtoschoolmobile.png",
-      "headline": "Dimentica i capi che si rovinano dopo  un lavaggio: un iDO è per sempre.",
+      "headline": "Dimentica i capi che <br> si rovinano dopo  un lavaggio: un iDO è <br> per sempre.",
       "callToActionText": "SCOPRI",
       "callToActionUrl": "/sale/d",
       "blockClass": "info-card-dimentica-mobile",
@@ -174,8 +176,8 @@
       "id": "info-card-fidelity-card",
       "isFullModeStyle": true,
       "textPosition": "left",
-      "imageUrl": "/arquivos/fidelityCardMobile.png",
-      "headline": "Richiedi la nostra fidelity card.",
+      "imageUrl": "/arquivos/fidelityCMobile.png",
+      "headline": "Richiedi la nostra<br> fidelity card",
       "callToActionText": "SCOPRI",
       "callToActionUrl": "/sale/d",
       "blockClass": "info-card-fidelity-card-mobile",
@@ -194,7 +196,7 @@
       "isFullModeStyle": true,
       "textPosition": "left",
       "imageUrl": "/arquivos/Schermata_2019-10-10_alle_22.37.00.png",
-      "headline": "Quali colori stanno meglio al tuo bambino?",
+      "headline": "Quali colori stanno<br> meglio al tuo<br> bambino?",
       "callToActionText": "SCOPRI",
       "callToActionUrl": "/sale/d",
       "blockClass": "info-card-colours-mobile",
@@ -217,12 +219,12 @@
       "placeholder": "Inserisci indirizzo",
       "value": "",
       "redirectTo": "/our-stores",
-      "blockClass": "store-locator-desktop-mobile"
+      "blockClass": "store-locator-mobile"
     }
   },
   "rich-text#store-locatorMobile": {
     "props": {
-      "text": "​Trova il negozio iDO più vicino a te",
+      "text": "​",
       "blockClass": "store-locator-rich-text-mobile"
     }
   },
@@ -231,7 +233,7 @@
       "id": "info-card-domentica",
       "isFullModeStyle": true,
       "textPosition": "left",
-      "imageUrl": "/arquivos/Schermata_2019-11-27_alle_14.27.20.png",
+      "imageUrl": "/arquivos/teddymobilefinal.png",
       "headline": "Scopri l’outlet",
       "callToActionText": "SCOPRI",
       "callToActionUrl": "/sale/d",
@@ -242,7 +244,10 @@
 
   "newsletter#mobile": {
     "props": {
-      "blockClass": "newsletter-mobile"
+      "blockClass": "newsletter-mobile",
+      "label": "Iscriviti alla newsletter",
+      "placeholder": "Inserisci la tua email",
+      "hideLabel": false
     }
   }
 }

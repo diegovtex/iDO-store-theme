@@ -1,15 +1,16 @@
 {
   "store.home": {
     "blocks": [
-      "responsive-layout.desktop",
-      "responsive-layout.mobile"
+      "responsive-layout.desktop#home",
+      "responsive-layout.mobile#home"
     ]
   },
-    "responsive-layout.desktop": {
+    "responsive-layout.desktop#home": {
       "children": [
         "slider-layout#andrei-images",
         "shelf#radu",
         "rich-text#shelf-title-backToSchool",
+        "info-card#backToSchool",
         "rich-text#question",
         "rich-text#shelf-title-category",
         "slider-layout#demo-products",
@@ -19,16 +20,13 @@
         "info-card#colours",
         "flex-layout.row#store-locator",
         "info-card#teddy",
-        "rich-text#link",
-        "newsletter",
-        "__fold__.experimentalLazyAssets"
+        "newsletter#desktop"
       ]
     },
 
-    "responsive-layout.mobile": {
+    "responsive-layout.mobile#home": {
       "children": [
         "slider-layout#andrei-imagesMobile",
-        "__fold__.experimentalLazyAssets",
         "shelf#raduMobile",
         "rich-text#shelf-title-backToSchoolMobile",
         "info-card#backToSchoolMobile",
@@ -61,7 +59,7 @@
         }
       },
 
-     "stack-layout#firstSlide": {
+"stack-layout#firstSlide": {
       "props": {
        "blockClass": "hatSliderStack"
       },
@@ -70,7 +68,6 @@
        "info-card#hat2"
        ]
      },
-
    "info-card#hat1": {
      "props": {
        "imageUrl": "https://andreibranch--storeido.myvtex.com/arquivos/firstsliderhomepage.png",
@@ -81,7 +78,6 @@
        "headline": "2019",
        "zIndexOffset": 1,
        "blockClass": "firstLayer"
-
      }
    },
     "info-card#hat2": {
@@ -90,13 +86,12 @@
         "isFullModeStyle": true,
         "callToActionText": "BAMBINA",
         "callToActionUrl": "www.facebook.com",
-        "textPosition": "center",
+        "textPosition": "left",
         "zIndexOffset": 1,
         "headline": "NUOVI ARRIVI",
          "blockClass": "secondLayer"
       }
 },
-
   "shelf#radu": {
       "blocks": ["product-summary#radu"],
       "props": {
@@ -168,7 +163,7 @@
       "id": "info-card-fidelity-card",
       "isFullModeStyle": true,
       "textPosition": "left",
-      "imageUrl": "/arquivos/fidelityCardMobile.png",
+      "imageUrl": "/arquivos/fidelityfinal.png",
       "headline": "Richiedi la nostra fidelity card.",
       "callToActionText": "SCOPRI",
       "callToActionUrl": "/sale/d",
@@ -308,9 +303,9 @@
       "id": "info-card-backToSchool",
       "isFullModeStyle": true,
       "textPosition": "left",
-      "imageUrl": "/arquivos/backtoschoolmobile.png",
-      "headline": "Dimentica i capi che si rovinano dopo  un lavaggio: un iDO è per sempre.",
-      "callToActionText": "SCOPRI",
+      "imageUrl": "/arquivos/backtoschool.png",
+      "headline": "Ricomincia l'avventura <br>con l'outfit giusto",
+      "callToActionText": "ACQUISTA",
       "callToActionUrl": "/sale/d",
       "blockClass": "info-card-domentica",
       "textAlignment": "center"
@@ -378,8 +373,17 @@
 
   "rich-text#link": {
     "props": {
-      "text": "​<div class='vtex-your-class-name'> <iframe width='1520' height='500' src='https://www.youtube.com/embed/2AVs-Yh1bS8' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div>",
+      "text": "​<div class='vtex-rich-text-iframe'> <iframe class='vtex-rich-text-iframe-inside' height='500' src='https://www.youtube.com/embed/2AVs-Yh1bS8' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div>",
       "blockClass": "link"
     }
-  }
+  },
+
+    "newsletter#desktop": {
+      "props": {
+        "blockClass": "newsletter-desktop",
+        "label": "Iscriviti alla newsletter",
+        "placeholder": "Inserisci la tua email",
+        "hideLabel": false
+      }
+    }
 }

@@ -1,16 +1,53 @@
 {
   "store.product": {
     "children": [
+      "responsive-layout.desktop#product",
+      "responsive-layout.mobile#product"
+    ]
+  },
+
+  "responsive-layout.desktop#product": {
+    "children": [
       "flex-layout.row#product-main",
       "shelf.relatedProducts#dekstop-product"
     ]
   },
+
+  "responsive-layout.mobile#product": {
+    "children": [
+      "flex-layout.row#product-breadcrumb-mobile",
+      "product-images#mobileVersion",
+      "sku-selector#mobile",
+      "product-quantity#mobile",
+      "flex-layout.row#productNamePriceSecondaryMobile",
+      "flex-layout.row#buy-button-mobile",
+      "custom-accordion#specification-1",
+      "custom-accordion#specification-2",
+      "custom-accordion#specification-3",
+      "custom-accordion#specification-4",
+      "shelf.relatedProducts#mobile-product"
+    ]
+  },
+
+
+
+
   "flex-layout.row#product-breadcrumb": {
     "props": {
       "marginTop": 4
     },
-    "children": ["breadcrumb"]
+    "children": [
+      "breadcrumb#desktop"
+    ]
   },
+
+  "breadcrumb#desktop": {
+    "props": {
+      "blockClass": "breadcrumbs-desktop"
+    }
+  },
+
+
   "flex-layout.row#description": {
     "props": {
       "marginBottom": 7
@@ -24,18 +61,45 @@
       "marginTop": 4,
       "marginBottom": 7,
       "paddingTop": 7,
-      "paddingBottom": 7
+      "paddingBottom": 7,
+      "blockClass": "product-main-container"
     },
     "children": ["flex-layout.col#stack", "flex-layout.col#right-col"]
   },
 
   "shelf.relatedProducts#dekstop-product": {
     "props": {
-     "blockClass": "related-desktop"
+     "blockClass": "related-desktop",
+      "productList": {
+        "maxItems": 7,
+        "itemsPerPage": 4,
+        "minItemsPerPage": 1,
+        "scroll": "BY_PAGE",
+        "arrows": false,
+        "titleText": ""
+      }
     },
     "blocks": [
-      "product-summary"
+      "product-summary.shelf#related-desktop"
     ]
+  },
+
+
+  "product-summary.shelf#related-desktop": {
+    "children": [
+      "product-summary-image",
+      "product-summary-name",
+      "product-summary-price#related-desktop"
+    ]
+  },
+
+  "product-summary-price#related-desktop": {
+    "props": {
+      "showInstallments": false,
+      "showDiscountValue": false,
+      "showLabels": false,
+      "showListPrice": false
+    }
   },
 
   "stack-layout": {
@@ -61,8 +125,8 @@
   "flex-layout.col#stack": {
     "children": ["stack-layout"],
     "props": {
-      "width": "65%",
-      "rowGap": 0
+      "rowGap": 0,
+      "width": "60%"
     }
   },
   "flex-layout.row#product-image": {
@@ -94,7 +158,8 @@
   "flex-layout.col#right-col": {
     "props": {
       "preventVerticalStretch": true,
-      "rowGap": 0
+      "rowGap": 0,
+      "width": "40%"
     },
     "children": [
       "flex-layout.row#product-breadcrumb",
@@ -102,7 +167,6 @@
       "flex-layout.row#product-imageSecondary",
       "product-rating-summary",
       "sku-selector#colors",
-      "flex-layout.col#scegliTaglia",
       "product-separator",
       "product-quantity#desktop",
       "product-separator",
@@ -313,7 +377,7 @@
       "blockClass": "meeting-class",
       "arrowAlignment": "right",
       "specifications": [
-        "Spedizione e rezzi"
+        "spedizioni e resi"
       ]
     }
   },

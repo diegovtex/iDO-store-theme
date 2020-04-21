@@ -1,0 +1,106 @@
+{
+  "flex-layout.row#product-breadcrumb-mobile": {
+    "props": {
+      "marginTop": 10
+    },
+    "children": [
+      "breadcrumb#andrei",
+      "product-price#product-details-mobile"
+    ]
+  },
+
+  "breadcrumb#andrei": {
+    "props": {
+      "blockClass": "breadcrumbs-mobile"
+    }
+  },
+
+  "product-price#product-details-mobile": {
+    "props": {
+      "blockClass": "mobile-price-without-discount",
+      "showInstallments": true,
+      "showSavings": false
+    }
+  },
+
+  "product-images#mobileVersion": {
+    "props": {
+      "blockClass": "productImageMobile",
+      "displayThumbnailsArrows": false,
+      "showNavigationArrows": false,
+      "thumbnailsOrientation": "horizontal",
+      "thumbnailAspectRatio": "1:1"
+    }
+  },
+
+
+  "sku-selector#mobile": {
+    "props": {
+      "blockClass": "selector-mobile",
+      "thumbnailImage": "color"
+    }
+  },
+
+  "product-quantity#mobile": {
+    "props": {
+      "blockClass": "quantity-desktop"
+    }
+  },
+
+  "flex-layout.row#productNamePriceSecondaryMobile": {
+    "props": {
+      "blockClass": "product-name-price-section"
+    },
+    "children": [
+      "flex-layout.col#productRichTextMobile",
+      "flex-layout.col#productPriceMobile"
+    ]
+  },
+
+  "flex-layout.col#productRichTextMobile": {
+    "props": {
+      "blockClass": "product-name-price-rich-text"
+    },
+    "children": [
+      "rich-text#discount",
+      "rich-text#discount-sub-text"
+    ]
+  },
+
+  "flex-layout.col#productPriceMobile": {
+    "props": {
+      "blockClass": "product-name-price-section"
+    },
+    "children": [
+      "product-price#product-detailsDiscount",
+      "product-price-savings#summary",
+      "product-price#product-detailsBottom"
+    ]
+  },
+
+  "flex-layout.row#buy-button-mobile": {
+    "props": {
+      "marginTop": 4,
+      "marginBottom": 7,
+      "blockClass": "product-buy-button"
+    },
+    "children": ["add-to-cart-button"]
+  },
+
+  "shelf.relatedProducts#mobile-product": {
+    "props": {
+      "blockClass": "related-mobile",
+      "productList": {
+        "maxItems": 7,
+        "itemsPerPage": 4,
+        "minItemsPerPage": 1,
+        "scroll": "BY_PAGE",
+        "arrows": false,
+        "titleText": ""
+      }
+    },
+    "blocks": [
+      "product-summary.shelf#related-desktop"
+    ]
+  }
+}

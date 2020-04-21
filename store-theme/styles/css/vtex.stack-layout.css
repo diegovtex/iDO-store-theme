@@ -47,6 +47,19 @@
   margin-left: -75px;
 }
 
+:global(.vtex-store-components-3-x-infoCardHeadline--secondLayerMobile) {
+  position: absolute;
+  top: 30px;
+  width: 643px;
+  max-width: 660px!important;
+  height: 191px;
+  color: #ffffff;
+  font-family: "MuseoJHSans900";
+  font-size: 70px!important;
+  text-transform: uppercase;
+  margin-left: -75px;
+}
+
 :global(.vtex-store-components-3-x-infoCardHeadline--firstLayer) {
   position: absolute;
   top: 100px;
@@ -76,6 +89,12 @@
     height: 1100px;
   }
 
+  :global(.vtex-store-components-3-x-infoCardContainer--secondLayerMobile) {
+    width: 250px;
+    height: 1100px;
+  }
+
+
   :global(.vtex-store-components-3-x-infoCardTextContainer--firstStackWithImage) {
     align-content: flex-start;
     display: inherit;
@@ -88,14 +107,14 @@
   :global(.vtex-button) {
     background-color: white;
     border-color: white;
-    width: 100%;
-    height: 50px;
+    width: 150px;
+    height: 40px;
     border-radius: 25px;
     background-color: #ffffff;
-    color: black;
-    font-size: 22px;
-    font-weight: bold;
-    font-family: "Museo JH Sans 900";
+    color: #002c50;
+    font-family: "MuseoJHSans900";
+    font-size: 18px;
+    text-transform: uppercase;
     transition: .3s;
   }
 
@@ -110,4 +129,66 @@
     bottom: 0;
     width: 50%;
   }
+  .stackItem--secondLayerMobile {
+    bottom: 0;
+    width: 50%;
+  }
 }
+
+/* top slider BEGINS here */
+/*Mobile*/
+
+
+:global(.vtex-store-components-3-x-infoCardHeadline--secondLayerMobile) {
+  position: absolute;
+  top: 0px;
+  width: 780px;
+  max-width: 780px!important;
+  height: 191px;
+  color: #ffffff;
+  font-family: "MuseoJHSans900"!important;
+  font-size: 36px!important;
+  text-transform: uppercase;
+  margin-left: 50px;
+}
+:global(.vtex-store-components-3-x-infoCardHeadline--firstStackWithImage) {
+  position: absolute;
+  top: 34px;
+  font-size: 46px;
+  font-family: "MuseoJHSans900"!important;
+  left: 21px;
+  color: #ffffff;
+}
+.stackContainer--hatSliderStack :global(.vtex-button):hover {
+  background-color: #001930;
+  border-color: #001930;
+  color: white;
+}
+
+/*desktop*/
+:global(.vtex-store-components-3-x-infoCardHeadline--secondLayer) {
+  position: absolute;
+  top: 30px;
+  width: 780px;
+  max-width: 780px!important;
+  height: 191px;
+  color: #ffffff;
+  font-family: "MuseoJHSans900"!important;
+  font-size: 5vw!important;
+  text-transform: uppercase;
+  margin-left: 0px;
+}
+:global(.vtex-store-components-3-x-infoCardHeadline--firstLayer) {
+  position: absolute;
+  top: 100px;
+  font-size: 6vw!important;
+  font-family: "MuseoJHSans900"!important;
+  left: 60px;
+  color: #ffffff;
+}
+.stackContainer--hatSliderStack :global(.vtex-button):hover {
+  background-color: #001930;
+  border-color: #001930;
+  color: white;
+}
+/* top slider ENDS here */

@@ -5,18 +5,26 @@
 
 
 .arrowRight .itemTitle--meeting-class::after {
-  margin-left: 250px;
-  font-size: 50px;
+  font-size: 30px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
 }
 
 .arrowRight .itemTitle--meeting-class {
-  font-size: 8px;
+  font-size: 18px;
+  border-bottom: 1px solid;
+  border-color: #DCDCDC;
 }
 
 .itemContainer--sgeli-accordion .itemTitle.itemContentActive::after {
   content: "";
 }
 
+.itemTitle--meeting-class {
+  position: relative;
+  width: 100%;
+}
 
 
 /* THIS IS NOT WORKING */
@@ -29,12 +37,11 @@
 
 .arrowRight .itemTitle--sgeli-accordion {
   border-radius: 25px;
-  border: solid 1px;
+  border: solid 2px!important;
   width: 166px;
   font-size: 10px;
   text-align: center;
   height: 32px;
-
 }
 
 :global(.vtex-flex-layout-0-x-flexCol--scegli-taglia) {

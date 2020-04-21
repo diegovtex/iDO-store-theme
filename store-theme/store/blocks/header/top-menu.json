@@ -24,7 +24,6 @@
   "vtex.menu@2.x:menu#institutional": {
     "children": [
       "menu-item#vtex-search",
-      "menu-item#vtex-heart",
       "menu-item#vtex-location",
       "menu-item#vtex-cart",
       "menu-item#vtex-myIdo",

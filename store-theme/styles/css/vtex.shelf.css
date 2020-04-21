@@ -2,3 +2,15 @@
 
 }
 
+:global(.vtex-product-summary-2-x-productBrand) {
+  font-family: "MuseoJHSans500";
+  font-size: 24px;
+  color: #001930;
+  line-height: 19px;
+}
+:global(.vtex-store-components-3-x-sellingPrice) {
+  font-family: "MuseoJHSans900";
+  font-size: 24px;
+  color: #001930;
+  line-height: 19px;
+}

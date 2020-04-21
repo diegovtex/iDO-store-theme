@@ -1,8 +1,14 @@
-.imageContainer {
-   width: 400px;
-   height: 430px;
- }
-
-.imageNormal { max-height: 100%; }
-
-
+:global(.vtex-shelf-1-x-container) .imageContainer {
+  width: 370px;
+  height: 400px;
+}
+:global(.vtex-shelf-1-x-container) .imageNormal { max-height: unset!important; max-width: 100%!important; height: auto!important; width: 100%!important;}
+.containerNormal {
+  max-width: unset!important;
+}
+.clearLink :global(.vtex-button){
+  display: none
+}
+.information {
+  justify-content: flex-end;
+}
