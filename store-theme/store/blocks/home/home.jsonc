@@ -38,7 +38,7 @@
         "info-card#fidelity-cardMobile",
         "rich-text#shelf-title-armocromiaMobile",
         "info-card#coloursMobile",
-        "address-search",
+        "flex-layout.row#store-locator-mobile",
         "info-card#teddyMobile",
         "newsletter#mobile"
       ]
@@ -62,41 +62,44 @@
       },
 
      "stack-layout#firstSlide": {
-      "props": {
-       "blockClass": "hatSliderStack"
-      },
-       "children": [
-       "info-card#hat1",
-       "info-card#hat2"
-       ]
+           "props": {
+            "blockClass": "hatSliderStack"
+           },
+            "children": [
+            "info-card#hat1",
+            "info-card#hat2"
+            ]
+          },
+        "info-card#hat1": {
+          "props": {
+            "imageUrl": "https://andreibranch--storeido.myvtex.com/arquivos/firstsliderhomepage.png",
+            "isFullModeStyle": true,
+            "callToActionText": "BAMBINO",
+            "callToActionUrl": "www.google.com",
+            "textPosition": "center",
+            "headline": "2019",
+            "zIndexOffset": 1,
+            "blockClass": "firstLayer"
+          }
+        },
+         "info-card#hat2": {
+           "props": {
+             "imageUrl": "",
+             "isFullModeStyle": true,
+             "callToActionText": "BAMBINA",
+             "callToActionUrl": "www.facebook.com",
+             "textPosition": "left",
+             "zIndexOffset": 1,
+             "headline": "NUOVI ARRIVI",
+              "blockClass": "secondLayer"
+           }
      },
 
-   "info-card#hat1": {
-     "props": {
-       "imageUrl": "https://andreibranch--storeido.myvtex.com/arquivos/2-layers.png",
-       "isFullModeStyle": true,
-       "callToActionText": "BAMBINO",
-       "callToActionUrl": "www.google.com",
-       "textPosition": "center",
-       "zIndexOffset": 1
-
-     }
-   },
-    "info-card#hat2": {
-      "props": {
-        "imageUrl": "",
-        "isFullModeStyle": true,
-        "callToActionText": "BAMBINA",
-        "callToActionUrl": "www.facebook.com",
-        "textPosition": "center",
-        "zIndexOffset": 1,
-         "blockClass": "secondLayer"
-      }
-},
 
   "shelf#radu": {
-      "blocks": ["product-summary#radu"],
+      "blocks": ["product-summary.shelf"],
       "props": {
+        "blockClass": "shlef-radu",
         "category": 2,
         "orderBy": "OrderByTopSaleDESC",
         "paginationDotsVisibility": "desktopOnly",
@@ -110,19 +113,6 @@
         }
       }
     },
-    "product-summary#radu": {
-    "props": {
-      "isOneClickBuy": true,
-      "showBadge": true,
-      "badgeText": "ON",
-      "displayBuyButton": "displayButtonHover",
-      "showCollections": true,
-      "showListPrice": true,
-      "showLabels": true,
-      "showInstallments": true,
-      "showSavings": true
-    }
-  },
 
    "info-card#1": {
      "props": {
@@ -133,15 +123,27 @@
    },
 
   "product-summary.shelf": {
+  "props": {
+        "blockClass": "shelf-radu2",
+        "isOneClickBuy": true,
+        "showBadge": true,
+        "badgeText": "ON",
+        "displayBuyButton": "displayButtonNone",
+        "showCollections": true,
+        "showListPrice": true,
+        "showLabels": true,
+        "showInstallments": true,
+        "showSavings": true
+      },
     "children": [
       "product-summary-name",
       "product-summary-description",
       "product-summary-image",
       "product-summary-price",
-      "product-summary-sku-selector",
-      "product-summary-buy-button"
+      "product-summary-sku-selector"
     ]
   },
+
 
   "list-context.image-list#demo": {
     "children": ["slider-layout#demo-images"],
