@@ -15,6 +15,7 @@
   font-size: 18px;
   border-bottom: 1px solid;
   border-color: #DCDCDC;
+  padding-bottom: 20px;
 }
 
 .itemContainer--sgeli-accordion .itemTitle.itemContentActive::after {
@@ -27,31 +28,6 @@
 }
 
 
-/* THIS IS NOT WORKING */
-
-.itemContainer--sgeli-accordion {
-  align-items: flex-end;
-}
-/* THIS IS NOT WORKING */
-
-
-.arrowRight .itemTitle--sgeli-accordion {
-  border-radius: 25px;
-  border: solid 2px!important;
-  width: 166px;
-  font-size: 10px;
-  text-align: center;
-  height: 32px;
-}
-
-:global(.vtex-flex-layout-0-x-flexCol--scegli-taglia) {
-  flex-direction: row;
-  align-items: baseline;
-}
-
-:global(.vtex-flex-layout-0-x-flexColChild--scegli-taglia) {
-  width: 50%;
-}
 
 .codeby-product-specification-accordion-1-x-itemContentActive::after {
   margin-left: 50px;

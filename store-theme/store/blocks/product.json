@@ -176,13 +176,9 @@
       "product-separator",
       "flex-layout.row#buy-button",
       "custom-accordion#specification-1",
-      "product-separator",
       "custom-accordion#specification-2",
-      "product-separator",
       "custom-accordion#specification-3",
-      "product-separator",
       "custom-accordion#specification-4",
-      "product-separator",
       "availability-subscriber"
     ]
   },
