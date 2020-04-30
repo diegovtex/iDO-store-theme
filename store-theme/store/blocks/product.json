@@ -21,6 +21,7 @@
       "product-quantity#mobile",
       "flex-layout.row#productNamePriceSecondaryMobile",
       "flex-layout.row#buy-button-mobile",
+      "custom-accordion#specification-description",
       "custom-accordion#specification-1",
       "custom-accordion#specification-2",
       "custom-accordion#specification-3",
@@ -167,14 +168,12 @@
       "flex-layout.row#product-imageSecondary",
       "product-rating-summary",
       "sku-selector#colors",
-      "product-separator",
       "product-quantity#desktop",
-      "product-separator",
       "product-identifier.product",
       "product-assembly-options",
       "flex-layout.row#productNamePriceSecondary",
-      "product-separator",
       "flex-layout.row#buy-button",
+      "custom-accordion#specification-description",
       "custom-accordion#specification-1",
       "custom-accordion#specification-2",
       "custom-accordion#specification-3",
@@ -185,7 +184,7 @@
 
   "flex-layout.row#productNamePrice": {
     "props": {
-      "blockClass": "product-name-price-section"
+      "blockClass": "product-name-price-section-top"
     },
     "children": [
       "vtex.store-components:product-name",
@@ -336,7 +335,15 @@
     },
     "children": ["add-to-cart-button"]
   },
-
+  "custom-accordion#specification-description": {
+    "props": {
+      "blockClass": "meeting-class",
+      "arrowAlignment": "right",
+      "specifications": [
+        "Descrizione"
+      ]
+    }
+  },
 
   "custom-accordion#specification-1": {
     "props": {

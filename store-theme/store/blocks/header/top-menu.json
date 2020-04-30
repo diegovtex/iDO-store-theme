@@ -77,8 +77,8 @@
       },
       "highlight": false,
       "itemProps": {
-        "type": "external",
-        "href": "http://vtex.com"
+        "type": "internal",
+        "href": "/all-products"
       }
     }
   },

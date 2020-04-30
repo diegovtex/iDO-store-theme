@@ -114,11 +114,12 @@
       "showBadge": true,
       "badgeText": "ON",
       "displayBuyButton": "displayButtonHover",
-      "showCollections": true,
+      "showCollections": false,
       "showListPrice": true,
       "showLabels": true,
       "showInstallments": true,
-      "showSavings": true
+      "showSavings": true,
+      "showDiscount" : true
     }
   },
 

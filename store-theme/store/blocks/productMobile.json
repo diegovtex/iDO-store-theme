@@ -33,7 +33,6 @@
     }
   },
 
-
   "sku-selector#mobile": {
     "props": {
       "blockClass": "selector-mobile",
@@ -43,7 +42,7 @@
 
   "product-quantity#mobile": {
     "props": {
-      "blockClass": "quantity-desktop"
+      "blockClass": "quantity-mobile"
     }
   },
 
@@ -93,7 +92,7 @@
       "productList": {
         "maxItems": 7,
         "itemsPerPage": 4,
-        "minItemsPerPage": 1,
+        "minItemsPerPage": 2,
         "scroll": "BY_PAGE",
         "arrows": false,
         "titleText": ""

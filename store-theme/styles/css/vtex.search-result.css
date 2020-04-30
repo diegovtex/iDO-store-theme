@@ -1,0 +1,31 @@
+.galleryItem--desktop-search-gallery {
+  width: 33%;
+  flex-basis: 33%!important;
+  max-width: 33%!important;
+}
+
+.totalProducts--layout {
+  display: none;
+}
+
+.filterMessage {
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 18px;
+}
+
+.filterTitle {
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 18px;
+}
+
+.categoryParent {
+
+}
+
+.categoryItemChildren {
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  font-size: 18px;
+}

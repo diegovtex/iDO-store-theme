@@ -15,9 +15,6 @@
 }
 
 
-.discountInsideContainer {
-  display: none;
-}
 .notificationContent {
   font-family: "MuseoJHSans700";
   color: #ffffff;
@@ -85,10 +82,17 @@
 }
 .infoCardHeadline--info-card-fidelity-card {
   margin-top: 0px;
-  color: black !important;
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 35px;
 }
 
-
+.infoCardHeadline--info-card-domentica {
+  text-shadow: 0 2px 30px rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  font-family: "MuseoJHSans900";
+  font-size: 45px;
+}
 
 .newsletter--newsletter-desktop {
   background-color: rgba(0, 0, 0, 0.1)!important;
@@ -463,6 +467,43 @@
   display: none;
 }
 
+.skuSelectorInternalBox {
+  justify-content: center;
+  border: none;
+}
+
+
+
+.diagonalCross--colors-selector {
+  height: 60%;
+  width: 90%;
+  top: 20%;
+  left: 5%;
+}
+
+
+
+.skuSelectorSubcontainer--color .skuSelectorItem--colors-selector--selected {
+  border: 1px solid;
+  width: 27px!important;
+  height: 27px!important;
+}
+
+
+.skuSelectorSubcontainer--size :global(.vtex-store-components-3-x-skuSelectorItem--colors-selector){
+  height: 33px;
+  width: 33px;
+  border-radius: 16px;
+  border: solid 1px;
+}
+
+.skuSelectorSubcontainer--size :global(.vtex-store-components-3-x-skuSelectorItem--selector-mobile){
+  height: 33px;
+  width: 33px;
+  border-radius: 16px;
+  border: solid 1px;
+}
+
 .price_listPrice--top-price-section {
   text-decoration: none;
   font-weight: bold;
@@ -508,18 +549,38 @@
 }
 
 .skuSelectorItemImage {
-  height: 19px !important;
-  width: 19px !important;
+  height: 19px;
+  width: 19px;
   margin: 0 !important;
   margin-right: 0.25rem !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.skuSelectorItemImageValue--colors-selector {
+  width: 19px;
+  height: 19px;
+}
+
+.valueWrapper--colors-selector {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .skuSelectorInternalBox {
   border-radius: 0px;
 }
+
 .frameAround {
   border: none;
 }
 
+.carouselGaleryThumbs--image-to-hide {
+  min-height: 135px;
+}
 
 .skuSelectorTextContainer {
   display: none;
@@ -539,6 +600,21 @@
   display: none;
 }
 /* Product Page mobile version styling BEGINS here */
+
+
+.productImageTag--productImageMobile {
+  width: 375px!important;
+  height: 405px!important;
+}
+
+.productImagesThumb--productImageMobile {
+  width: 117px!important;
+  height: 129px!important;
+}
+
+.productImagesThumbsSwiperContainer--productImageMobile {
+  width: 349px!important;
+}
 
 .price_listPrice--mobile-price-without-discount {
   text-decoration: none;
@@ -577,7 +653,7 @@
 .productBrand {
   font-family: 'MuseoJHSans900';
   width: 260px;
-  height: 29px;
+  height: 100%;
   color: #001930;
   font-size: 25px;
   line-height: 29px;
@@ -606,6 +682,11 @@
 
 }
 
+.skuSelectorContainer--colors-selector {
+  border-bottom: 1px solid;
+  border-color: #DCDCDC;
+}
+
 .skuSelectorContainer--size-picker .skuSelectorSubcontainer--color{
   display: none;
 }
@@ -626,4 +707,53 @@
 }
 /* product page image size desktop version  END*/
 
+/* dekstop mobile verison BEGINS here  */
+@media screen and (max-width:  768px) {
 
+  .infoCardContainer--mobile-slide {
+    width: auto!important;
+    height: auto!important;
+  }
+
+  .infoCardTextContainer--mobile-slide {
+    order: 2;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 100%;
+  }
+  .infoCardCallActionContainer--mobile-slide {
+    width: 100%;
+  }
+  .infoCardCallActionContainer--mobile-slide :global(.vtex-button__label) {
+    width: 100%;
+    text-align: left;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px !important;
+  }
+  .infoCardContainer--mobile-slide {
+    display: flex;
+    flex-direction: column;
+  }
+  .infoCardTextContainer--mobile-slide {
+    order: 2;
+  }
+  .infoCardImageContainer-mobile-slide {
+    order: 1;
+    height: 211px;
+    width: 195px;
+  }
+
+  .infoCardCallActionContainer--mobile-slide :global(.vtex-button) {
+    width: 100%!important;
+    height: auto!important;
+    margin-left: 0px!important;
+    font-size: 20px!important;
+  }
+
+  .carouselGaleryThumbs--productImageMobile {
+    display: flex;
+  }
+}
+/* desktop mobile version ENDS here */

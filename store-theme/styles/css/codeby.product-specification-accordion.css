@@ -13,8 +13,6 @@
 
 .arrowRight .itemTitle--meeting-class {
   font-size: 18px;
-  border-bottom: 1px solid;
-  border-color: #DCDCDC;
   padding-bottom: 20px;
 }
 
@@ -32,3 +30,23 @@
 .codeby-product-specification-accordion-1-x-itemContentActive::after {
   margin-left: 50px;
 }
+
+.accordionContainer {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.itemTitle--meeting-class {
+  border-bottom: 1px solid;
+  border-color: #DCDCDC;
+}
+.itemTitle--meeting-class.itemContentActive {
+  border: none !important;
+}
+.itemContent.itemContentActive {
+  border-bottom: 1px solid !important;
+  border-color: #DCDCDC !important;
+  width: 100%;
+}
+
+

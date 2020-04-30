@@ -12,3 +12,10 @@
 .information {
   justify-content: flex-end;
 }
+
+@media screen and (max-width: 768px) {
+  .imageContainer {
+    width: auto !important;
+    height: auto !important;
+  }
+}

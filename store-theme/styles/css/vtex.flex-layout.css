@@ -113,6 +113,11 @@
   line-height: 29px;
 }
 
+.flexRow--product-name-price-section {
+  border-bottom: 1px solid;
+  border-color: #DCDCDC;
+  padding-bottom: 5px;
+}
 .flexCol--product-name-price-section {
   justify-content: flex-end;
 }
@@ -246,3 +251,17 @@
   justify-content: flex-end;
 }
 
+/* mobile product page BEGINS here */
+
+.flexRowContent--product-name-price-section {
+  position: relative;
+}
+
+.flexCol--product-name-price-section {
+  width: 50%!important;
+  display: flex;
+  position: absolute;
+  right: 0px;
+  top: 7px;
+}
+/* mobile product page ENDS here */

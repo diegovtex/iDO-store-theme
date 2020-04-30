@@ -100,9 +100,9 @@
     ],
     "props": {
       "itemsPerPage": {
-        "desktop": 3,
+        "desktop": 2,
         "tablet": 2,
-        "phone": 1.5
+        "phone": 2
       },
       "infinite": true,
       "fullWidth": false,
@@ -113,49 +113,55 @@
   "info-card#1Mobile": {
     "props": {
       "imageUrl": "https://andreibranch--storeido.myvtex.com/arquivos/glamgirl.png",
-      "isFullModeStyle": true,
+      "isFullModeStyle": false,
       "callToActionText": "Glam",
-      "textPosition": "center"
+      "textPosition": "center",
+      "blockClass": "mobile-slide"
     }
   },
   "info-card#2Mobile": {
     "props": {
       "imageUrl": "https://andreibranch--storeido.myvtex.com/arquivos/idomini.png",
-      "isFullModeStyle": true,
+      "isFullModeStyle": false,
       "callToActionText": "iDO Mini",
-      "textPosition": "center"
+      "textPosition": "center",
+      "blockClass": "mobile-slide"
     }
   },
   "info-card#3Mobile": {
     "props": {
       "imageUrl": "https://andreibranch--storeido.myvtex.com/arquivos/glamgirl.png",
-      "isFullModeStyle": true,
+      "isFullModeStyle": false,
       "callToActionText": "Back to school",
-      "textPosition": "center"
+      "textPosition": "center",
+      "blockClass": "mobile-slide"
     }
   },
   "info-card#4Mobile": {
     "props": {
       "imageUrl": "https://andreibranch--storeido.myvtex.com/arquivos/glamgirl.png",
-      "isFullModeStyle": true,
+      "isFullModeStyle": false,
       "callToActionText": "Glam",
-      "textPosition": "center"
+      "textPosition": "center",
+      "blockClass": "mobile-slide"
     }
   },
   "info-card#5Mobile": {
     "props": {
       "imageUrl": "https://andreibranch--storeido.myvtex.com/arquivos/idomini.png",
-      "isFullModeStyle": true,
+      "isFullModeStyle": false,
       "callToActionText": "iDO Mini",
-      "textPosition": "center"
+      "textPosition": "center",
+      "blockClass": "mobile-slide"
     }
   },
   "info-card#6Mobile": {
     "props": {
       "imageUrl": "https://andreibranch--storeido.myvtex.com/arquivos/glamgirl.png",
-      "isFullModeStyle": true,
+      "isFullModeStyle": false,
       "callToActionText": "Back to school",
-      "textPosition": "center"
+      "textPosition": "center",
+      "blockClass": "mobile-slide"
     }
   },
   "info-card#dimenticaMobile": {
