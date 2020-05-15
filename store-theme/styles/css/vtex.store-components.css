@@ -14,6 +14,9 @@
 
 }
 
+.item {
+  display: none;
+}
 
 .notificationContent {
   font-family: "MuseoJHSans700";
@@ -586,6 +589,14 @@
   display: none;
 }
 
+.discountInsideContainer {
+  color: #ffffff;
+  font-family: "MuseoJHSans900";
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  background-color: #aeca3b;
+}
 
 :global(.vtex-product-identifier-0-x-product-identifier--productReference) {
   display: none;

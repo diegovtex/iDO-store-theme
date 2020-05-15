@@ -92,6 +92,8 @@
       "fullWidth": true
     }
   },
+
+
   "flex-layout.col#filter": {
     "children": ["filter-navigator.v3"],
     "props": {
@@ -101,7 +103,6 @@
   "flex-layout.col#content": {
     "children": [
       "flex-layout.row#searchinfo",
-      "flex-layout.row#fetchprevious",
       "flex-layout.row#products",
       "flex-layout.row#fetchmore"
     ],
@@ -111,7 +112,10 @@
     }
   },
   "flex-layout.row#searchinfo": {
-    "children": ["flex-layout.col#productCount", "flex-layout.col#orderby"]
+    "children": ["flex-layout.col#productCount", "flex-layout.col#orderby"],
+        "props": {
+          "blockClass": "order-by-desktop"
+        }
   },
   "flex-layout.col#productCount": {
     "children": ["total-products.v2"],

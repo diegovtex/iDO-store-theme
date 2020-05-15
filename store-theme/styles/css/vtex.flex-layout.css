@@ -216,7 +216,11 @@
   position: relative;
 }
 
-/* store locator mobile styling */
+/* all products page */
+:global(.vtex-flex-layout-0-x-flexCol--filterCol) {
+  width: 300px!important;
+}
+/* all products page  END*/
 
 
 

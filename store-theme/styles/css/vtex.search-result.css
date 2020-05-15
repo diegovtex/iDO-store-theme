@@ -1,4 +1,4 @@
-.galleryItem--desktop-search-gallery {
+:global(.vtex-search-result-3-x-galleryItem) {
   width: 33%;
   flex-basis: 33%!important;
   max-width: 33%!important;
@@ -20,12 +20,196 @@
   font-size: 18px;
 }
 
-.categoryParent {
-
-}
 
 .categoryItemChildren {
   color: #001930;
   font-family: "MuseoJHSans500";
   font-size: 18px;
 }
+
+.buttonShowMore :global(.vtex-button) {
+  width: 248px;
+  height: 32px;
+  border-radius: 16px;
+  border: 1px solid #001930;
+  background-color: transparent;
+}
+
+.buttonShowMore :global(.vtex-button__label) {
+  color: black;
+}
+
+
+.filter__container--specificationFilter_26 :global(.vtex-checkbox__inner-container){
+  border-radius: 50%;
+  border: solid 1px;
+}
+
+.filter__container--specificationFilter_26 :global(.vtex-checkbox__label){
+  color: #001930;
+  font-family: "MuseoJHSans500";
+}
+
+.filter__container--specificationFilter_27 :global(.vtex-checkbox__inner-container){
+  border-radius: 50%;
+  border: solid 1px;
+}
+
+.filter__container--specificationFilter_27 :global(.vtex-checkbox__label){
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  display: block;
+  padding: 5px 20px;
+  border: 1px solid #3f3f40;
+  border-radius: 30px;
+  margin-bottom: 10px;
+  width: 115px;
+  font-size: 14px;
+  margin-right: 20px!important;
+  text-align: center;
+}
+
+
+
+.filter__container--specificationFilter_27 .filterItem{
+  width: 50%;
+}
+
+.filter__container--specificationFilter_27 .filterContent {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.filter__container--specificationFilter_27  :global(.vtex-checkbox__container) {
+  display: none!important;
+}
+
+.filter__container--specificationFilter_28 :global(.vtex-checkbox__label){
+  color: #001930;
+  font-family: "MuseoJHSans500";
+}
+
+.filter__container--specificationFilter_28 :global(.vtex-checkbox__inner-container){
+  border-radius: 50%;
+  border: solid 1px;
+/*  background: transparent;*/
+}
+
+/*
+
+.filter__container--specificationFilter_28 :global(.vtex__icon-check) {
+  color: black;
+}
+*/
+
+.orderByOptionsContainer {
+  z-index: 9999;
+}
+
+.filter__container--b :global(.vtex-checkbox__label){
+  color: #001930;
+  font-family: "MuseoJHSans500";
+}
+
+.filter__container--b :global(.vtex-checkbox__inner-container){
+  border-radius: 50%;
+  border: solid 1px;
+}
+
+.filter__container--specificationFilter_27 :global(.vtex-checkbox__label) {
+
+}
+
+.orderByText {
+  color: #001930!important;
+  font-family: "MuseoJHSans500";
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: none;
+}
+
+.filterPopupTitle {
+  font-size: 0px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: relative;
+}
+
+.orderByOptionsContainer {
+  margin-top: 55px;
+}
+
+@media screen and (min-width: 1280px) {
+  .orderBy--layout {
+  }
+}
+@media screen and (max-width: 1279px) {
+  .orderBy--layout {
+  }
+}
+
+.orderByButton {
+  border: none;
+}
+
+.caretIcon {
+  position: absolute;
+  left: 120px;
+  bottom: 19px;
+  width: 20px;
+  height: 15px;
+}
+
+.filterPopupArrowIcon {
+  position: absolute;
+  right: 38%;
+  top: 95%;
+}
+
+.orderByOptionItem {
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+
+/*.filter__container--specificationFilter_26 :global(.vtex__icon-check){
+  background-color: transparent;
+}*/
+/*
+
+.filter__container--specificationFilter_18 :global(.vtex-search-result-3-x-filterTemplateOverflow) {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+
+.filter__container--specificationFilter_18 :global(.vtex-checkbox__line-container){
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+
+.filter__container--specificationFilter_18 :global(.vtex-checkbox__container){
+  width: 50px;
+  height: 50px;
+}
+
+.filter__container--specificationFilter_18 :global(.vtex-checkbox__inner-container){
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+*/

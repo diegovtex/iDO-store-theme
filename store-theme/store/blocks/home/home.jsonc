@@ -374,7 +374,7 @@
 
   "rich-text#link": {
     "props": {
-      "text": "​<div class='vtex-rich-text-iframe'> <iframe class='vtex-rich-text-iframe-inside' height='500' src='https://www.youtube.com/embed/2AVs-Yh1bS8' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div>",
+      "text": "​<div class='vtex-rich-text-iframe'> <iframe class='vtex-rich-text-iframe-inside' height='500' src='https://www.youtube.com/embed/2AVs-Yh1bS8' frameborder='0' style = 'width: 100%' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div>",
       "blockClass": "link"
     }
   },
