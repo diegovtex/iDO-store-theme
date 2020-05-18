@@ -1,64 +1,5 @@
 {
-  "store.search": {
-    "blocks": ["search-result-layout"],
-    "props": {
-      "context": {
-        "skusFilter": "FIRST_AVAILABLE",
-        "simulationBehavior": "skip"
-      }
-    }
-  },
 
-  "store.search#brand": {
-    "blocks": ["search-result-layout"],
-    "props": {
-      "context": {
-        "orderByField": "OrderByReleaseDateDESC",
-        "hideUnavailableItems": true,
-        "maxItemsPerPage": 10,
-        "skusFilter": "FIRST_AVAILABLE",
-        "simulationBehavior": "skip"
-      }
-    }
-  },
-
-  "store.search#department": {
-    "blocks": ["search-result-layout"],
-    "props": {
-      "context": {
-        "skusFilter": "FIRST_AVAILABLE",
-        "simulationBehavior": "skip"
-      }
-    }
-  },
-
-  "store.search#category": {
-    "blocks": ["search-result-layout"],
-    "props": {
-      "context": {
-        "skusFilter": "FIRST_AVAILABLE",
-        "simulationBehavior": "skip"
-      }
-    }
-  },
-
-  "store.search#subcategory": {
-    "blocks": ["search-result-layout"],
-    "props": {
-      "context": {
-        "skusFilter": "FIRST_AVAILABLE",
-        "simulationBehavior": "skip"
-      }
-    }
-  },
-
-  "search-result-layout": {
-    "blocks": [
-      "search-result-layout.desktop",
-      "search-result-layout.mobile",
-      "search-not-found-layout"
-    ]
-  },
 
   "search-result-layout.desktop": {
     "children": [
@@ -70,7 +11,7 @@
       "pagination": "show-more",
       "preventRouteChange": true,
       "mobileLayout": {
-        "mode1": "inline",
+        "mode1": "small",
         "mode2": "normal"
       }
     }
@@ -113,12 +54,10 @@
   },
   "flex-layout.row#searchinfo": {
     "children": ["flex-layout.col#productCount", "flex-layout.col#orderby"],
-        "props": {
-          "blockClass": "order-by-desktop"
-        }
+    "props": {
+      "blockClass": "order-by-desktop"
+    }
   },
-
-
   "flex-layout.col#productCount": {
     "children": ["total-products.v2"],
     "props": {
@@ -235,18 +174,18 @@
     }
   },
 
-      "product-summary#searchDekstop": {
-      "props": {
-        "isOneClickBuy": true,
-        "showBadge": true,
-        "badgeText": "ON",
-        "displayBuyButton": "displayButtonHover",
-        "showCollections": true,
-        "showListPrice": true,
-        "showLabels": true,
-        "showInstallments": true,
-        "showSavings": true,
-        "blockClass": "search-desktop"
-      }
+  "product-summary#searchDekstop": {
+    "props": {
+      "isOneClickBuy": true,
+      "showBadge": true,
+      "badgeText": "ON",
+      "displayBuyButton": "displayButtonHover",
+      "showCollections": true,
+      "showListPrice": true,
+      "showLabels": true,
+      "showInstallments": true,
+      "showSavings": true,
+      "blockClass": "search-desktop"
     }
+  }
 }

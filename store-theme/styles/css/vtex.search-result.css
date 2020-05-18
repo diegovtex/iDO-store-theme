@@ -141,6 +141,7 @@
 
 .orderByOptionsContainer {
   margin-top: 55px;
+  width: 310px;
 }
 
 @media screen and (min-width: 1280px) {
@@ -176,6 +177,14 @@
   font-size: 18px;
   text-transform: capitalize;
 }
+
+/*
+:global(.codeby-sandbox-0-x-toggleButton) {
+  font-size: 0px;
+  border: none;
+  background-image: url("https://thirdbranch--storeido.myvtex.com/arquivos/filtermage.png");
+}
+*/
 
 
 /*.filter__container--specificationFilter_26 :global(.vtex__icon-check){

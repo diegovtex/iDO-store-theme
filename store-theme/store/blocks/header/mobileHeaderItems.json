@@ -61,8 +61,8 @@
       },
       "highlight": false,
       "itemProps": {
-        "type": "external",
-        "href": "/search"
+        "type": "internal",
+        "href": "/tutti-i-prodotti"
       }
     }
   },
