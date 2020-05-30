@@ -20,7 +20,8 @@
         "info-card#colours",
         "flex-layout.row#store-locator",
         "info-card#teddy",
-        "newsletter#desktop"
+        "newsletter#desktop",
+        "flex-layout.row#go"
       ]
     },
 
@@ -111,6 +112,20 @@
         }
       }
     },
+    "product-summary#radu": {
+    "props": {
+      "isOneClickBuy": true,
+      "showBadge": true,
+      "badgeText": "ON",
+      "displayBuyButton": "displayButtonHover",
+      "showCollections": false,
+      "showListPrice": true,
+      "showLabels": true,
+      "showInstallments": true,
+      "showSavings": true,
+      "showDiscount" : true
+    }
+  },
 
    "info-card#1": {
      "props": {
@@ -375,7 +390,7 @@
 
   "rich-text#link": {
     "props": {
-      "text": "​<div class='vtex-rich-text-iframe'> <iframe class='vtex-rich-text-iframe-inside' height='500' src='https://www.youtube.com/embed/2AVs-Yh1bS8' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div>",
+      "text": "​<div class='vtex-rich-text-iframe'> <iframe class='vtex-rich-text-iframe-inside' height='500' src='https://www.youtube.com/embed/2AVs-Yh1bS8' frameborder='0' style = 'width: 100%' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div>",
       "blockClass": "link"
     }
   },
@@ -387,5 +402,41 @@
         "placeholder": "Inserisci la tua email",
         "hideLabel": false
       }
-    }
+    },
+
+        "flex-layout.row#go": {
+          "children": [
+            "ToggleProvider#1"
+          ]
+        },
+        "TogglerContainer#1": {
+          "children": [
+            "ContentToggler#1"
+          ]
+        },
+        "ContentToggler#1": {
+          "children": [
+            "rich-text#1",
+            "flex-layout.col#filter"
+          ]
+        },
+        "ToggleProvider#1": {
+          "props": {
+            "togglerId": "test"
+          },
+          "children": [
+            "ContentToggler#1",
+            "TogglerButton#1"
+          ]
+        },
+        "TogglerButton#1": {
+          "props": {
+            "togglerId": "test"
+          }
+        },
+        "rich-text#1": {
+          "props": {
+            "text": "oi"
+          }
+        }
 }

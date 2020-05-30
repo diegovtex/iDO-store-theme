@@ -238,3 +238,37 @@
   font-size: 18px;
   line-height: 19px;
 }
+
+/* richtext next to price discount on mobile product page BEGINS HERE */
+
+.flexCol--product-name-price-rich-text {
+   width: 50%;
+ }
+
+.paragraph--Prezzo {
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  font-size: 18px;
+  line-height: 19px;
+}
+
+.paragraph--link {
+  width: 100%;
+}
+
+.container--link {
+  width: 100%;
+}
+
+.wrapper--link {
+  width: 100%;
+}
+
+.paragraph--partire {
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+}
+/* richtext next to price discount on mobile product page ENDS HERE */

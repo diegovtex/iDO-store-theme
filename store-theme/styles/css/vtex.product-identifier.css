@@ -5,15 +5,17 @@
 
 
 
-/* Quantity Selector styling BEGINS here */
+/* Quantity Selector desktop styling BEGINS here */
 
 
 
-:global(.vtex-product-quantity-1-x-quantitySelectorContainer) {
+:global(.vtex-product-quantity-1-x-quantitySelectorContainer--quantity-desktop) {
   flex-direction: row;
+  border-bottom: 1px solid;
+  border-color: #DCDCDC;
 }
 
-:global(.vtex-product-quantity-1-x-quantitySelectorTitle) {
+:global(.vtex-product-quantity-1-x-quantitySelectorTitle--quantity-desktop) {
   width: 50%;
   height: 70px;
   color: #001930;
@@ -25,7 +27,7 @@
   align-items: center;
 }
 
-:global(.vtex-product-quantity-1-x-quantitySelectorStepper) {
+:global(.vtex-product-quantity-1-x-quantitySelectorStepper--quantity-desktop) {
   width: 50%;
   display: flex;
   justify-content: flex-end;
@@ -61,4 +63,43 @@
   width: 30px;
   border-color: black;
 }
- /* Quantity selector styling ENDS here */
+ /* Quantity selector desktop styling ENDS here */
+/* Quantity Selector mobile styling BEGINS here */
+
+:global(.vtex-product-quantity-1-x-quantitySelectorContainer--quantity-mobile) {
+  flex-direction: row;
+  margin-left: 10px;
+  border-bottom: 1px solid;
+  border-color: #DCDCDC;
+}
+
+:global(.vtex-product-quantity-1-x-quantitySelectorTitle--quantity-mobile) {
+  width: 50%;
+  height: 70px;
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  font-size: 18px;
+  line-height: 19px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+:global(.vtex-product-quantity-1-x-quantitySelectorStepper--quantity-mobile) {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+/* Quantity Selector mobile styling ENDS here */
+/* SKU selector mobile styling BEINGS here */
+
+:global(.vtex-store-components-3-x-skuSelectorContainer--selector-mobile) {
+  border-bottom: 1px solid;
+  border-color: #DCDCDC;
+}
+
+/* SKU selector mobile styling ENDS here */

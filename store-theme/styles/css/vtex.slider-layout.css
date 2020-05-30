@@ -100,9 +100,6 @@
 }
 
 
-.sliderLayoutContainer--hatSlider {
-  margin-bottom: 180px;
-}
 
 .paginationDotsContainer--hatSlider {
   bottom: 15px;
@@ -132,10 +129,6 @@
   padding-left: 10px!important;
 }
 
-.slide--shelf-mobile {
-  width: 195px!important;
-  height: 211px!important;
-}
 
 .layoutContainer--shelf-mobile {
   margin-top: 20px;
@@ -177,31 +170,19 @@
 
 
 
-.slide--shelf-mobile :global(.vtex-store-components-3-x-infoCardCallActionContainer) {
-  position: absolute;
-  top: 0px;
-  left: -15px;
-  height: 430px;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-end;
-  z-index: 959999999;
-  width: 100%;
-  text-decoration: none;
-}
 
 
 
 .slide--shelf-mobile :global(.vtex-slider-layout-0-x-paginationDot--shelf) {
   width: 500px;
-  background-color: red;
+  background-color: #001930;
 }
 
 .sliderLayoutContainer--shelf-mobile {
   margin-bottom: 180px;
 }
 .paginationDotsContainer--shelf-mobile {
-  bottom: -90px;
+  bottom: 0px;
 }
 .paginationDot--shelf-mobile {
   height: 3px !important;
@@ -212,4 +193,29 @@
   border-radius: 0px;
   margin-left: 0px;
   margin-right: 0px;
+}
+
+
+@media screen and (max-width: 768px) {
+
+  .sliderTrack--shelf-mobile {
+  justify-content: flex-start !important;
+  }
+
+  .paginationDotsContainer--shelf-mobile {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .paginationDot--shelf-mobile--isActive {
+    background-color: #001930;
+  }
+
+  .sliderLayoutContainer--shelf-mobile {
+    margin-bottom: 30px!important;
+  }
+
+  .slide--shelf-mobile {
+    margin-right: 20px;
+  }
 }

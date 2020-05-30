@@ -153,21 +153,17 @@
 
 
 :global(.vtex-store-components-3-x-infoCardHeadline--secondLayerMobile) {
-  position: absolute;
-  top: 0px;
-  width: 780px;
-  max-width: 780px!important;
-  height: 191px;
   color: #ffffff;
   font-family: "MuseoJHSans900"!important;
-  font-size: 36px!important;
+  font-size: 7vw!important;
   text-transform: uppercase;
-  margin-left: 50px;
+  margin-left: 20px;
+  margin-top: 0px;
 }
 :global(.vtex-store-components-3-x-infoCardHeadline--firstStackWithImage) {
   position: absolute;
   top: 34px;
-  font-size: 46px;
+  font-size: 12vw;
   font-family: "MuseoJHSans900"!important;
   left: 21px;
   color: #ffffff;

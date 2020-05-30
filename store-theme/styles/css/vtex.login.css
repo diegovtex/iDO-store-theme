@@ -1,16 +1,88 @@
 
+.content {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.contentForm {
+  align-self: center;
+}
+
+.inputContainer {
+  margin-top: 55px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--rich-text-login-2) {
+  position: absolute;
+  z-index: 9;
+  top: 210px;
+  left: 74px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--rich-text-login-1) {
+  position: absolute;
+  z-index: 9;
+  top: 106px;
+  left: 74px;
+}
+
+.inputContainer :global(.vtex-input-prefix__group) {
+  border: 1px solid;
+  border-radius: 20px;
+}
+
+:global(.styles_modal__gNwvD) {
+  width: auto!important;
+  max-width: none!important;
+}
+
 /*
+.accessCodeOptionBtn {
+
+}
+
+.formError {
+ width: 250px;
+}
+
+.tooltipContainer {
+  width: 100% !important;
+  display: inline-block;
+}
+
+
+
 :global(.vtex-styleguide-9-x-mh100) {
-  width: 410px;
-  height: 337px;
+  max-width: 410px!important;
+  max-height: 677px!important;
 }
 
-:global(.vtex-login-2-x-contentAlwaysWithOptions) {
-  flex-direction: column;
+:global(.vtex-styleguide-9-x-scrollBar) {
+
+}
+.formTitle {
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 25px;
+  line-height: 29px;
 }
 
-:global(.vtex-login-2-x-formTitle) {
-  font-family: MuseoJHSans900;
+
+
+
+
+
+!*.sendButton :global(.vtex-button) {
+  background-color: transparent;
+  border: none;
+  background-image: url("https://thirdbranch--storeido.myvtex.com/arquivos/accedibutton.png");
+  background-repeat: no-repeat;
+  background-position: center;
 }
+
+.sendButton :global(.t-small) {
+  font-size: 0px!important;
+}*!
+
 
 */
