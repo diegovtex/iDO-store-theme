@@ -1,0 +1,34 @@
+{
+  "store.custom#allProducts": {
+    "blocks": ["search-result#promotion"]
+  },
+  "search-result#promotion": {
+    "props": {
+      "blockClass": "home",
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "maxItemsPerPage": 15
+      },
+      "pagination": "show-more",
+      "mobileLayout": {
+        "mode1": "small"
+      }
+    },
+    "blocks": ["rich-text#promotion", "gallery#shelf"]
+  },
+  "rich-text#promotion": {
+    "props": {
+      "text": "PROMOTIILE LUNII NOIEMBRIE",
+      "blockClass": "promotion"
+    }
+  },
+  "gallery#shelf": {
+    "props": {
+      "width": 1200,
+      "minItemWidth": 204,
+      "itemsPerRow": 5,
+      "maxItemsPerRow": 5
+    },
+    "blocks": ["product-summary.shelf"]
+  }
+}

@@ -98,7 +98,7 @@
       "blocks": ["product-summary.shelf"],
       "props": {
         "blockClass": "shlef-radu",
-        "category": 2,
+        "category": 3,
         "orderBy": "OrderByTopSaleDESC",
         "paginationDotsVisibility": "desktopOnly",
         "productList": {

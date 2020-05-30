@@ -27,6 +27,7 @@
       "menu-item#vtex-location",
       "menu-item#vtex-cart",
       "menu-item#vtex-myIdo",
+      "modal#headerDesktop",
       "locale-switcher#custom"
     ]
   },
@@ -78,7 +79,7 @@
       "highlight": false,
       "itemProps": {
         "type": "external",
-        "href": "http://vtex.com"
+        "href": "/all-products"
       }
     }
   },
@@ -119,6 +120,29 @@
         "tagTitle": "myIdo",
         "text": "My iDO"
       }
+    }
+  },
+
+  "modal#headerDesktop": {
+    "children": ["login-content#radu"],
+    "props": {
+      "centered": true,
+      "blockClass": "home-modal",
+      "buttonClass": "t-heading-5",
+      "buttonLabel": "My iDO",
+      "showCloseIcon": false
+    }
+  },
+
+  "login-content#radu": {
+    "props": {
+      "defaultOption": 1,
+      "isInitialScreenOptionOnly": false,
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Ricevi il codice di accesso via email",
+      "emailPraceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true
     }
   },
 
