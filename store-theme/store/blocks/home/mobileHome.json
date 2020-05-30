@@ -50,7 +50,7 @@
       "product-summary"
     ],
     "props": {
-      "category": 1,
+      "category": 2,
       "blockClass": "showMobile",
       "orderBy": "OrderByTopSaleDESC",
       "paginationDotsVisibility": "desktopOnly",
@@ -219,7 +219,6 @@
       "rich-text#store-locatorMobile"
     ]
   },
-
   "store-locator-search-input#mobile": {
     "props": {
       "placeholder": "Inserisci indirizzo",

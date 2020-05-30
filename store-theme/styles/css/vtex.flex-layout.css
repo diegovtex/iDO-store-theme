@@ -44,6 +44,8 @@
   line-height: 19px;
 }
 
+.flexCol--filterCol { max-width: 230px!important; min-width: 230px!important; }
+
 /* Store loator css */
 
 .flexRow--store-locator-home :global(.vtex-store-components-3-x-container){
