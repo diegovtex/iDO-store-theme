@@ -251,6 +251,20 @@
 }
 
 
+:global(.vtex-modal-0-x-button--home-modal) {
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: none;
+  margin-top: 8px;
+  position: absolute;
+  right: 92px;
+  padding-left: 30px;
+}
 
+:global(.vtex-menu-2-x-menuItem--ido-logo-class-desktop) {
+  margin-right: 40px;
+}
 
 

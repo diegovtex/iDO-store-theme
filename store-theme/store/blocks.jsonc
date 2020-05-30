@@ -31,6 +31,17 @@
     }
   },
 
+
+  "modal": {
+      "children": ["rich-text"],
+      "props": {
+  	   "centered": true,
+  	   "blockClass": "home-modal",
+  	   "buttonClass": "t-heading-5",
+  	   "showCloseIcon": false
+  	}
+    },
+
   "product-summary.shelf": {
     "children": [
       "stack-layout#prodsum",

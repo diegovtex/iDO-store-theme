@@ -178,12 +178,12 @@
   text-transform: capitalize;
 }
 
-/*
-:global(.codeby-sandbox-0-x-toggleButton) {
-  font-size: 0px;
-  border: none;
-  background-image: url("https://thirdbranch--storeido.myvtex.com/arquivos/filtermage.png");
+:global(.vtex-search-result-3-x-filterIcon ) {
+  display: none;
 }
+
+/*
+
 */
 
 

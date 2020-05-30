@@ -260,6 +260,10 @@
   width: 100%;
 }
 
+.wrapper--link {
+  width: 100%;
+}
+
 .paragraph--partire {
   color: #001930;
   font-family: "MuseoJHSans500";
