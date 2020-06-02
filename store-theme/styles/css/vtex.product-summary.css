@@ -19,3 +19,71 @@
     height: auto !important;
   }
 }
+
+/* mobile search page */
+
+.productNameContainer--search-mobile {
+  text-align: left;
+  width: 100%;
+}
+
+.price_className--search-mobile {
+  width: 100%;
+  text-align: left;
+  display: flex;
+}
+.price_listPriceContainer--search-mobile {
+  order: 2;
+
+}
+
+.price_listPrice--search-mobile {
+  font-family: "MuseoJHSans500";
+  font-size: 14px!important;
+  text-align: left;
+  width: 100%;
+}
+
+.price_sellingPriceContainer--search-mobile{
+  order: 1;
+}
+
+
+
+:global(.vtex-product-summary-2-x-productBrand--search-mobile) {
+  font-family: "MuseoJHSans500";
+  font-size: 14px!important;
+  color: #001930;
+}
+:global(.vtex-product-summary-2-x-productBrand) {
+  font-family: "MuseoJHSans500";
+  font-size: 24px;
+  color: #001930;
+}
+.productBrand—-search-mobile :global(.vtex-product-summary-2-x-priceContainer) {
+  text-align: left;
+}
+
+
+
+:global(.vtex-product-summary-2-x-price_sellingPrice--search-mobile) {
+  font-family: "MuseoJHSans500";
+  font-size: 14px!important;
+  color: #001930;
+}
+
+
+:global(.vtex-store-components-3-x-sellingPrice) {
+  font-family: "MuseoJHSans900";
+  font-size: 24px;
+  color: #001930;
+}
+
+:global(.vtex-store-components-3-x-sellingPrice) {
+  font-family: "MuseoJHSans900";
+  font-size: 24px;
+  color: #001930;
+}
+
+
+/* mobile search page END */

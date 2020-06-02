@@ -48,6 +48,7 @@
 }
 
 
+
 .infoCardContainer--info-card-domentica :global(.vtex-button) {
   border-radius: 25px;
   width: 190px;
@@ -612,6 +613,19 @@
 }
 /* Product Page mobile version styling BEGINS here */
 
+.discountInsideContainer::after {
+  content: ' ';
+  height: 20px;
+  width: 35px;
+  position: absolute;
+  right: -11px;
+  top: 0px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 28px 12px 0 0;
+  border-color: #aeca3b transparent transparent transparent;
+}
 
 .productImageTag--productImageMobile {
   width: 375px!important;
