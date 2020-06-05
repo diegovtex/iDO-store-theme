@@ -25,11 +25,14 @@
     "children": [
       "menu-item#vtex-search",
       "menu-item#vtex-location",
-      "menu-item#vtex-cart",
-      "menu-item#vtex-myIdo",
-      "modal#headerDesktop",
+      "minicart.v2",
+      "IsLogged#custom",
       "locale-switcher#custom"
     ]
+  },
+
+  "minicart.v2": {
+    "children": ["minicart-base-content"]
   },
 
   "menu-item#vtex-location": {
@@ -124,20 +127,75 @@
     }
   },
 
-  "modal#headerDesktop": {
-    "children": [
-      "login-content#desktop"
-    ],
+  "menu-item#vtex-myIdo2": {
     "props": {
-      "centered": true,
-      "blockClass": "home-modal",
-      "buttonClass": "t-heading-5",
-      "buttonLabel": "My iDO",
-      "showCloseIcon": false
+      "id": "menu-item-myIdo",
+      "type": "custom",
+      "blockClass": "ido-logo-class-desktop",
+      "iconProps": {
+        "id": "hpa-profile",
+        "iconPosition": "center",
+        "size": 22,
+        "viewBox": "0 0 18 22"
+      },
+      "highlight": false,
+      "itemProps": {
+        "blockClass": "ido-logo-class",
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "myIdo",
+        "text": ""
+      }
     }
   },
 
-
+  "modal-trigger#modal-login-button": {
+    "children": [
+      "rich-text#login",
+      "modal-layout#modal-login-content"
+    ]
+  },
+  "IsLogged#custom": {
+    "blocks": [
+      "IsLogged.logged#logged-content",
+      "IsLogged.not-logged#not-logged-content"
+    ]
+  },
+  "IsLogged.logged#logged-content": {
+    "children": [
+      "menu-item#vtex-myIdo",
+      "login#custom-login"
+    ]
+  },
+  "IsLogged.not-logged#not-logged-content": {
+    "children": [
+      "menu-item#vtex-myIdo2",
+      "modal-trigger#modal-login-button"
+    ]
+  },
+  "rich-text#login": {
+    "props": {
+      "text": "LOGIN"
+    }
+  },
+  "login#custom-login": {
+    "props": {
+      "logInButtonBehavior": "link",
+      "showIconProfile": false,
+      "isInitialScreenOptionOnly": true
+    }
+  },
+  "login-content#custom-login": {
+    "props": {
+      "isInitialScreenOptionOnly": true
+    }
+  },
+  "modal-layout#modal-login-content": {
+    "children": [
+      "login-content#custom-login"
+    ]
+  },
   "rich-text#login-modal-1": {
     "props": {
       "textAlignment": "CENTER",
@@ -164,9 +222,10 @@
       "emailPlaceholder": "mariorossi@gmail.it",
       "passwordPlaceholder": "* * * *",
       "optionsTitle": "test text title update",
-      "isInitialScreenOptionOnly": false,
+      "isInitialScreenOptionOnly": true,
       "defaultOption": 1,
-      "showPasswordVerificationIntoTooltip": true
+      "showPasswordVerificationIntoTooltip": true,
+      "blockClass": "login-content-desktop"
     }
   },
 

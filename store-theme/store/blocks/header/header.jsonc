@@ -29,6 +29,16 @@
       "display": "false"
     }
   },
+
+  "flex-layout.row#7-desktop": {
+    "children": [
+      "store.account"
+    ],
+    "props": {
+      "fullWidth": "true",
+      "display": "false"
+    }
+  },
   "notification.bar#home": {
     "props": {
       "content": "RITIRO IN NEGOZIO GRATUITO"
