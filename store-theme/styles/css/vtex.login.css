@@ -86,3 +86,8 @@
 
 
 */
+/* radu */
+
+.step-1 :global(.vtex-login-2-x-optionsSticky) {
+  display: none;
+}

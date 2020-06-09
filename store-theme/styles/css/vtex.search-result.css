@@ -12,6 +12,13 @@
 
 }
 
+.galleryTitle--layout {
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  font-size: 24px;
+  line-height: 21px;
+}
+
 .specificationFilter_18 :global(.vtex-checkbox__label) {
   width: 38px;
   height: 17px;
@@ -117,8 +124,13 @@
   height: 35px;
   background-color: #797979;
   border-radius: 50%;
+}
+
+.filter__container--specificationFilter_18 .filterItem--Grigio :global(.vtex__icon-check) {
 
 }
+
+
 
 .filter__container--specificationFilter_18 .filterItem--Giallo :global(.vtex-checkbox__inner-container) {
   width: 35px;
@@ -176,7 +188,8 @@
 }
 
 
-.filter__container--specificationFilter_18 :global(.vtex-search-result-3-x-filterTemplateOverflow) {
+.filter__container--specificationFilter_18 :global(.vtex-search-result-3-x-filterTemplateOverflow) {}
+
 :global(.vtex-search-result-3-x-galleryItem) {
   width: 33%;
   flex-basis: 33%!important;
@@ -186,6 +199,38 @@
 .totalProducts--layout {
   display: none;
 }
+
+.filtersWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 268px;
+}
+
+.filter__container--title {
+  order: 1;
+}
+.filter__container--c {
+  order: 5;
+}
+.filter__container--specificationFilter_26 {
+  order: 3;
+}
+.filter__container--specificationFilter_27 {
+  order: 4;
+}
+.filter__container--specificationFilter_19 {
+  order: 6;
+}
+.filter__container--specificationFilter_18 {
+  order: 7;
+}
+.filter__container--b {
+  order: 8;
+}
+.filter__container--specificationFilter_28 {
+  order: 9;
+}
+
 
 .filterMessage {
   color: #001930;
@@ -253,6 +298,10 @@
 .filter__container--specificationFilter_27 .filterItem{
   width: 50%;
 }
+.filter__container--specificationFilter_27 .filterItem--selected :global(.vtex-checkbox__label){
+  background-color: #001930;
+  color: white;
+}
 
 .filter__container--specificationFilter_27 .filterContent {
   display: flex;
@@ -293,6 +342,110 @@
   margin-left: 18px;
 }
 
+/* checkmark styling BEGINS here */
+.filter__container--specificationFilter_19 :global(.vtex-checkbox__box) {
+  position: static;
+}
+
+.filter__container--specificationFilter_19 :global(.vtex__icon-check) {
+  width: 29px;
+  height: 43px;
+  position: absolute;
+}
+
+.filter__container--specificationFilter_18 .filterItem--Bianco :global(.vtex-checkbox__box) {
+  position: static;
+}
+
+.filter__container--specificationFilter_18 .filterItem--Bianco :global(.vtex__icon-check) {
+  width: 38px!important;
+  height: 43px!important;
+  display: flex;
+  color: black!important;
+}
+.filter__container--specificationFilter_26 :global(.vtex-checkbox__box) {
+  position: static;
+}
+
+
+
+.filter__container--specificationFilter_26 :global(.vtex__icon-check) {
+  width: 23px;
+  height: 27px;
+  position: absolute;
+}
+
+.filter__container--specificationFilter_18 .filterItem--selected :global(.vtex-checkbox__box) {
+  background-repeat: no-repeat;
+  background-image: url("https://andreibranch--storeido.myvtex.com/arquivos/checkmark_white.png");
+  background-position: center;
+  margin-top: 5px;
+  background-size: 30px;
+}
+
+.filter__container--specificationFilter_18 .filterItem--selected :global(.vtex-checkbox__box-wrapper) {
+  width: 38px;
+  height: 36px;
+}
+
+.filter__container--specificationFilter_18 :global(.vtex__icon-check) {
+  width: 0px;
+  height: 0px;
+}
+.filter__container--specificationFilter_26 :global(.vtex-checkbox__box) {
+  position: static;
+}
+
+.filter__container--specificationFilter_26 :global(.vtex__icon-check) {
+  width: 23px;
+  height: 27px;
+  position: absolute;
+}
+
+.filter__container--specificationFilter_28 :global(.vtex-checkbox__box) {
+  position: static;
+}
+
+.filter__container--specificationFilter_28 :global(.vtex__icon-check) {
+  width: 29px;
+  height: 32px;
+  position: absolute;
+  margin-left: 2px;
+}
+.filter__container--c :global(.vtex-checkbox__box) {
+  position: static;
+}
+
+.filter__container--c :global(.vtex__icon-check) {
+  width: 23px;
+  height: 27px;
+  position: absolute;
+}
+
+.filter__container--b :global(.vtex-checkbox__box) {
+  position: static;
+}
+
+.filter__container--b :global(.vtex__icon-check) {
+  width: 29px;
+  height: 32px;
+  position: absolute;
+  margin-left: 2px;
+}
+.filter__container--title :global(.vtex-checkbox__box) {
+  position: static;
+}
+
+.filter__container--title :global(.vtex__icon-check) {
+  width: 23px;
+  height: 27px;
+  position: absolute;
+}
+
+
+/* checkmark styling ENDS here */
+
+
 .filter__container--specificationFilter_19 .filterItem :global(.vtex-checkbox__container) {
   display: flex;
   justify-content: center;
@@ -300,21 +453,31 @@
 }
 
 .filter__container--selectedFilters :global(.vtex-checkbox__inner-container) {
-  border-color: black;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #001930;
+  border-radius: 50%;
+}
+
+.filter__container--selectedFilters :global(.vtex-checkbox__box) {
+  position: static;
+}
+
+.filter__container--selectedFilters :global(.vtex__icon-check) {
+  width: 29px;
+  height: 32px;
+  position: absolute;
+  margin-left: 2px;
 }
 
 .filter__container--specificationFilter_18 :global(.vtex-checkbox__inner-container) { border: none; }
 
 
 .filter__container--specificationFilter_18 :global(.vtex__icon-check) {
-  width: 22px;
-  height: 19px;
+  width: 0px;
+  height: 0px;
 }
-.filter__container--specificationFilter_18 .filterItem--Bianco :global(.vtex__icon-check) {
-  color: black;
 
-
-}
 .filter__container--specificationFilter_18 .filterItem--Nero :global(.vtex__icon-check) {
   color: white;
 }
@@ -459,7 +622,12 @@
 .filter__container--specificationFilter_28 :global(.vtex-checkbox__inner-container){
   border-radius: 50%;
   border: solid 1px;
-/*  background: transparent;*/
+  width: 20px;
+  height: 20px;
+}
+
+.filter__container--specificationFilter_28 .filterItem {
+  margin-top: 5px;
 }
 
 /*
@@ -481,6 +649,12 @@
 .filter__container--b :global(.vtex-checkbox__inner-container){
   border-radius: 50%;
   border: solid 1px;
+  width: 20px;
+  height: 20px;
+}
+
+.filter__container--b .filterItem {
+  margin-top: 5px;
 }
 
 .filter__container--specificationFilter_27 :global(.vtex-checkbox__label) {
@@ -586,3 +760,488 @@
 }
 
 */
+
+
+/* mobile colori*/
+
+
+
+.accordionFilterItemIcon .caretIcon {
+  position: unset;
+}
+
+
+.filterButtonsBox :global(.vtex-button) {
+  border-color:  #001930;
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+  border-radius: 50px;
+  width: 160px;
+  height: 32px;
+}
+
+.filterButtonsBox :global(.vtex-button__label) {
+  font-family: "MuseoJHSans900";
+  color: #001930;
+  font-size: 14px;
+}
+
+
+.filterButtonsBox {
+  border-color: transparent;
+}
+
+.filterClearButtonWrapper {
+  padding-left: 1rem;
+}
+
+.filterApplyButtonWrapper {
+  padding-right: 1rem;
+}
+
+
+.accordionFilterItemTitle {
+  font-family: "MuseoJHSans900";
+  color: #001930;
+  size: 18px;
+}
+.sidebar {
+  width: 100%;
+}
+
+.filterAccordionItemBox :global(.vtex-checkbox__label) {
+  font-family: "MuseoJHSans500";
+  color: #001930;
+  font-size: 18px;
+  margin-left: 30px;
+}
+
+
+
+.filterAccordionItemBox :global(.vtex-checkbox__box) {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid #001930;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 25px;
+}
+
+
+.accordionFilterItemOptions :global(.vtex-checkbox__line-container) {
+  width: 95%;
+}
+.accordionFilterItemOptions {
+  width: 100vw;
+}
+.filterAccordionItemBox {
+  position: relative;
+}
+.accordionFilterItemOptions .filterAccordionItemBox :global(.vtex-checkbox__box) {
+  left: 85vw;
+}
+.accordionFilterItemOptions .filterAccordionItemBox .vtex-checkbox__box-wrapper {
+  width: 100%!important;
+}
+.accordionFilterItemOptions .filterAccordionItemBox :global(.vtex-checkbox__container) {
+  position: unset!important;
+}
+
+
+.filterAccordionItemBox :global(.vtex__icon-check) {
+  background-image: url("https://raduthirdbranch--storeido.myvtex.com/arquivos/PathCopy.png");
+  width: 25px!important;
+  height: 25px!important;
+  color: transparent!important;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+.accordionFilterItemOptions .filterAccordionItemBox {
+  border-bottom-style: unset;
+  height: 40px;
+}
+
+
+
+.filterAccordionItemBox--bianco :global(.vtex-checkbox__inner-container) {
+  width: 20px;
+  height: 20px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  border: 1px solid #979797;
+}
+
+
+.filterAccordionItemBox--navy :global(.vtex-checkbox__inner-container) {
+  width: 20px;
+  height: 20px;
+  background-color: #194d78;
+  border-radius: 50%;
+}
+
+.filterAccordionItemBox--giallo :global(.vtex-checkbox__inner-container) {
+  width: 20px;
+  height: 20px;
+  background-color: #ffe041;
+  border-radius: 50%;
+}
+
+.filterAccordionItemBox--verde :global(.vtex-checkbox__inner-container) {
+  width: 20px;
+  height: 20px;
+  background-color: #5fb00a;
+  border-radius: 50%;
+}
+
+.filterAccordionItemBox--grigio :global(.vtex-checkbox__inner-container) {
+  width: 20px;
+  height: 20px;
+  background-color: #797979;
+  border-radius: 50%;
+}
+
+.filterAccordionItemBox--azzurro :global(.vtex-checkbox__inner-container) {
+  width: 20px;
+  height: 20px;
+  background-color: #a3d8f5;
+  border-radius: 50%;
+}
+
+.filterAccordionItemBox--arancione :global(.vtex-checkbox__inner-container) {
+  width: 20px;
+  height: 20px;
+  background-color: #f7b500;
+  border-radius: 50%;
+}
+
+.filterAccordionItemBox--fucsia :global(.vtex-checkbox__inner-container) {
+  width: 20px;
+  height: 20px;
+  background-color: #fca5ca;
+  border-radius: 50%;
+}
+
+.filterAccordionItemBox--nero :global(.vtex-checkbox__inner-container) {
+  width: 20px;
+  height: 20px;
+  background-color: #000000;
+  border-radius: 50%;
+}
+
+.filterAccordionItemBox--rosso :global(.vtex-checkbox__inner-container) {
+  width: 20px;
+  height: 20px;
+  background-color: #e02020;
+  border-radius: 50%;
+}
+
+.filterAccordionItemBox--viola :global(.vtex-checkbox__inner-container) {
+  width: 20px;
+  height: 20px;
+  background-color: #d79ce7;
+  border-radius: 50%;
+}
+
+.filterAccordionItemBox--multicolor :global(.vtex-checkbox__inner-container) {
+  width: 20px;
+  height: 20px;
+  background-image: url("https://raduthirdbranch--storeido.myvtex.com/arquivos/multicolormobileido.png");
+  border-radius: 50%;
+}
+
+/* mobile sizes*/
+
+.filterAccordionItemBox--1m :global(.vtex-checkbox__inner-container) {
+  display: none;
+}
+
+.filterAccordionItemBox--1m :global(.vtex-checkbox__label) {
+  margin-left: unset;
+}
+
+.filterAccordionItemBox--3m :global(.vtex-checkbox__inner-container) {
+  display: none;
+}
+
+.filterAccordionItemBox--3m :global(.vtex-checkbox__label) {
+  margin-left: unset;
+}
+
+.filterAccordionItemBox--6m :global(.vtex-checkbox__inner-container) {
+  display: none;
+}
+
+.filterAccordionItemBox--6m :global(.vtex-checkbox__label) {
+  margin-left: unset;
+}
+
+.filterAccordionItemBox--6a :global(.vtex-checkbox__inner-container) {
+  display: none;
+}
+
+.filterAccordionItemBox--6a :global(.vtex-checkbox__label) {
+  margin-left: unset;
+}
+
+.filterAccordionItemBox--7a :global(.vtex-checkbox__inner-container) {
+  display: none;
+}
+
+.filterAccordionItemBox--7a :global(.vtex-checkbox__label) {
+  margin-left: unset;
+}
+
+.filterAccordionItemBox--9m :global(.vtex-checkbox__inner-container) {
+  display: none;
+}
+
+.filterAccordionItemBox--9m :global(.vtex-checkbox__label) {
+  margin-left: unset;
+}
+
+.filterAccordionItemBox--m :global(.vtex-checkbox__inner-container) {
+  display: none;
+}
+
+.filterAccordionItemBox--m :global(.vtex-checkbox__label) {
+  margin-left: unset;
+}
+
+.filterAccordionItemBox--s :global(.vtex-checkbox__inner-container) {
+  display: none;
+}
+
+.filterAccordionItemBox--s :global(.vtex-checkbox__label) {
+  margin-left: unset;
+}
+
+.filterAccordionItemBox--xs :global(.vtex-checkbox__inner-container) {
+  display: none;
+}
+
+.filterAccordionItemBox--xs :global(.vtex-checkbox__label) {
+  margin-left: unset;
+}
+
+/*collezionte*/
+
+.filterAccordionItemBox--primavera-estate :global(.vtex-checkbox__inner-container) {
+  display: none;
+  margin-left: unset;
+}
+
+.filterAccordionItemBox--primavera-estate :global(.vtex-checkbox__label) {
+  margin-left: unset;
+}
+
+.filterAccordionItemBox--autunno-inverno :global(.vtex-checkbox__inner-container) {
+  display: none;
+}
+
+.filterAccordionItemBox--autunno-inverno :global(.vtex-checkbox__label) {
+  margin-left: unset;
+}
+
+
+/* age */
+
+.filterAccordionItemBox--0---18-mesi :global(.vtex-checkbox__label) {
+   color: #001930;
+   font-family: "MuseoJHSans500";
+   display: block;
+   border: 1px solid #3f3f40;
+   border-radius: 30px;
+   width: 113px;
+   height: 32px;
+   font-size: 14px;
+   text-align: center;
+}
+
+.filterAccordionItemBox--0---18-mesi :global(.vtex-checkbox__box) {
+  display: none;
+}
+
+.filterAccordionItemBox--0---18-mesi :global(.vtex-checkbox__container) {
+  display: none;
+}
+
+
+.filterAccordionItemBox--6---36-mesi :global(.vtex-checkbox__label) {
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  display: block;
+  border: 1px solid #3f3f40;
+  border-radius: 30px;
+  width: 113px;
+  height: 32px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.filterAccordionItemBox--6---36-mesi :global(.vtex-checkbox__box) {
+  display: none;
+}
+
+.filterAccordionItemBox--6---36-mesi :global(.vtex-checkbox__container) {
+  display: none;
+}
+
+.filterAccordionItemBox--3---8-anni :global(.vtex-checkbox__label) {
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  display: block;
+  border: 1px solid #3f3f40;
+  border-radius: 30px;
+  width: 113px;
+  height: 32px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.filterAccordionItemBox--3---8-anni :global(.vtex-checkbox__box) {
+  display: none;
+}
+
+.filterAccordionItemBox--3---8-anni :global(.vtex-checkbox__container) {
+  display: none;
+}
+
+.filterAccordionItemBox--9---16-anni :global(.vtex-checkbox__label) {
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  display: block;
+  border: 1px solid #3f3f40;
+  border-radius: 30px;
+  width: 113px;
+  height: 32px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.filterAccordionItemBox--9---16-anni :global(.vtex-checkbox__box) {
+  display: none;
+}
+
+.filterAccordionItemBox--9---16-anni :global(.vtex-checkbox__container) {
+  display: none;
+}
+
+.filterAccordionItemBox--0---18-mesi .b--action-primary :global(.vtex-checkbox__label) {
+  background-color: #001930;
+  color: white;
+}
+
+/* scelti */
+
+.filterAccordionItemBox--everyday-style :global(.vtex-checkbox__inner-container) {
+  display: none;
+}
+
+.filterAccordionItemBox--everyday-style :global(.vtex-checkbox__label) {
+  margin-left: unset;
+}
+
+
+.filterAccordionItemBox--special-events :global(.vtex-checkbox__inner-container) {
+  display: none;
+}
+
+.filterAccordionItemBox--special-events :global(.vtex-checkbox__label) {
+  margin-left: unset;
+}
+
+.filterAccordionItemBox--baby-special :global(.vtex-checkbox__inner-container) {
+  display: none;
+}
+
+.filterAccordionItemBox--baby-special :global(.vtex-checkbox__label) {
+  margin-left: unset;
+}
+
+.filterAccordionItemBox--denim-time :global(.vtex-checkbox__inner-container) {
+  display: none;
+}
+
+.filterAccordionItemBox--denim-time :global(.vtex-checkbox__label) {
+  margin-left: unset;
+}
+
+.filterAccordionItemBox--so-comfortable :global(.vtex-checkbox__inner-container) {
+  display: none;
+}
+
+.filterAccordionItemBox--so-comfortable :global(.vtex-checkbox__label) {
+  margin-left: unset;
+}
+
+.filterAccordionItemBox--newborn-selection :global(.vtex-checkbox__inner-container) {
+  display: none;
+}
+
+.filterAccordionItemBox--newborn-selection :global(.vtex-checkbox__label) {
+  margin-left: unset;
+}
+
+.filterAccordionItemBox--beautiful-days :global(.vtex-checkbox__inner-container) {
+  display: none;
+}
+
+.filterAccordionItemBox--beautiful-days :global(.vtex-checkbox__label) {
+  margin-left: unset;
+}
+
+.filterAccordionItemBox--check-collection :global(.vtex-checkbox__inner-container) {
+  display: none;
+}
+
+.filterAccordionItemBox--check-collection :global(.vtex-checkbox__label) {
+  margin-left: unset;
+}
+
+.filterAccordionItemBox--collectionsport :global(.vtex-checkbox__inner-container) {
+  display: none;
+}
+
+.filterAccordionItemBox--collectionsport :global(.vtex-checkbox__label) {
+  margin-left: unset;
+}
+
+.filterAccordionItemBox--time :global(.vtex-checkbox__inner-container) {
+  display: none;
+}
+
+.filterAccordionItemBox--time :global(.vtex-checkbox__label) {
+  margin-left: unset;
+}
+
+
+.filterAccordionItemBox--ready-for-school :global(.vtex-checkbox__inner-container) {
+  display: none;
+}
+
+.filterAccordionItemBox--ready-for-school :global(.vtex-checkbox__label) {
+  margin-left: unset;
+}
+
+/* marche */
+
+
+.filterAccordionItemBox--test-brand-name :global(.vtex-checkbox__inner-container) {
+  display: none;
+}
+
+.filterAccordionItemBox--test-brand-name :global(.vtex-checkbox__label) {
+  margin-left: unset;
+}
+
+.filterAccordionItemBox--test-brand-2 :global(.vtex-checkbox__inner-container) {
+  display: none;
+}
+
+.filterAccordionItemBox--test-brand-2 :global(.vtex-checkbox__label) {
+  margin-left: unset;
+}

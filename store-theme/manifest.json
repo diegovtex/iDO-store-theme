@@ -57,8 +57,7 @@
   "peerDependencies": {
     "acupula.store-locator": "0.x",
     "codeby.store-locator": "1.x",
-    "codeby.product-specification-accordion": "1.x",
-    "codeby.sandbox": "0.x"
+    "codeby.product-specification-accordion": "1.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
