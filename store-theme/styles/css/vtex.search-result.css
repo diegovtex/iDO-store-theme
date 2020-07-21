@@ -190,10 +190,22 @@
 
 .filter__container--specificationFilter_18 :global(.vtex-search-result-3-x-filterTemplateOverflow) {}
 
-:global(.vtex-search-result-3-x-galleryItem) {
+
+:global(.vtex-search-result-3-x-galleryItem--desktop-search-gallery) {
+>>>>>>> ea7ac437ea12812d294c5035281f90b5d96aea89
   width: 33%;
   flex-basis: 33%!important;
   max-width: 33%!important;
+}
+
+.gallery--mobile-search-gallery :global(.vtex-store-components-3-x-discountContainer) {
+  height: 27px;
+}
+
+.gallery--mobile-search-gallery :global(.vtex-store-components-3-x-discountInsideContainer ) {
+  display: flex;
+  left: 0px;
+  width: 80px;
 }
 
 .totalProducts--layout {
@@ -353,15 +365,17 @@
   position: absolute;
 }
 
-.filter__container--specificationFilter_18 .filterItem--Bianco :global(.vtex-checkbox__box) {
-  position: static;
+.filter__container--specificationFilter_18 .filterItem--Bianco.filterItem--selected :global(.vtex-checkbox__box) {
+  background-repeat: no-repeat;
+  background-image: url("https://andreibranch--storeido.myvtex.com/arquivos/checkmark_black.png");
+  background-position: center;
+  margin-top: 5px;
+  background-size: 30px;
 }
 
-.filter__container--specificationFilter_18 .filterItem--Bianco :global(.vtex__icon-check) {
-  width: 38px!important;
-  height: 43px!important;
-  display: flex;
-  color: black!important;
+.filter__container--specificationFilter_18 .filterItem--Bianco.filterItem--selected :global(.vtex__icon-check) {
+  width: 0px!important;
+  height: 0px!important;
 }
 .filter__container--specificationFilter_26 :global(.vtex-checkbox__box) {
   position: static;
@@ -391,6 +405,8 @@
 .filter__container--specificationFilter_18 :global(.vtex__icon-check) {
   width: 0px;
   height: 0px;
+ width: 0px;
+ height: 0px;
 }
 .filter__container--specificationFilter_26 :global(.vtex-checkbox__box) {
   position: static;
@@ -657,30 +673,14 @@
   margin-top: 5px;
 }
 
+.filter__container--b .filterItem {
+  margin-top: 5px;
+}
+
 .filter__container--specificationFilter_27 :global(.vtex-checkbox__label) {
 
 }
 
-.orderByText {
-  color: #001930!important;
-  font-family: "MuseoJHSans500";
-  font-size: 18px;
-  line-height: 21px;
-  text-transform: none;
-}
-
-.filterPopupTitle {
-  font-size: 0px;
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  position: relative;
-}
-
-.orderByOptionsContainer {
-  margin-top: 55px;
-  width: 310px;
-}
 
 @media screen and (min-width: 1280px) {
   .orderBy--layout {
@@ -689,31 +689,6 @@
 @media screen and (max-width: 1279px) {
   .orderBy--layout {
   }
-}
-
-.orderByButton {
-  border: none;
-}
-
-.caretIcon {
-  position: absolute;
-  left: 120px;
-  bottom: 19px;
-  width: 20px;
-  height: 15px;
-}
-
-.filterPopupArrowIcon {
-  position: absolute;
-  right: 38%;
-  top: 95%;
-}
-
-.orderByOptionItem {
-  color: #001930;
-  font-family: "MuseoJHSans500";
-  font-size: 18px;
-  text-transform: capitalize;
 }
 
 :global(.vtex-search-result-3-x-filterIcon ) {

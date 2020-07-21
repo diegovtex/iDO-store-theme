@@ -84,6 +84,41 @@
   }
 }
 
+:global(.vtex-menu-2-x-styledLinkContent--ido-logo-class-desktop) {
+  width: 69px;
+  height: 19px;
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 14px;
+  line-height: 19px;
+}
+
+:global(.vtex-locale-switcher-0-x-button) {
+  width: 69px;
+  height: 19px;
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: uppercase;
+}
+
+:global(.vtex-locale-switcher-0-x-buttonText) {
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: uppercase;
+}
+
+:global(.vtex-locale-switcher-0-x-relativeContainer) {
+  bottom: 27px;
+}
+
+:global(.vtex-locale-switcher-0-x-globeIcon) {
+  display: none;
+}
+
  /* mobile version burger menu header */
 
 :global(.vtex-menu-2-x-submenuAccordion) {
@@ -115,6 +150,8 @@
   padding-top: 20px;
   padding-bottom: 20px;
   padding-right: 26px;
+  position: relative;
+  bottom: 85px;
 }
 
 :global(.vtex-menu-2-x-styledLinkContent--burger-trova-menu) {
@@ -122,21 +159,29 @@
   padding-top: 20px;
   padding-bottom: 20px;
   padding-right: 26px;
+  position: relative;
+  bottom: 86px;
 }
 
 :global(.vtex-menu-2-x-styledLinkContent--burger-bambina-menu) {
   padding-top: 20px;
   padding-right: 26px;
+  position: relative;
+  bottom: 92px;
 }
 
 :global(.vtex-menu-2-x-styledLinkContent--burger-bambino-menu) {
   padding-right: 26px;
+  position: relative;
+  bottom: 86px;
 }
 
 :global(.vtex-menu-2-x-styledLinkContent--burger-prodotti-menu) {
   border-bottom: gray solid 1px;
   padding-bottom: 20px;
   padding-right: 26px;
+  position: relative;
+  bottom: 80px;
 }
 
 :global(.vtex-menu-2-x-styledLinkContent--burger-occasione-menu) {
@@ -144,26 +189,36 @@
   padding-top: 20px;
   padding-bottom: 20px;
   padding-right: 26px;
+  position: relative;
+  bottom: 82px;
 
 }
 
 :global(.vtex-menu-2-x-styledLinkContent--burger-comfortable-menu) {
   padding-top: 20px;
   padding-right: 26px;
+  position: relative;
+  bottom: 85px;
 }
 
 :global(.vtex-menu-2-x-styledLinkContent--burger-newborn-menu) {
   padding-right: 26px;
+  position: relative;
+  bottom: 75px;
 }
 
 :global(.vtex-menu-2-x-styledLinkContent--burger-christmas-menu) {
   padding-right: 26px;
+  position: relative;
+  bottom: 65px;
 }
 
 :global(.vtex-menu-2-x-styledLinkContent--burger-wecare-menu) {
   border-bottom: gray solid 1px;
   padding-bottom: 20px;
   padding-right: 26px;
+  position: relative;
+  bottom: 58px;
 }
 
 :global(.vtex-menu-2-x-styledLinkContent--burger-termini-menu) {
@@ -171,11 +226,15 @@
   padding-top: 20px;
   padding-bottom: 20px;
   padding-right: 26px;
+  position: relative;
+  bottom: 58px;
 }
 
 :global(.vtex-menu-2-x-styledLinkContent--burger-english-menu) {
   padding-top: 20px;
   padding-right: 26px;
+  position: relative;
+  bottom: 65px;
 }
 
 :global(.vtex-menu-2-x-styledLinkContainer--burger-myido-menu) {

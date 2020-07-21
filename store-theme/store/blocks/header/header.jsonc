@@ -29,6 +29,16 @@
       "display": "false"
     }
   },
+
+  "flex-layout.row#7-desktop": {
+    "children": [
+      "store.account"
+    ],
+    "props": {
+      "fullWidth": "true",
+      "display": "false"
+    }
+  },
   "notification.bar#home": {
     "props": {
       "content": "RITIRO IN NEGOZIO GRATUITO"
@@ -107,7 +117,8 @@
     "children": [
       "menu-item#category-apparel",
       "menu-item#category-home",
-      "menu-item#more"
+      "menu-item#more",
+      "modal-trigger#modal-login-button"
     ],
     "props": {
       "orientation": "vertical"

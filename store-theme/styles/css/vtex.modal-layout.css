@@ -1,0 +1,7 @@
+.tooltipContainer {
+  z-index: 9999999;
+
+}
+.paperScrollContent {
+  overflow: visible;
+}

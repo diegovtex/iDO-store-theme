@@ -1,93 +1,584 @@
 
-.content {
-  display: flex;
-  flex-direction: column-reverse;
+:global(.vtex-modal-layout-0-x-headerContainer) {
+  height: 5px;
 }
 
-.contentForm {
-  align-self: center;
+:global(.vtex-modal-layout-0-x-headerContainer) {
+  border: unset;
 }
 
-.inputContainer {
-  margin-top: 55px;
+:global(.vtex-login-2-x-contentInitialScreen) {
+  width: 410px;
+  height: 677px;
+  flex-wrap: wrap-reverse;
 }
 
-:global(.vtex-rich-text-0-x-paragraph--rich-text-login-2) {
-  position: absolute;
-  z-index: 9;
-  top: 210px;
-  left: 74px;
-}
-
-:global(.vtex-rich-text-0-x-paragraph--rich-text-login-1) {
-  position: absolute;
-  z-index: 9;
-  top: 106px;
-  left: 74px;
-}
-
-.inputContainer :global(.vtex-input-prefix__group) {
-  border: 1px solid;
-  border-radius: 20px;
-}
-
-:global(.styles_modal__gNwvD) {
-  width: auto!important;
-  max-width: none!important;
-}
-
-/*
-.accessCodeOptionBtn {
-
-}
-
-.formError {
- width: 250px;
-}
-
-.tooltipContainer {
-  width: 100% !important;
-  display: inline-block;
-}
-
-
-
-:global(.vtex-styleguide-9-x-mh100) {
-  max-width: 410px!important;
-  max-height: 677px!important;
-}
-
-:global(.vtex-styleguide-9-x-scrollBar) {
-
-}
-.formTitle {
+.content--emailAndPassword :global(.vtex-login-2-x-formTitle) {
   color: #001930;
   font-family: "MuseoJHSans900";
   font-size: 25px;
   line-height: 29px;
+  text-align: unset;
+  padding: 0px;
+  bottom: 28px;
+  margin: 0px;
 }
 
 
+.content--emailAndPassword :global(.vtex-login-2-x-contentForm)  {
+  width: 380px;
+  height: 450px;
+}
 
+.content--emailAndPassword .inputContainer :global(.vtex-input-prefix__group) {
+  width: 336px;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid #001930;
+}
 
+.content--emailAndPassword .contentForm :global(.vtex-login-2-x-inputContainerEmail) {
+  padding-bottom: 50px;
+}
 
-
-!*.sendButton :global(.vtex-button) {
-  background-color: transparent;
+.content--emailAndPassword .sendButton :global(.vtex-button) {
+  width: 151px!important;
+  height: 40px!important;
+  flex: auto;
+  background-color: #001930;
+  border-radius: 20px;
   border: none;
-  background-image: url("https://thirdbranch--storeido.myvtex.com/arquivos/accedibutton.png");
-  background-repeat: no-repeat;
-  background-position: center;
+  margin-left: 6rem;
+  top: 25px;
+  outline: none;
 }
 
-.sendButton :global(.t-small) {
-  font-size: 0px!important;
-}*!
+.content--emailAndPassword .formFooter :global(.t-small) {
+  font-family: "MuseoJHSans900";
+  font-size: 18px;
+}
 
-
-*/
-/* radu */
-
-.step-1 :global(.vtex-login-2-x-optionsSticky) {
+.content--emailAndPassword .accessCodeOptionBtn {
   display: none;
 }
+
+.content--emailAndPassword .facebookOptionBtn {
+  width: 336px;
+  height: 37px;
+  border: 1px solid;
+  border-radius: 20px;
+}
+
+
+.content--emailAndPassword .googleOptionBtn {
+  width: 336px;
+  height: 37px;
+  border: 1px solid;
+  border-radius: 20px;
+}
+
+.content--emailAndPassword .inputContainerEmail {
+  width: 336px;
+  height: 37px;
+  padding-bottom: 56px;
+  padding-top: 0px;
+}
+
+.content--emailAndPassword .inputContainerPassword {
+  width: 336px;
+  height: 37px;
+  padding-bottom: 40px;
+  padding-top:42px;
+}
+
+.content--emailAndPassword .forgotPasswordLink {
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 12px;
+  position: relative;
+  top: 25px;
+}
+
+.content--emailAndPassword .formLinkContainer {
+  justify-content: left;
+}
+
+.content--emailAndPassword .formFooter {
+  border: unset;
+}
+
+.content--emailAndPassword .optionsSticky :global(.vtex-login-2-x-formTitle) {
+  display: none;
+}
+
+.content--emailAndPassword :global(.vtex-login-2-x-facebookOptionBtn) {
+  bottom: 148px;
+  position: relative;
+  background-image: url("http://storeido.vtexassets.com/arquivos/facebookButton.png");
+}
+
+.content--emailAndPassword .optionsSticky :global(.vtex-login-2-x-googleOptionBtn) {
+  bottom: 134px;
+  position: relative;
+  background-image: url("http://storeido.vtexassets.com/arquivos/googleButton.png");
+}
+
+
+
+.buttonSocial {
+  border: none;
+}
+.buttonSocial :global(.vtex-button) {
+  outline: none;
+  background: transparent;
+  border: none !important;
+  border-radius: 60px;
+}
+.oauthLabel {
+  font-size: 0px;
+  color: transparent;
+}
+
+.buttonSocial :global(.vtex-button):hover {
+  background: transparent !important;
+}
+.buttonSocial :global(.vtex-button__label) {
+  display: none !important
+}
+
+.buttonSocial :global(.vtex-button):active {
+  background: transparent !important;
+  border: none !important;
+}
+
+
+
+.label {
+  font-family: "MuseoJHSans900";
+  font-size: 18px;
+  color: white!important;
+  padding: unset;
+}
+
+.formLinkContainer :global(.vtex-login-2-x-dontHaveAccount) {
+  top: 216px;
+  position: relative;
+  width: 151px;
+  height: 40px;
+  border-radius: 20px;
+  margin-left: 6.5rem;
+  z-index: 9;
+  background-repeat: no-repeat;
+}
+
+.content--emailAndPassword :global(.vtex-login-2-x-inputContainerEmail label.vtex-input:before) {
+  content: 'Indirizzo mail';
+  position: relative;
+  bottom: 10px;
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 18px;
+}
+
+.content--emailAndPassword .input {
+  width: 100px;
+  height: 100px;
+}
+
+.content--emailAndPassword :global(.vtex-login-2-x-formError) {
+  position: absolute;
+  top: 203px;
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 12px;
+  text-align: center;
+}
+
+:global(.vtex-login-2-x-inputContainerPassword label.vtex-input:before) {
+  content: 'Password';
+  position: relative;
+  bottom: 10px;
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 18px;
+  text-align: left;
+}
+
+.formTitle::after {
+  content: 'Hai già un account con noi?';
+  font-size: 18px;
+  display: flex;
+  padding-top: 27px;
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 18px!important;
+}
+.content--emailVerification .formTitle::after {
+  content: '';
+  display: none;
+}
+
+.content--recoveryPassword .formTitle::after {
+  content: '';
+  display: none;
+}
+
+.googleOptionBtn::after {
+  content: 'Non sei ancora registrato?';
+  font-size: 18px;
+  display: flex;
+  padding-top: 31px;
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 18px!important;
+}
+.content--emailVerification .formTitle::after {
+  content: '';
+  display: none;
+}
+
+.content--recoveryPassword .googleOptionBtn::after {
+  content: '';
+  display: none;
+}
+
+
+.formLinkContainer .dontHaveAccount {
+  top: 227px;
+  position: relative;
+  width: 151px;
+  height: 40px;
+  border-radius: 20px;
+  margin-left: 6.5rem;
+  z-index: 9;
+  background-repeat: no-repeat;
+  background: #001930;
+  color: white !important;
+  font-size: 0px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.dontHaveAccount::after {
+  content: 'ISCRIVITI';
+  font-weight: bold;
+  width: 85px;
+  height: 22px;
+  color: #ffffff;
+  font-family: "MuseoJHSans900";
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.content--emailAndPassword .sendButton :global(.vtex-button):hover {
+  background: #666 !important;
+}
+
+/* recivi code* */
+
+.content--emailVerification {
+  width: 410px;
+  height: 337px;
+}
+
+.content--emailVerification :global(.vtex-login-2-x-contentForm) {
+  width: 410px;
+  height: 337px;
+}
+
+.content--emailVerification :global(.vtex-login-2-x-optionsSticky) {
+  display: none;
+}
+
+
+
+.content--emailVerification :global(.vtex-login-2-x-formTitle::after) {
+  content: 'Ricevi il codice di accesso via email';
+  display: flex;
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  width: 355px;
+  height: 29px;
+  font-size: 18px!important;
+  padding-bottom: 40px;
+  padding-left: 0px;
+  letter-spacing: -0.11px;
+  line-height: 21px;
+}
+
+
+.content--emailVerification :global(.vtex-login-2-x-formTitle) {
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 25px!important;
+  line-height: 29px;
+  text-align: left;
+  padding-left: 0px;
+}
+
+
+.content--emailVerification :global(.vtex-input-prefix__group) {
+  border: 1px solid;
+  border-radius: 20px;
+  position: relative;
+  bottom: 33px;
+}
+
+.content--emailVerification :global(.vtex-login-2-x-inputContainerEmail label.vtex-input:before) {
+  content: 'Indirizzo mail';
+  position: relative;
+  bottom: 50px;
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 18px;
+}
+
+
+.content--emailVerification :global(.vtex-button) {
+  width: 151px!important;
+  height: 40px!important;
+  background-color: #001930;
+  border-radius: 20px;
+  border: none;
+  margin-left: 6rem;
+  bottom: 25px;
+  color: white;
+  position: relative;
+  right: 107px;
+  font-family: "MuseoJHSans900";
+  outline: none;
+}
+
+.content--emailVerification :global(.vtex-button):hover {
+  background: #666 !important;
+}
+
+.content--emailVerification .formFooter :global(.t-small) {
+  font-family: "MuseoJHSans900";
+  font-size: 18px;
+}
+
+.content--emailVerification .inputContainer :global(.vtex-input-prefix__group) {
+  width: 335px;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid #001930;
+}
+
+.content--emailVerification :global(.vtex-login-2-x-formError) {
+  position: absolute;
+  top: 224px;
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 12px;
+  text-align: center;
+}
+
+.content--emailVerification :global(.vtex-login-2-x-formFooter) {
+  border: unset;
+}
+
+.content--emailVerification :global(.vtex-login-2-x-backButton) {
+  display: none;
+}
+
+
+:global(.vtex-login-2-x-container) {
+  display: none;
+}
+
+/* recovery password*/
+
+.content--recoveryPassword {
+  width: 410px;
+  height: 516px;
+  background-color: #ffffff;
+}
+
+
+.content--recoveryPassword .options {
+  display: none;
+}
+
+.content--recoveryPassword .optionsList {
+  display: none;
+}
+
+.content--recoveryPassword .formSubtitle {
+  display: none;
+}
+
+.content--recoveryPassword .inputContainer :global(.vtex-input-prefix__group) {
+  width: 335px;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid #001930;
+  position: relative;
+  bottom: 16px;
+  margin-bottom:20px;
+}
+
+
+.content--recoveryPassword :global(.vtex-login-2-x-inputContainerPassword label.vtex-input:before) {
+  content: 'Password';
+  position: relative;
+  bottom: 24px;
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 18px;
+  text-align: left;
+}
+
+.content--recoveryPassword :global(.vtex-login-2-x-backButton) {
+  display: none;
+}
+
+.content--recoveryPassword :global(.vtex-login-2-x-formFooter) {
+  border: unset;
+}
+
+.content--recoveryPassword :global(.vtex-button) {
+  width: 151px!important;
+  height: 40px!important;
+  background-color: #001930;
+  border-radius: 20px;
+  border: none;
+  margin-left: 6rem;
+  bottom: 37px;
+  color: white;
+  position: relative;
+  right: 118px;
+  font-family: "MuseoJHSans900";
+  outline: none;
+}
+
+.content--recoveryPassword :global(.vtex-button):hover {
+  background: #666 !important;
+}
+
+.content--recoveryPassword .formFooter :global(.t-small) {
+  font-family: "MuseoJHSans900";
+  font-size: 18px;
+}
+
+
+.content--recoveryPassword :global(.vtex-login-2-x-inputContainerAccessCode label.vtex-input:before) {
+  content: 'Inserisci il tuo codice di accesso';
+  position: relative;
+  bottom: 25px;
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 18px;
+  text-align: left;
+}
+
+.content--recoveryPassword :global(.vtex-login-2-x-formTitle::before) {
+  content: 'MyiDO';
+  display: flex;
+  font-family: "MuseoJHSans900";
+  padding-bottom: 40px;
+  padding-left: 0px;
+  letter-spacing: -0.11px;
+  width: 355px;
+  height: 29px;
+  color: #001930;
+  font-size: 25px;
+  line-height: 29px;
+}
+
+.content--recoveryPassword :global(.vtex-login-2-x-formTitle) {
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  text-align: left;
+  padding-left: 0px;
+  height: 21px;
+  font-size: 18px;
+  line-height: 21px;
+  position: relative;
+  bottom: 116px;
+}
+
+.content--recoveryPassword :global(.vtex-login-2-x-formError) {
+  position: absolute;
+  top: 107px;
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 12px;
+  text-align: center;
+  width: 335px;
+}
+
+.content--recoveryPassword :global(.vtex-login-2-x-contentForm) {
+  position: relative;
+  top: 107px;
+
+}
+
+/*mobile version*/
+
+@media only screen and (max-width: 768px) {
+  .contentInitialScreen {
+    padding-top: 40px;
+  }
+  .content--emailAndPassword :global(.vtex-login-2-x-formError) {
+    position: absolute;
+    top: 196px;
+    color: #001930;
+    font-family: "MuseoJHSans300";
+    font-size: 12px;
+    text-align: center;
+  }
+  .content--emailVerification :global(.vtex-button) {
+    width: 151px !important;
+    height: 40px !important;
+    background-color: #001930;
+    border-radius: 20px;
+    border: none;
+    margin-left: 3rem;
+    bottom: 25px;
+    color: white;
+    position: relative;
+    right: 131px;
+    font-family: "MuseoJHSans900";
+    outline: none;
+  }
+  .content--emailVerification :global(.vtex-login-2-x-contentFormVisible) {
+    padding-left: 1.75rem;
+  }
+}
+
+:global(.vtex-rich-text-0-x-container--help-message) {
+  position: relative;
+  bottom: 88px;
+}
+
+:global(.vtex-rich-text-0-x-link--help-message) {
+  position: relative;
+  left: 123px;
+  color: transparent;
+}
+
+:global(.vtex-modal-layout-0-x-triggerContainer) {
+  outline: none;
+}
+
+:global(.vtex-modal-layout-0-x-closeButton) {
+  outline: none;
+}
+
+:global(.vtex-login-2-x-content--emailAndPassword .vtex-login-2-x-formFooter .t-small) {
+  font-family: "MuseoJHSans900";
+  font-size: 18px;
+  color: white!important;
+  padding: unset;
+}
+
+
+.content--accountOptions {
+  display: none;
+}
+

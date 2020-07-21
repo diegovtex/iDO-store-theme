@@ -25,11 +25,26 @@
 
   "login-content#default": {
     "props": {
-      "isInitialScreenOptionOnly": false,
-      "defaultOption": 1,
-      "showPasswordVerificationIntoTooltip": true
+          "isInitialScreenOptionOnly": false,
+          "defaultOption": 1,
+          "emailAndPasswordTitle": "Accedi a MyIDO",
+          "accessCodeTitle": "MyiDO",
+          "emailPlaceholder": "mariorossi@gmail.it",
+          "passwordPlaceholder": "* * * *",
+          "showPasswordVerificationIntoTooltip": true,
+          "providerPasswordButtonLabel": "ACCEDI",
+          "blockClass": "login-content-desktop"
     }
   },
+
+  "login": {
+      "props": {
+        "logInButtonBehavior": "link",
+        "showIconProfile": false,
+        "isInitialScreenOptionOnly": true,
+        "defaultOption": 0
+      }
+    },
 
 
   "modal": {

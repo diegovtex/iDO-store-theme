@@ -44,6 +44,120 @@
   line-height: 19px;
 }
 
+:global(.vtex-minicart-2-x-minicartContainer) {
+  position: relative;
+  bottom: 35px;
+}
+
+:global(.vtex-modal-layout-0-x-triggerContainer) {
+  position: relative;
+  bottom: 70px;
+  color: transparent;
+}
+
+:global(.vtex-rich-text-0-x-container) {
+  color: transparent;
+}
+
+
+/* Order By Desktop version styling BEGINS HERE */
+.flexCol--orderByColDesktop :global(.vtex-search-result-3-x-caretIcon) {
+  position: absolute;
+  left: 120px;
+  bottom: 17px;
+  width: 20px;
+  height: 15px;
+}
+
+.flexCol--orderByColDesktop :global(.vtex-search-result-3-x-orderByText) {
+  color: #001930!important;
+  font-family: "MuseoJHSans500";
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: none;
+  margin-right: 170px;
+}
+
+.flexCol--filterMobileCol {
+  display: flex;
+  flex-direction: row;
+}
+
+.flexColChild--filterMobileCol :global(.vtex-search-result-3-x-filters--layout) {
+  position: absolute;
+  left: 35px;
+}
+
+.flexColChild--filterMobileCol :global(.vtex-search-result-3-x-filterPopupButton) {
+  padding-right: 30px;
+}
+
+
+
+.flexCol--orderByColDesktop :global(.vtex-search-result-3-x-filterPopupTitle) {
+  font-size: 0px;
+  position: relative;
+}
+
+.flexCol--orderByColDesktop :global(.vtex-search-result-3-x-orderByOptionsContainer) {
+  margin-top: 55px;
+  width: 310px;
+}
+
+.flexCol--orderByColDesktop :global(.vtex-search-result-3-x-orderByButton) {
+  border: none;
+}
+
+.flexCol--orderByColDesktop :global(.vtex-search-result-3-x-filterPopupArrowIcon) {
+  position: absolute;
+  right: 38%;
+  top: 95%;
+}
+
+.flexCol--orderByColDesktop :global(.vtex-search-result-3-x-orderByOptionItem) {
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+
+/*Order by desktopv ersion styling ENDS here */
+/*Order by mobile version styling BEGINS here */
+
+
+
+.flexCol--orderByMobileCol :global(.vtex-search-result-3-x-orderByText) {
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  font-size: 14px;
+  text-transform: none;
+}
+
+
+.flexCol--orderByMobileCol :global(.vtex-search-result-3-x-filterPopupTitle) {
+  font-size: 0px;
+  position: relative;
+}
+
+.flexCol--orderByMobileCol :global(.vtex-search-result-3-x-orderByOptionsContainer) {
+  margin-top: 55px;
+  width: 310px;
+}
+
+.flexCol--orderByMobileCol :global(.vtex-search-result-3-x-orderByOptionItem) {
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+
+
+
+
+
+/*Order by mobile version styling ENDS here */
 .flexCol--filterCol { max-width: 230px!important; min-width: 230px!important; }
 
 /* Store loator css */

@@ -93,6 +93,7 @@
   "menu#drawer-mobile": {
     "children": [
       "menu-item#myIdo-burger-mobile",
+      "rich-text#modal-login-button",
       "menu-item#lista-burger-mobile",
       "menu-item#trova-burger-mobile",
       "menu-item#bambina-burger-mobile",
@@ -104,11 +105,22 @@
       "menu-item#christmas-burger-mobile",
       "menu-item#weCare-burger-mobile",
       "menu-item#termini-burger-mobile",
-      "menu-item#english-burger-mobile"
-
+      "menu-item#english-burger-mobile",
+      "modal-trigger#modal-login-button"
     ],
     "props": {
       "orientation": "vertical"
+    }
+  },
+
+  "rich-text#modal-login-button": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Login](/login)",
+      "textColor": "",
+      "font": "t-heading-5",
+      "blockClass": "help-message"
     }
   },
 

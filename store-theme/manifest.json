@@ -15,6 +15,7 @@
   "dependencies": {
     "vtex.store": "2.x",
     "vtex.modal": "0.x",
+    "vtex.modal-layout": "0.x",
     "vtex.store-header": "2.x",
     "vtex.product-summary": "2.x",
     "vtex.store-footer": "2.x",
@@ -52,7 +53,8 @@
     "vtex.product-bookmark-interfaces": "1.x",
     "vtex.slider-layout": "0.x",
     "vtex.store-image": "0.x",
-    "vtex.address-locator": "2.x"
+    "vtex.address-locator": "2.x",
+    "codeby.logged-conditional": "0.x"
   },
   "peerDependencies": {
     "acupula.store-locator": "0.x",
