@@ -7,6 +7,46 @@
     border: none;
   }
 
+  :global(.vtex-addresses .vtex-my-account-1-x-boxContainerBody) {
+    display: flex;
+    flex-direction: column;
+  }
+
+  :global(.vtex-address-form__country) {
+    order: 1;
+  }
+
+  .boxContainerBody :global(.vtex-address-form__postalCode) {
+    margin-bottom: 20px;
+    order: 2;
+  }
+
+
+  :global(.vtex-profile-form-3-x-genderInput) :global(.br2) {
+    border-radius: 20px;
+    border: solid 2px black;
+    height: 40px;
+  }
+
+
+  :global(.vtex-addresses .vtex-button) {
+    color: #ffffff;
+    font-family: "MuseoJHSans900";
+    font-size: 14px;
+    letter-spacing: -0.4px;
+    line-height: 21px;
+    text-transform: uppercase;
+    width: 100%;
+    background-color: #002c50;
+    outline: none;
+    order: 3;
+  }
+
+  .deleteButton {
+    order: 4;
+  }
+
+
   :global(.vtex-pageHeader__title) {
     color: #001930;
     font-family: "MuseoJHSans900";
@@ -367,6 +407,33 @@
     line-height: 21px;
     text-transform: none;
   }
+  .deleteButton :global(.vtex-button) {
+    border-radius: 20px;
+    background-color: #962a1a!important;
+    color: #ffffff;
+    font-family: "MuseoJHSans900";
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    width: 100%;
+  }
+
+  :global(.vtex-addresses .vtex-button) {
+    color: #ffffff;
+    font-family: "MuseoJHSans900";
+    font-size: 14px;
+    letter-spacing: -0.4px;
+    line-height: 21px;
+    text-transform: uppercase;
+    width: 100%;
+    background-color: #002c50;
+    outline: none;
+    border-radius: 20px;
+  }
+
+  .addressBox .boxContainerFooter :global(.vtex-button) {
+    background-color: transparent!important;
+  }
 
 
   /*
@@ -380,6 +447,29 @@
     padding-bottom: 1.5rem;
     max-width: 550px;
     min-width: 250px;
+  }
+
+  .boxContainerBody :global(.vtex-address-form__postalCode .vtex-address-form-4-x-container) {
+    border-radius: 20px;
+    border: 1px solid #001930;
+  }
+
+  .boxContainer {
+    border: none;
+  }
+
+  .boxContainerBody :global(.vtex-input-prefix__group) {
+    border-radius: 20px;
+    border: 1px solid #001930;
+  }
+
+  .boxContainerBody :global(.vtex-address-form-4-x-dropdown .vtex-address-form-4-x-container) {
+    border-radius: 20px;
+    border: 1px solid #001930;
+  }
+
+  .boxContainerBody :global(.vtex-address-form__postalCode) {
+    margin-bottom: 20px;
   }
 
   :global(.vtex-my-orders-app-3-x-cancelBtn) {
@@ -643,6 +733,7 @@
 
   :global(.vtex-pageHeader__title) {
     font-size: 24px;
+    margin-top: 5px;
   }
 
   .passwordBoxContainer .boxContainer {
@@ -675,6 +766,201 @@
     line-height: 21px;
     text-transform: uppercase;
     margin-left: 75px;
+  }
+
+  .addressList .addressBox {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  :global(.vtex-pageHeader__children) {
+    position: absolute;
+    right: 0px;
+  }
+
+  :global(.vtex-pageHeader__children .vtex-button) {
+    color: #001930;
+    font-family: "MuseoJHSans900";
+    font-size: 16px;
+    line-height: 21px;
+    text-transform: none;
+    width: auto;
+  }
+
+  .addressList .boxContainerFooter :global(.vtex-button) {
+    color: #001930;
+    font-family: "MuseoJHSans900";
+    font-size: 14px;
+    line-height: 21px;
+    width: auto;
+    text-transform: none;
+    background-color: transparent!important;
+  }
+
+  .addressList .boxContainerFooter {
+    justify-content: flex-start;
+  }
+
+  :global(.vtex-pageHeader-link__container) {
+    margin-bottom: 30px;
+  }
+
+  .boxContainerBody :global(.vtex-address-form__postalCode .vtex-address-form-4-x-container) {
+    border-radius: 20px;
+    border: 1px solid #001930;
+  }
+
+  .boxContainerBody :global(.vtex-input-prefix__group) {
+    border-radius: 20px;
+    border: 1px solid #001930;
+  }
+
+  .boxContainerBody :global(.vtex-address-form-4-x-dropdown .vtex-address-form-4-x-container) {
+    border-radius: 20px;
+    border: 1px solid #001930;
+  }
+
+  .boxContainerBody :global(.vtex-address-form__postalCode) {
+    margin-bottom: 20px;
+    order: 2;
+  }
+
+  :global(.vtex-my-orders-app-3-x-cancelBtn) {
+    display: none;
+  }
+
+  :global(.vtex-my-orders-app-3-x-cancelBtn) {
+    display: none;
+  }
+
+  :global(.vtex-my-orders-app-3-x-orderId) {
+    color: #001930;
+    font-family: "MuseoJHSans900";
+    font-size: 12px;
+    line-height: 21px;
+  }
+
+  :global(.vtex-my-orders-app-3-x-orderHeaderValue) {
+    color: #001930;
+    font-family: "MuseoJHSans900";
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  :global(.vtex-my-orders-app-3-x-orderHeaderLabel) {
+    color: #001930;
+    font-family: "MuseoJHSans500";
+    font-size: 13px;
+    line-height: 21px;
+  }
+
+  :global(.vtex-my-orders-app-3-x-orderProductName) {
+    color: #001930;
+    font-family: "MuseoJHSans500";
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  :global(.vtex-my-orders-app-3-x-font) {
+    color: #001930;
+    font-family: "MuseoJHSans900";
+    font-size: 13px;
+    line-height: 21px;
+    text-decoration: underline;
+  }
+
+  :global(.vtex-my-orders-app-3-x-orderProductShipping) {
+    color: #001930;
+    font-family: "MuseoJHSans900";
+    font-size: 13px;
+    line-height: 21px;
+  }
+
+  :global(.vtex-my-orders-app-3-x-detailsBtn) {
+    color: #001930;
+    font-family: "MuseoJHSans500";
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  .deleteButton :global(.vtex-button) {
+    border-radius: 20px;
+    background-color: #962a1a!important;
+    color: #ffffff;
+    font-family: "MuseoJHSans900";
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    width: 100%;
+  }
+
+  :global(.vtex-addresses .vtex-button) {
+    color: #ffffff;
+    font-family: "MuseoJHSans900";
+    font-size: 14px;
+    letter-spacing: -0.4px;
+    line-height: 21px;
+    text-transform: uppercase;
+    width: 100%;
+    background-color: #002c50;
+    outline: none;
+    order: 3;
+  }
+
+  :global(.vtex-addresses .vtex-my-account-1-x-boxContainerBody) {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .userImage {
+    display: none;
+  }
+
+  .menuLink {
+    padding-left: 0px;
+    border-width: 0px;
+    color: #001930;
+    font-family: "MuseoJHSans300";
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  :global(.vtex-account_menu-link) {
+    padding-left: 0px;
+    border-width: 0px;
+    color: #001930;
+    font-family: "MuseoJHSans300";
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .userName {
+    color: #001930;
+    font-family: "MuseoJHSlab900";
+    font-size: 25px;
+    line-height: 29px;
+  }
+
+  .userGreeting {
+    color: #001930;
+    font-family: "MuseoJHSlab900";
+    font-size: 25px;
+    line-height: 29px;
+  }
+
+  :global(.vtex-address-form__country) {
+    order: 1;
+  }
+
+  .deleteButton {
+    order: 4;
+  }
+
+  :global(.vtex-profile-form-3-x-genderInput) :global(.br2) {
+    border-radius: 20px;
+    border: solid 2px black;
+    height: 40px;
   }
 
 }
