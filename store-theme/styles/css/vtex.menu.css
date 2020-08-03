@@ -38,3 +38,22 @@
   position: absolute;
   margin-left: 88px;
 }
+
+.styledLinkIcon--ido-logo-class-desktop-login {
+  color: grey;
+
+}
+
+.styledLinkContent--ido-logo-class-desktop-login {
+  width: 81px;
+  height: 19px;
+  color: grey;
+  font-family: "MuseoJHSans500";
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: bold;
+}
+
+
+
+

@@ -119,6 +119,27 @@
   display: none;
 }
 
+:global(.vtex-menu-2-x-styledLinkContent--ido-logo-class-desktop-notLogin) {
+  color: grey;
+  font-family: "MuseoJHSans900";
+  font-size: 14px;
+  line-height: 19px;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--ido-logo-class-desktop-login) {
+  width: 69px;
+  height: 19px;
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 14px;
+  line-height: 19px;
+}
+
+:global(.vtex-menu-2-x-styledLinkIcon--ido-logo-class-desktop-login) {
+  color: #aeca3b!important;
+}
+
+
  /* mobile version burger menu header */
 
 :global(.vtex-menu-2-x-submenuAccordion) {

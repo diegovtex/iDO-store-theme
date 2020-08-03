@@ -387,9 +387,7 @@
 }
 
 
-:global(.vtex-login-2-x-container) {
-  display: none;
-}
+
 
 /* recovery password*/
 
@@ -578,7 +576,67 @@
 }
 
 
-.content--accountOptions {
+/*.content--accountOptions {
   display: none;
+}
+
+.content--accountOptions :global(.vtex-modal-layout-0-x-closeIcon) {
+  display: none;
+}
+*/
+
+/* login */
+
+:global(.vtex-login-2-x-container) {
+  position: relative;
+  bottom: 16px;
+}
+
+:global(.vtex-login-2-x-container .vtex-button) {
+  background: unset;
+  outline: transparent;
+}
+
+:global(.vtex-login-2-x-my-account-profile-link--login-desktop) {
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 14px;
+  line-height: 21px;
+}
+:global(.vtex-login-2-x-my-account-addresses-link--login-desktop) {
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 14px;
+  line-height: 21px;
+}
+
+:global(.vtex-login-2-x-my-account-orders-link--login-desktop) {
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 14px;
+  line-height: 21px;
+}
+
+:global(.vtex-login-2-x-my-account-creditCards-link--login-desktop) {
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 14px;
+  line-height: 21px;
+}
+
+:global(.vtex-login-2-x-logoutButton) {
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: bold;
+}
+
+:global(.vtex-login-2-x-accountOptionsSectionTitle) {
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: bold;
 }
 

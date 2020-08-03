@@ -44,10 +44,42 @@
   line-height: 19px;
 }
 
-:global(.vtex-minicart-2-x-minicartContainer) {
+
+
+
+/*:global(.vtex-minicart-2-x-minicartContainer) {
   position: relative;
   bottom: 35px;
 }
+*/
+
+
+
+
+:global(.vtex-flex-layout-0-x-flexRowContent--menu-link) :global(.vtex-locale-switcher-0-x-relativeContainer) {
+  position: unset;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+:global(.vtex-locale-switcher-0-x-container) {
+  height: 50px;
+}
+:global(.vtex-minicart-2-x-minicartWrapperContainer) {
+  height: 50px;
+}
+
+:global(.vtex-rich-text-0-x-container) {
+  cursor: pointer;
+}
+
+
+
+
+
 
 :global(.vtex-modal-layout-0-x-triggerContainer) {
   position: relative;

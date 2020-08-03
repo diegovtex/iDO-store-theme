@@ -108,12 +108,13 @@
     "props": {
       "id": "menu-item-myIdo",
       "type": "custom",
-      "blockClass": "ido-logo-class-desktop",
+      "blockClass": "ido-logo-class-desktop-notLogin",
       "iconProps": {
         "id": "hpa-profile",
         "iconPosition": "center",
         "size": 20,
-        "viewBox": "0 0 18 22"
+        "viewBox": "0 0 18 22",
+        "blockClass": "ido-logo-color-grey"
       },
       "highlight": true,
       "itemProps": {
@@ -131,12 +132,13 @@
     "props": {
       "id": "menu-item-myIdo",
       "type": "custom",
-      "blockClass": "ido-logo-class-desktop",
+      "blockClass": "ido-logo-class-desktop-login",
       "iconProps": {
         "id": "hpa-profile",
         "iconPosition": "center",
         "size": 20,
-        "viewBox": "0 0 18 22"
+        "viewBox": "0 0 18 22",
+        "blockClass": "ido-logo-color-green"
       },
       "highlight": true,
       "itemProps": {
@@ -178,13 +180,13 @@
   },
   "IsLogged.logged#logged-content": {
     "children": [
-      "menu-item#vtex-myIdoGrey",
+      "menu-item#vtex-myIdoGreen",
       "login#custom-login"
     ]
   },
   "IsLogged.not-logged#not-logged-content": {
     "children": [
-      "menu-item#vtex-myIdoGreen",
+      "menu-item#vtex-myIdoGrey",
       "modal-trigger#modal-login-button"
     ]
   },
@@ -217,10 +219,34 @@
 
   "login#custom-login": {
     "props": {
-      "logInButtonBehavior": "link",
-      "showIconProfile": false,
+      "logInButtonBehavior": "popover",
       "isInitialScreenOptionOnly": true,
-      "defaultOption": 0
+      "defaultOption": 1,
+      "iconLabel": "login",
+      "blockClass": "login-desktop",
+      "accountOptionsButtonBehavior": "popover",
+      "accountOptionLinks": [
+        {
+          "label": "Profilo",
+          "path": "/account/#/profile",
+          "cssClass": "my-account-profile-link"
+        },
+        {
+          "label": "Indirizzi",
+          "path": "/account/#/addresses",
+          "cssClass": "my-account-addresses-link"
+        },
+        {
+          "label": "Ordini",
+          "path": "/account/#/orders",
+          "cssClass": "my-account-orders-link"
+        },
+        {
+          "label": "Carte di credito",
+          "path": "/account/#/cards",
+          "cssClass": "my-account-creditCards-link"
+        }
+      ]
     }
   }
 }
