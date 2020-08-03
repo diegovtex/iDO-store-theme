@@ -1,0 +1,128 @@
+/*@media screen and (min-width: 1024px) {*/
+  .minicartCheckoutButton :global(.vtex-button) {
+    border-radius: 20px;
+    border-color: #5fb00a;
+    background-color: #5fb00a;
+    color: white;
+    font-family: "MuseoJHSans900";
+    font-size: 19px;
+    line-height: 27px;
+    width: 250px;
+    outline: none;
+  }
+
+  .minicartProductListContainer :global(.vtex-styleguide-9-x-container) {
+    border-radius: 20px;
+    border: solid 1px black;
+    background-color: transparent;
+    height: 30px;
+  }
+
+
+  .minicartProductListContainer :global(.vtex-dropdown__caption) {
+    display: flex;
+    justify-content: center;
+  }
+
+  .minicartProductListContainer :global(.vtex-product-list-0-x-productName) {
+    color: #001930;
+    font-family: "MuseoJHSans500";
+    font-size: 19px;
+    line-height: 27px;
+  }
+
+  .minicartProductListContainer :global(.vtex-product-list-0-x-productBrandName) {
+    color: #001930;
+    font-family: "MuseoJHSans300";
+    font-size: 13px;
+    line-height: 27px;
+  }
+
+  .minicartProductListContainer :global(.vtex-product-list-0-x-productVariationsContainer) {
+    color: #001930;
+    font-family: "MuseoJHSans300";
+    font-size: 13px;
+    line-height: 27px;
+  }
+
+  .minicartProductListContainer :global(.vtex-product-list-0-x-availabilityMessageTextContainer) {
+    color: #001930;
+    font-family: "MuseoJHSans300";
+    font-size: 13px;
+    line-height: 27px;
+  }
+
+  :global(.vtex-product-list-0-x-productListUnavailableItemsMessage) {
+    color: #001930;
+    font-family: "MuseoJHSans500";
+    font-size: 19px;
+    line-height: 27px;
+  }
+
+
+  .minicartTitle {
+    background-color: #001930;
+    color: #5fb00a;
+    text-align: end;
+    margin-top: 0px;
+    padding-bottom: 10px;
+    height: 64px;
+    padding-top: 10px;
+  }
+
+  .closeIconContainer {
+    background-color: #001930;
+    position: absolute;
+    top: 0px;
+    height: 50px;
+  }
+
+  .closeIcon {
+    color: white;
+  }
+
+  .minicartCheckoutButton {
+    background-color: #001930;
+    text-align-last: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .drawerContent {
+    height: 100%;
+  }
+
+  .childrenContainer {
+    height: inherit;
+  }
+
+  .minicartSideBarContentWrapper {
+    height: 100% !important;
+  }
+
+  :global(.vtex-checkout-summary-0-x-summaryItemLabel) {
+    color: #001930;
+    font-family: "MuseoJHSans500";
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  :global(.vtex-checkout-summary-0-x-price) {
+    font-family: "MuseoJHSans700";
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  :global(.vtex-checkout-summary-0-x-summarySmallDisclaimer) {
+    color: #001930;
+    font-family: "MuseoJHSans300";
+    font-size: 15px;
+    line-height: 27px;
+  }
+/*}*/
+
+.minicartContainer :global(.vtex-button) {
+  width: auto!important;
+}
