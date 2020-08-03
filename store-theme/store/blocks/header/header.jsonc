@@ -117,7 +117,8 @@
     "children": [
       "menu-item#category-apparel",
       "menu-item#category-home",
-      "menu-item#more"
+      "menu-item#more",
+      "modal-trigger#modal-login-button"
     ],
     "props": {
       "orientation": "vertical"

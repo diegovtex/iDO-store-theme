@@ -27,7 +27,7 @@
       "menu-item#vtex-location",
       "minicart.v2",
       "IsLogged#custom",
-      "locale-switcher#custom"
+      "locale-switcher#vtex-switcher"
     ]
   },
 
@@ -104,51 +104,67 @@
     }
   },
 
-  "menu-item#vtex-myIdo": {
+  "menu-item#vtex-myIdoGrey": {
     "props": {
       "id": "menu-item-myIdo",
       "type": "custom",
-      "blockClass": "ido-logo-class-desktop",
+      "blockClass": "ido-logo-class-desktop-notLogin",
       "iconProps": {
         "id": "hpa-profile",
         "iconPosition": "center",
-        "size": 22,
-        "viewBox": "0 0 18 22"
+        "size": 20,
+        "viewBox": "0 0 18 22",
+        "blockClass": "ido-logo-color-grey"
       },
-      "highlight": false,
+      "highlight": true,
       "itemProps": {
         "blockClass": "ido-logo-class",
         "type": "internal",
         "href": "#",
-        "noFollow": false,
+        "noFollow": true,
         "tagTitle": "myIdo",
-        "text": ""
+        "text": "My IDO"
       }
     }
   },
 
-  "menu-item#vtex-myIdo2": {
+  "menu-item#vtex-myIdoGreen": {
     "props": {
       "id": "menu-item-myIdo",
       "type": "custom",
-      "blockClass": "ido-logo-class-desktop",
+      "blockClass": "ido-logo-class-desktop-login",
       "iconProps": {
         "id": "hpa-profile",
         "iconPosition": "center",
-        "size": 22,
-        "viewBox": "0 0 18 22"
+        "size": 20,
+        "viewBox": "0 0 18 22",
+        "blockClass": "ido-logo-color-green"
       },
-      "highlight": false,
+      "highlight": true,
       "itemProps": {
         "blockClass": "ido-logo-class",
         "type": "internal",
         "href": "#",
-        "noFollow": false,
+        "noFollow": true,
         "tagTitle": "myIdo",
-        "text": ""
+        "text": "My IDO"
       }
     }
   },
+
+  "locale-switcher#vtex-switcher": {
+    "props": {
+      "iconProps": {
+        "id": "mpa-angle--down",
+        "size": 1,
+        "viewBox": "0 0 1 1",
+        "activeClassName": "red",
+        "mutedClassName": "c-action-primary"
+      },
+      "iconPosition": "left"
+    }
+  },
+
 
   "modal-trigger#modal-login-button": {
     "children": [
@@ -164,81 +180,73 @@
   },
   "IsLogged.logged#logged-content": {
     "children": [
-      "menu-item#vtex-myIdo",
+      "menu-item#vtex-myIdoGreen",
       "login#custom-login"
     ]
   },
   "IsLogged.not-logged#not-logged-content": {
     "children": [
-      "menu-item#vtex-myIdo2",
+      "menu-item#vtex-myIdoGrey",
       "modal-trigger#modal-login-button"
     ]
   },
   "rich-text#login": {
     "props": {
-      "text": "LOGIN"
+      "text": "LOGIN MY IDO"
     }
   },
-  "login#custom-login": {
-    "props": {
-      "logInButtonBehavior": "link",
-      "showIconProfile": false,
-      "isInitialScreenOptionOnly": true
-    }
-  },
-  "login-content#custom-login": {
-    "props": {
-      "isInitialScreenOptionOnly": true
-    }
-  },
+
   "modal-layout#modal-login-content": {
     "children": [
+      "modal-header",
       "login-content#custom-login"
     ]
   },
-  "rich-text#login-modal-1": {
-    "props": {
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "text": "Indirizzo mail",
-      "blockClass": "rich-text-login-1"
-    }
-  },
 
-
-  "rich-text#login-modal-2": {
+  "login-content#custom-login": {
     "props": {
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "text": "Password",
-      "blockClass": "rich-text-login-2"
-    }
-  },
-
-  "login-content#desktop": {
-    "props": {
-      "emailAndPasswordTitle": "Accedi a My iDO",
-      "optionsSubtitle": "test subtitle",
+      "isInitialScreenOptionOnly": false,
+      "defaultOption": 1,
+      "emailAndPasswordTitle": "Accedi a MyIDO",
+      "accessCodeTitle": "MyiDO",
       "emailPlaceholder": "mariorossi@gmail.it",
       "passwordPlaceholder": "* * * *",
-      "optionsTitle": "test text title update",
-      "isInitialScreenOptionOnly": true,
-      "defaultOption": 1,
       "showPasswordVerificationIntoTooltip": true,
+      "providerPasswordButtonLabel": "ACCEDI",
       "blockClass": "login-content-desktop"
     }
   },
 
-  "locale-switcher#custom": {
+  "login#custom-login": {
     "props": {
-      "iconProps": {
-        "id": "mpa-angle--down",
-        "size": 16,
-        "viewBox": "0 0 16 16",
-        "activeClassName": "black",
-        "mutedClassName": "c-action-primary"
-      },
-      "iconPosition": "right"
+      "logInButtonBehavior": "popover",
+      "isInitialScreenOptionOnly": true,
+      "defaultOption": 1,
+      "iconLabel": "login",
+      "blockClass": "login-desktop",
+      "accountOptionsButtonBehavior": "popover",
+      "accountOptionLinks": [
+        {
+          "label": "Profilo",
+          "path": "/account/#/profile",
+          "cssClass": "my-account-profile-link"
+        },
+        {
+          "label": "Indirizzi",
+          "path": "/account/#/addresses",
+          "cssClass": "my-account-addresses-link"
+        },
+        {
+          "label": "Ordini",
+          "path": "/account/#/orders",
+          "cssClass": "my-account-orders-link"
+        },
+        {
+          "label": "Carte di credito",
+          "path": "/account/#/cards",
+          "cssClass": "my-account-creditCards-link"
+        }
+      ]
     }
   }
 }
