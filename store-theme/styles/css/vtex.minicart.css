@@ -122,3 +122,7 @@
     line-height: 27px;
   }
 /*}*/
+
+.minicartContainer :global(.vtex-button) {
+  width: auto!important;
+}
